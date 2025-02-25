@@ -1,12 +1,7 @@
 {
-  "name": "basisregistratie",
+  "name": "devportal",
   "version": "1.0.0",
   "private": true,
-  "description": "basisregistratie",
-  "author": "nkorporaal",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -15,10 +10,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "core-js": "^3.40.0",
     "gatsby": "^5.14.1",
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-remark": "^6.14.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "mobx": "^6.13.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@rijkshuisstijl-community/components-react": "^1.0.0-alpha.144",
+    "redoc": "^2.4.0"
   }
 }

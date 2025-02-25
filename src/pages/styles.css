@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  display: block;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.central-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100px;
+  background: #154273;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+.sidebar-nav-title {
+  color: #00588e;
+  font-weight: 200;
+}
+
+.sidebar ul {
+  list-style-type: circle;
+}
+
+.sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: .5rem;
+  color: black;
+
+  &:hover,&:active{
+    color:#00588e;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  border-left: 1px solid lightgrey;
+}
+
+.redoc-container {
+  max-width: 1250px;
+}
+
+@media (max-width: 768px) {
+
+  .header-logo-container {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      max-width: 36vw;
+    }
+  }
+
+  .header-menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-menu li {
+    margin: 10px 0;
+  }
+}

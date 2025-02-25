@@ -1,0 +1,69 @@
+# header is t.b.v generatie header (logo en menu)
+# De 'title' is de paginatitel
+# Het 'navbar' is het horizontale header menu bestaande uit een of meerdere items
+# Een 'item' zonder 'href' genereert slechts een kopje.
+header: 
+  title: BRP API Personen
+  navbar:
+    items:
+    - label: Starten met Haal Centraal
+      id: getting-started
+      href: '#'
+    - label: Aansluiten op API's
+      id: aansluiten
+      href: '#'
+    - label: Bijdragen aan API's
+      id: bijdragen
+      href: '#'
+    - label: Over ons
+      id: over-ons
+      href: '#'
+    - label: Contact
+      id: contact
+      href: '#'
+
+# sidebar is t.b.v. generatie side-navigation menu.
+# Een 'label' zonder 'href' genereert slechts een kopje.
+sidebar:
+  - title: BRP Personen
+    subnav:
+      - label: Main
+        href: /haal-centraal-brp-personen
+      - label: Goals canvas
+        href: /haal-centraal-brp-personen/goals-canvas
+  - title: Specificaties
+    subnav:
+      - label: Releasenotes
+        href: '#'
+      - label: Getting started
+        href: '#'
+      - label: User stories
+        href: '#'
+      - label: Bevragen API
+        href: '#'
+      - label: Features overzicht
+        href: '#'
+      - label: Features test overzicht
+        href: '#'
+
+# footer is t.b.v. generatie footer menu
+# Een 'label' zonder 'href' genereert slechts een kopje.
+footer:
+  heading: Team BRP
+  items:
+    - label: Over deze organisatie
+      href: '#'
+    - label: Wetten en regelingen
+      href: '#'
+    - label: Copyright
+      href: '#'
+    - label: Privacy
+      href: '#'
+    - label: Cookies
+      href: '#'
+    - label: Toegankelijkheid
+      href: '#'
+    - label: Open data
+      href: '#'
+    - label: Kwetsbaarheid melden
+      href: '#'

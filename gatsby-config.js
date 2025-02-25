@@ -1,17 +1,24 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+const gatsbyTransformerRemark = {
+  resolve: `gatsby-transformer-remark`,
+}
+
+const gatsbySourceFilesystem =
+{
+  resolve: 'gatsby-source-filesystem',
+  options: {
+    "name": "content",
+    "path": `${__dirname}/src/content/`
+  },
+  __key: "pages"
+}
+
 module.exports = {
   siteMetadata: {
     title: `Basisregistratie`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-transformer-remark", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
-    },
-    __key: "pages"
-  }]
+  plugins: [
+    gatsbyTransformerRemark,
+    gatsbySourceFilesystem
+  ]
 };
