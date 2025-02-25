@@ -15,3 +15,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: docs
+          gatsby-args: --prefix-paths
