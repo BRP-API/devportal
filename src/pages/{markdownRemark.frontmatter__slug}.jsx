@@ -23,14 +23,16 @@ const Header = ({ header }) => (
       </span>
     </div>
     <Separator />
-    <NavBar
-      headingItem={{
-        href: '/',
-        id: 'home',
-        label: 'Home'
-      }}
-      items={header.navbar.items}
-    />
+    <div>
+      <NavBar className="header-navbar"
+        headingItem={{
+          href: 'https://brp-api.github.io/devportal/',
+          id: 'home',
+          label: 'Home'
+        }}
+        items={header.navbar.items}
+      />
+    </div>
   </header>
 );
 
@@ -52,25 +54,44 @@ const Sidebar = ({ nav }) => (
   </nav>
 );
 
-const Content = ({ frontmatter, html }) => (
-  <div className="content">
-    <h1>{frontmatter.title}</h1>
-    <div
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-    {frontmatter.spec_url &&
-      <div className="redoc-container">
-        <RedocStandalone
-          specUrl={frontmatter.spec_url}
-          options={{
-            nativeScrollbars: true,
-            theme: { colors: { primary: { main: '#154273' } } },
-            disableSearch: true,
-            expandResponses: "200"
-          }} />
-      </div>
+const Content = ({ config, frontmatter, html }) => (
+  <>
+    {!frontmatter.spec_url &&
+      <Sidebar nav={config.sidebar} />
     }
-  </div>
+    <div className="content">
+      <h1>{frontmatter.title}</h1>
+      <div
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+      {frontmatter.spec_url &&
+        <div className="api-docs-container">
+          <div className="redoc-heading">
+            <Heading level={4}>API documentatie</Heading>
+          </div>
+          <div className="redoc-container">
+            <RedocStandalone
+              specUrl={frontmatter.spec_url}
+              options={{
+                nativeScrollbars: true,
+                theme: {
+                  colors: {
+                    primary: {
+                      main: '#154273'
+                    }
+                  },
+                  rightPanel: {
+                    backgroundColor: "#24335a"
+                  }
+                },
+                disableSearch: true,
+                expandResponses: "200"
+              }} />
+          </div>
+        </div>
+      }
+    </div>
+  </>
 );
 
 const PageFooter = ({ footer }) => (
@@ -84,13 +105,13 @@ const PageFooter = ({ footer }) => (
     <ColumnLayout>
       <LinkList>
         {footer.items.map((item, index) => (
-            <LinkListLink
-              key={index}
-              href={item.href}
-              icon={<Icon icon="chevron-right" />}
-            >
-              {item.label}
-            </LinkListLink>
+          <LinkListLink
+            key={index}
+            href={item.href}
+            icon={<Icon icon="chevron-right" />}
+          >
+            {item.label}
+          </LinkListLink>
         ))}
       </LinkList>
     </ColumnLayout>
@@ -102,17 +123,16 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const config = 
-    frontmatter.config === 'bewoning' ? bewoningConfig : 
-    frontmatter.config === 'personen' ? personenConfig :
-    undefined;
+  const config =
+    frontmatter.config === 'bewoning' ? bewoningConfig :
+      frontmatter.config === 'personen' ? personenConfig :
+        undefined;
 
   return (
     <div className="rhc-theme">
       <Header header={config.header} menu={config.header.menu} />
       <div className="container">
-        <Sidebar nav={config.sidebar} />
-        <Content frontmatter={frontmatter} html={html} />
+        <Content config={config} frontmatter={frontmatter} html={html} />
       </div>
       <PageFooter footer={config.footer} />
     </div>
