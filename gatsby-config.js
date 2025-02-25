@@ -14,11 +14,12 @@ const gatsbySourceFilesystem =
 
 module.exports = {
   siteMetadata: {
-    title: `Basisregistratie`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `BRP Developer Portal`,
+    siteUrl: `https://brp-api.github.io/devportal`
   },
   plugins: [
     gatsbyTransformerRemark,
     gatsbySourceFilesystem
-  ]
+  ],
+  pathPrefix: "/devportal",
 };
