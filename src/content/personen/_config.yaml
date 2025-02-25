@@ -28,9 +28,9 @@ sidebar:
   - title: BRP Personen
     subnav:
       - label: Main
-        href: /haal-centraal-brp-personen
+        href: https://brp-api.github.io/devportal/haal-centraal-brp-personen
       - label: Goals canvas
-        href: /haal-centraal-brp-personen/goals-canvas
+        href: https://brp-api.github.io/devportal/haal-centraal-brp-personen/goals-canvas
   - title: Specificaties
     subnav:
       - label: Releasenotes

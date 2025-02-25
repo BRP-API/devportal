@@ -28,9 +28,9 @@ sidebar:
   - title: BRP Bewoning
     subnav:
       - label: Main
-        href: /haal-centraal-brp-bewoning
+        href: https://brp-api.github.io/devportal/haal-centraal-brp-bewoning/
       - label: Goals canvas
-        href: /haal-centraal-brp-bewoning/goals-canvas
+        href: https://brp-api.github.io/devportal/haal-centraal-brp-bewoning/goals-canvas
   - title: Specificaties
     subnav:
       - label: Releasenotes
@@ -40,7 +40,7 @@ sidebar:
       - label: User stories
         href: '#'
       - label: Bevragen API
-        href: /haal-centraal-brp-bewoning/v2/redoc
+        href: https://brp-api.github.io/devportal/haal-centraal-brp-bewoning/v2/redoc
       - label: Features overzicht
         href: '#'
       - label: Features test overzicht
