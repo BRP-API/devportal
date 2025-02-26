@@ -1,49 +1,56 @@
+[![Gatsby Publish](https://github.com/BRP-API/devportal/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/BRP-API/devportal/actions/workflows/publish.yml)
+
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://brp-api.github.io/devportal">
+    <img alt="Devportal" src="https://raw.githubusercontent.com/BRP-API/devportal/refs/heads/main/src/img/logo.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Developer Portal
 </h1>
 
-## 🚀 Quick start
+Het developer portal is de plek waar documentatie, how-to's, references en specificaties van de BRP API's worden gepubliceerd.
 
-1.  **Create a Gatsby site.**
+## Getting started
+Je kunt de developer portal lokaal opstarten via de Gatsby CLI(
+[Installatie instructies](
+https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/#gatsby-cli))
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Installeer de dependencies in de root van het project:
+```bash
+npm install
+```
 
-2.  **Start developing.**
+Start de lokale development server:
+```bash
+npm run develop
+```
 
-    Navigate into your new site’s directory and start it up.
+Maak een nieuwe build:
+```bash
+npm run build
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Start een build:
+```bash
+npm run start
+```
 
-3.  **Open the code and start customizing!**
+## Project structuur
 
-    Your site is now running at http://localhost:8000!
+Dit project bevat de typische Gatsby project-structuur met een aantal kleine aanpassingen.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```
+.
+├── src/
+├── .gitignore
+├── gatsby-config.js
+├── package.json
+└── README.md
+```
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+De `src/` folder bevat een aantal subfolders waaronder:
+  1. `content`: Deze folder bevat de markdown bestanden die omgezet worden naar HTML.
+  2. `img`: Deze folder bevat de static assets.
+  3. `pages`: Deze folder bevat de Javascript en React componenten waarmee de markdown content omgezet wordt naar pagina's en van stijling wordt voorzien.
