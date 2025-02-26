@@ -53,4 +53,4 @@ Dit project bevat de typische Gatsby project-structuur met een aantal kleine aan
 De `src/` folder bevat een aantal subfolders waaronder:
   1. `content`: Deze folder bevat de markdown bestanden die omgezet worden naar HTML.
   2. `img`: Deze folder bevat de static assets.
-  3. `pages`: Deze folder bevat de Javascript en React componenten waarmee de markdown content omgezet wordt naar pagina's en van stijling wordt voorzien.
+  3. `pages`: Deze folder bevat de Javascript en React componenten waarmee de markdown content omgezet wordt naar pagina's en van styling wordt voorzien.
