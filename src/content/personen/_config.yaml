@@ -5,6 +5,10 @@
 header: 
   title: BRP API Personen
   navbar:
+    headingItem:
+      href: '/haal-centraal-brp-personen'
+      id: 'home'
+      label: 'Home'
     items:
     - label: Starten met Haal Centraal
       id: getting-started
@@ -25,26 +29,27 @@ header:
 # sidebar is t.b.v. generatie side-navigation menu.
 # Een 'label' zonder 'href' genereert slechts een kopje.
 sidebar:
+  items:
   - title: BRP Personen
     subnav:
-      - label: Main
-        href: https://brp-api.github.io/devportal/haal-centraal-brp-personen
-      - label: Goals canvas
-        href: https://brp-api.github.io/devportal/haal-centraal-brp-personen/goals-canvas
+    - label: Main
+      href: /haal-centraal-brp-personen
+    - label: Goals canvas
+      href: /haal-centraal-brp-personen/goals-canvas
   - title: Specificaties
     subnav:
-      - label: Releasenotes
-        href: '#'
-      - label: Getting started
-        href: '#'
-      - label: User stories
-        href: '#'
-      - label: Bevragen API
-        href: '#'
-      - label: Features overzicht
-        href: '#'
-      - label: Features test overzicht
-        href: '#'
+    - label: Releasenotes
+      href: '#'
+    - label: Getting started
+      href: '#'
+    - label: User stories
+      href: '#'
+    - label: Bevragen API
+      href: '#'
+    - label: Features overzicht
+      href: '#'
+    - label: Features test overzicht
+      href: '#'
 
 # footer is t.b.v. generatie footer menu
 # Een 'label' zonder 'href' genereert slechts een kopje.
