@@ -21,18 +21,18 @@ const Header = ({ header }) => {
 
   return (
     <header className="header">
+      <img src={centralLogoImage} alt="central-logo" className="central-logo" />
       <div className="header-top">
-        <img src={centralLogoImage} alt="central-logo" className="central-logo" />
-        <span className="header-logo-container">
-          <Heading appearanceLevel={4} level={1}>
+        <div className="header-title">
+          <Heading appearanceLevel={5} level={1}>
             {header.title}
           </Heading>
-        </span>
+        </div>
       </div>
       <Separator />
       <div className="navbar desktop">
         <NavBar className="header-navbar"
-          headingItem={header.navbar.headingItem}
+        headingItem={header.navbar.headingItem}
           items={header.navbar.items}
         />
       </div>
@@ -40,10 +40,6 @@ const Header = ({ header }) => {
         <IconButton label="menu" onClick={toggleMenu}>
           <Icon icon="menu" />
         </IconButton>
-        <NavBar className="header-navbar"
-          headingItem={header.navbar.headingItem}
-          items={[]}
-        />
       </div>
       {isMenuVisible && (
         <div className="mobile-menu">
@@ -62,8 +58,6 @@ const Header = ({ header }) => {
               ))}
             </LinkList>
           </LinkListCard>
-
-
         </div>
       )}
     </header>
@@ -72,16 +66,16 @@ const Header = ({ header }) => {
 
 const Sidebar = ({ nav }) => (
   <nav className="sidebar desktop">
-    {nav.map((item, index) => (
+    {nav.items.map((groupItem, index) => (
       <div key={index}>
-        <LinkListCard headingLevel={3} heading={item.title}>
+        <LinkListCard headingLevel={3} heading={groupItem.title}>
           <LinkList>
-            {item.subnav.map((subitem, subindex) => (
-              <LinkListLink key={subindex} href={subitem.href}
-                target={subitem.blank ? '_blank' : ''}
-                rel={subitem.blank ? 'noopener noreferrer' : ''}
-                icon={<Icon icon={subitem.blank ? "externe-link" : "chevron-right"} />}>
-                {subitem.label}
+            {groupItem.subnav.map((item, subindex) => (
+              <LinkListLink key={subindex} href={item.href}
+                target={item.blank ? '_blank' : ''}
+                rel={item.blank ? 'noopener noreferrer' : ''}
+                icon={<Icon icon={item.blank ? "externe-link" : "chevron-right"} />}>
+                {item.label}
               </LinkListLink>
             ))}
           </LinkList>
@@ -93,14 +87,16 @@ const Sidebar = ({ nav }) => (
 
 const Content = ({ config, frontmatter, html }) => (
   <>
-    {!frontmatter.spec_url &&
-      <Sidebar nav={config.sidebar} />
-    }
     <div className="content">
-      <h1>{frontmatter.title}</h1>
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      {!frontmatter.spec_url &&
+        <Sidebar nav={config.sidebar} />
+      }
+      <div>
+        <h1>{frontmatter.title}</h1>
+        <div
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </div>
       {frontmatter.spec_url &&
         <div className="api-docs-container">
           <div className="redoc-heading">
@@ -165,6 +161,8 @@ export default function Template({
       frontmatter.config === 'personen' ? personenConfig :
         undefined;
 
+  applyPrefixPath(config);
+
   return (
     <div className="rhc-theme">
       <Header header={config.header} menu={config.header.menu} />
@@ -174,6 +172,41 @@ export default function Template({
       <PageFooter footer={config.footer} />
     </div>
   )
+}
+
+function applyPrefixPath(config) {
+  // const prefixPath = '';
+  const prefixPath = 'https://brp-api.github.io/devportal';
+
+  // apply prefix to header heading item
+  config.header.navbar.headingItem.href = 
+    config.header.navbar.headingItem.href.startsWith('http') 
+      ? config.header.navbar.headingItem.href 
+      : prefixPath + config.header.navbar.headingItem.href;
+
+  // apply prefix path to header items
+  config.header.navbar.items.map((item) => {
+    item.href = item.href.startsWith('http') ? item.href : prefixPath + item.href;
+    return item;
+  });
+
+  // apply prefix to sidebar items
+  config.sidebar.items.map((groupItem) => {
+    groupItem.subnav.map((item) => {
+      item.href = item.href.startsWith('http') ? item.href : prefixPath + item.href;
+      return item;
+    });
+
+    return groupItem;
+  });
+
+  // apply prefix to footer items
+  config.footer.items.map((item) => {
+    item.href = item.href.startsWith('http') ? item.href : prefixPath + item.href;
+    return item;
+  });
+
+  return config;
 }
 
 export const pageQuery = graphql`
