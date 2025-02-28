@@ -32,7 +32,7 @@ const Header = ({ header }) => {
       <Separator />
       <div className="navbar desktop">
         <NavBar className="header-navbar"
-        headingItem={header.navbar.headingItem}
+          headingItem={header.navbar.headingItem}
           items={header.navbar.items}
         />
       </div>
@@ -40,26 +40,29 @@ const Header = ({ header }) => {
         <IconButton label="menu" onClick={toggleMenu}>
           <Icon icon="menu" />
         </IconButton>
+        <LinkListLink id={header.navbar.headingItem.id} href={header.navbar.headingItem.href}>{header.navbar.headingItem.label}</LinkListLink>
       </div>
-      {isMenuVisible && (
-        <div className="mobile-menu">
-          <IconButton label="kruis" onClick={toggleMenu}>
-            <Icon icon="kruis" />
-          </IconButton>
-          <LinkListCard>
-            <LinkList>
-              {header.navbar.items.map((item) => (
-                <LinkListLink key={item.id} href={item.href}
-                  target={item.blank ? '_blank' : ''}
-                  rel={item.blank ? 'noopener noreferrer' : ''}
-                  icon={<Icon icon={item.blank ? "externe-link" : "chevron-right"} />}>
-                  {item.label}
-                </LinkListLink>
-              ))}
-            </LinkList>
-          </LinkListCard>
-        </div>
-      )}
+      <div className={isMenuVisible ? 'mobile-menu open' : 'mobile-menu'}>
+        <IconButton label="kruis" onClick={toggleMenu}>
+          <Icon icon="kruis" />
+        </IconButton>
+        <LinkListCard>
+          <LinkList>
+            {header.navbar.items.map((item) => (
+              <LinkListLink 
+                key={item.id} 
+                href={item.href} 
+                id={item.id}
+                target={item.blank ? '_blank' : undefined}
+                rel={item.blank ? 'noopener noreferrer' : undefined}
+                icon={<Icon icon={item.blank ? "externe-link" : "chevron-right"} />}
+                >
+                {item.label}
+              </LinkListLink>
+            ))}
+          </LinkList>
+        </LinkListCard>
+      </div>
     </header>
   );
 };
@@ -91,7 +94,7 @@ const Content = ({ config, frontmatter, html }) => (
       {!frontmatter.spec_url &&
         <Sidebar nav={config.sidebar} />
       }
-      <div>
+      <div className="markdown">
         <h1>{frontmatter.title}</h1>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
@@ -175,13 +178,13 @@ export default function Template({
 }
 
 function applyPrefixPath(config) {
-  // const prefixPath = '';
-  const prefixPath = 'https://brp-api.github.io/devportal';
+  const prefixPath = '';
+  // const prefixPath = 'https://brp-api.github.io/devportal';
 
   // apply prefix to header heading item
-  config.header.navbar.headingItem.href = 
-    config.header.navbar.headingItem.href.startsWith('http') 
-      ? config.header.navbar.headingItem.href 
+  config.header.navbar.headingItem.href =
+    config.header.navbar.headingItem.href.startsWith('http')
+      ? config.header.navbar.headingItem.href
       : prefixPath + config.header.navbar.headingItem.href;
 
   // apply prefix path to header items

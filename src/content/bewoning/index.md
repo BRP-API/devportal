@@ -10,7 +10,7 @@ config: bewoning
 API voor het raadplegen van de historische bewoning van een adres. Met de API kun je de samenstelling(en) van bewoners van een woning raadplegen op een peildatum of binnen een periode.
 
 ## Direct uitproberen?
-* Bekijk de specificaties met Redoc(https://brp-api.github.io/Haal-Centraal-BRP-bewoning/v2/redoc)
+* Bekijk de specificaties met [Redoc](https://brp-api.github.io/devportal/haal-centraal-brp-bewoning/v2/redoc)
 * Lees de [Getting started](https://brp-api.github.io/Haal-Centraal-BRP-bewoning/v2/getting-started)
 
 ## Heb je meer nodig? 

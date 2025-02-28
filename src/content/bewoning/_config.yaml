@@ -12,19 +12,19 @@ header:
     items:
     - label: Starten met Haal Centraal
       id: getting-started
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Aansluiten op API's
       id: aansluiten
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Bijdragen aan API's
       id: bijdragen
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Over ons
       id: over-ons
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Contact
       id: contact
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
 
 # sidebar is t.b.v. generatie side-navigation menu.
 # Een 'label' zonder 'href' genereert slechts een kopje.
@@ -33,23 +33,23 @@ sidebar:
   - title: BRP Bewoning
     subnav:
     - label: Main
-      href: /haal-centraal-brp-bewoning/
+      href: /haal-centraal-brp-bewoning/#
     - label: Goals canvas
       href: /haal-centraal-brp-bewoning/goals-canvas
   - title: Specificaties
     subnav:
     - label: Releasenotes
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Getting started
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: User stories
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Bevragen API
       href: /haal-centraal-brp-bewoning/v2/redoc
     - label: Features overzicht
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Features test overzicht
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
 
 # footer is t.b.v. generatie footer menu
 # Een 'label' zonder 'href' genereert slechts een kopje.
@@ -57,18 +57,18 @@ footer:
   heading: Team BRP
   items:
     - label: Over deze organisatie
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Wetten en regelingen
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Copyright
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Privacy
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Cookies
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Toegankelijkheid
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Open data
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
     - label: Kwetsbaarheid melden
-      href: '#'
+      href: '/haal-centraal-brp-bewoning/#'
