@@ -16,7 +16,8 @@ body {
 
 .header {
   position: relative;
-  text-align: center;
+  text-align: left;
+  padding: 0 20px;
 }
 
 .header-navbar {
@@ -38,7 +39,6 @@ body {
   text-align: left;
   max-width: 35%;
   word-wrap: break-word;
-  padding-left: clamp(0.5em, 5vw, 10em);
   padding-top: 2em;
 
   p {
@@ -63,12 +63,55 @@ body {
 
 .content {
   display: flex;
-  padding-left: clamp(1em, 5vw, 10em);
-  padding-right: clamp(1em, 5vw, 10em);
+  padding-left: clamp(0.5em, 5vw, 10em);
+  padding-right: clamp(0.5em, 5vw, 10em);
   margin-bottom: 20px;
   min-width: 100% !important;
   box-sizing: border-box;
   overflow: hidden;
+
+  .markdown {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  /* titles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #154273;
+  }
+
+  /* tables */
+  table {
+    border-collapse: collapse;
+    overflow: auto;
+    display: block;
+    /* Make table block-level to enable scrolling */
+    width: 100%;
+    /* Ensure table takes full width */
+  }
+
+  th {
+    background-color: #154273;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 }
 
 .api-docs-container {
@@ -94,15 +137,19 @@ body {
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -400px;
   width: 350px;
   height: 100%;
   background-color: white;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   z-index: 1000;
-  padding: 20px;
   display: flex;
   flex-direction: column;
+  transition: left 0.3s ease;
+}
+
+.mobile-menu.open {
+  left: 0;
 }
 
 .mobile-menu .header-navbar {
@@ -115,6 +162,7 @@ body {
   }
 
   .navbar-mobile {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 }
