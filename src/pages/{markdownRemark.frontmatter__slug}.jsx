@@ -178,8 +178,8 @@ export default function Template({
 }
 
 function applyPrefixPath(config) {
-  const prefixPath = '';
-  // const prefixPath = 'https://brp-api.github.io/devportal';
+  // const prefixPath = '';
+  const prefixPath = 'https://brp-api.github.io/devportal';
 
   // apply prefix to header heading item
   config.header.navbar.headingItem.href =
