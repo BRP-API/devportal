@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
 
 html,
 body {
@@ -6,7 +6,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-display: optional;
   display: block;
 }
@@ -85,11 +85,11 @@ body {
     flex-direction: column;
     padding-left: 10px;
   }
-  
+
   .details-flex a {
     display: block; /* This makes each <a> take up the full width */
   }
-  
+
   .subsubitem {
     border-left: 1px solid lightgrey;
     padding-left: 10px;
@@ -105,7 +105,7 @@ body {
     color: #154273;
     line-height: 2rem;
     font-variant: small-caps;
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
 
   .subitem {
@@ -113,7 +113,7 @@ body {
   }
 
   .subsubitem {
-    padding-left: 1.5rem; 
+    padding-left: 1.5rem;
   }
 }
 
@@ -124,12 +124,10 @@ body {
   margin-bottom: 20px;
   max-width: calc(100% - 18em - 40px);
   box-sizing: border-box;
-  overflow: hidden;
 
   .markdown {
     width: 100%;
     max-width: 100%;
-    overflow: auto;
 
     img {
       max-width: 100%;
@@ -140,6 +138,8 @@ body {
       padding: 5px 20px;
       border-radius: 5px;
       width: fit-content;
+      max-width: 100%;
+      overflow-x: auto;
     }
   }
 
@@ -158,9 +158,7 @@ body {
     border-collapse: collapse;
     overflow: auto;
     display: block;
-    /* Make table block-level to enable scrolling */
     width: 100%;
-    /* Ensure table takes full width */
   }
 
   th {
@@ -180,20 +178,23 @@ body {
   }
 }
 
-
-
 .api-docs-container {
   min-width: 100% !important;
-  
+
   .redoc-heading {
     padding-bottom: 1rem;
   }
-  
+
   .redoc-container {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     background-color: #f1f5f9;
-    
-    h1,h2,h3,h4,h5,h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: inherit;
     }
   }
@@ -223,6 +224,72 @@ body {
 
 .mobile-menu .header-navbar {
   flex-grow: 1;
+}
+
+.fields-tool {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+
+  .selectors {
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  .fields-output {
+    font-family: monospace;
+    background-color: #f1f5f9;
+    height: 200px;
+    margin: 15px 0;
+    width: calc(100% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-y: auto
+  }
+
+  .fields-tree-level-0 {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .fields-tree-level-1,
+  .fields-tree-level-2,
+  .fields-tree-level-3,
+  .fields-tree-level-4 {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  .field-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+
+  .field-item label {
+    margin: 0 8px;
+    cursor: pointer;
+  }
+
+  .toggle-button {
+    padding: 0px 6px;
+    min-width: 25px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 768px) {

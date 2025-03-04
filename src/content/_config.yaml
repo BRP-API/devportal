@@ -45,8 +45,8 @@ sidebar:
         - label: Informatieproducten
           href: '/concepten/informatieproducten'
         - label: REST-principes
-          href: '/concepten/REST-rpincipes'
-        - label: Autorisatie en filteren
+          href: '/concepten/rest-principes'
+        - label: Autorisatie & filteren
           href: '/concepten/autorisatie-en-filteren'
     # - title: Tutorials
     #   subnav: 
@@ -57,9 +57,9 @@ sidebar:
     - title: How-Tos
       subnav: 
         - label: Fields samenstellen
-          href: 'how-tos/fields-samenstellen'
+          href: '/how-tos/fields-samenstellen'
         - label: Uitproberen
-          href: 'how-tos/uitproberen'
+          href: '/how-tos/uitproberen'
   - title: reference
     subnav:
     - title: Personen
