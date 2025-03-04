@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { graphql } from "gatsby";
-import globalConfig from "../content/_config.yaml";
-import personenConfig from "../content/personen/_config.yaml";
+import config from "../content/_config.yaml";
 import centralLogoImage from "../img/logo.svg";
+import Markdown from "react-markdown";
 
 // import rijkshuisstijl componenten en css classes
 import {
@@ -27,7 +27,7 @@ import "./styles.css";
 // import redoc standalone component
 import { RedocStandalone } from "redoc";
 
-const Header = ({ header }) => {
+const Header = ({ header, sidebar }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   const toggleMenu = () => {
@@ -54,13 +54,14 @@ const Header = ({ header }) => {
         <IconButton label="kruis" onClick={toggleMenu}>
           <Icon icon="kruis" />
         </IconButton>
+        <Sidebar sidebar={sidebar} />
       </div>
     </header>
   );
 };
 
 const Sidebar = ({ sidebar }) => (
-  <div className="desktop sidebar">
+  <div className="sidebar">
     <SideNav>
       {sidebar.items.map((item, index) => (
         <SideNavList key={index}>
@@ -101,13 +102,15 @@ const Sidebar = ({ sidebar }) => (
   </div>
 );
 
-const Content = ({ config, frontmatter, html }) => (
+const Content = ({ config, frontmatter, markdown }) => (
   <div className="content-container">
-    <Sidebar sidebar={config.sidebar} />
+    <div className="desktop">
+      <Sidebar sidebar={config.sidebar} />
+    </div>
     <div className="content">
       <div className="markdown">
         <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <Markdown>{markdown}</Markdown>
       </div>
       {frontmatter.spec_url && (
         <div className="api-docs-container">
@@ -165,24 +168,28 @@ const PageFooter = ({ footer }) => (
 );
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data
 }) {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark;
-  const config =
-    frontmatter.config === "bewoning"
-      ? globalConfig
-      : frontmatter.config === "personen"
-      ? personenConfig
-      : globalConfig;
+  const { markdownRemark } = data;
+  const { frontmatter, rawMarkdownBody } = markdownRemark;
+
+  let replacedMarkdown = rawMarkdownBody;
+
+  // Replace the values in the rawmarkdownbody
+  if(config) {
+    Object.keys(config.site).map((key) => {
+      replacedMarkdown = replacedMarkdown.replace(new RegExp(`{{ site.${key} }}`, "g"), config.site[key]);
+      return replacedMarkdown;
+    });
+  }
 
   applyPrefixPath(config);
 
   return (
     <div className="rhc-theme">
-      <Header header={config.header} menu={config.header.menu} />
+      <Header header={config.header} menu={config.header.menu} sidebar={config.sidebar} />
       <div className="container">
-        <Content config={config} frontmatter={frontmatter} html={html} />
+        <Content config={config} frontmatter={frontmatter} markdown={replacedMarkdown} />
       </div>
       <PageFooter footer={config.footer} />
     </div>
@@ -221,7 +228,7 @@ function applyPrefixPath(config) {
 export const pageQuery = graphql`
   query ($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
+      rawMarkdownBody,
       frontmatter {
         slug
         title

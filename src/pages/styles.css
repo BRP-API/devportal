@@ -66,11 +66,10 @@ body {
   margin-right: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  border-right: 1px solid lightgrey;
   display: block;
   line-height: 1.75rem;
   box-sizing: border-box;
-  min-width: 18em;
+  min-width: 16em;
 
   a {
     text-decoration: none;
@@ -123,7 +122,7 @@ body {
   padding-left: clamp(0.1em, 1vw, 10em);
   padding-right: clamp(0.1em, 1vw, 10em);
   margin-bottom: 20px;
-  max-width: calc(100% - 18em - 40px); /* Subtract sidebar width + margins */
+  max-width: calc(100% - 18em - 40px);
   box-sizing: border-box;
   overflow: hidden;
 
@@ -131,6 +130,17 @@ body {
     width: 100%;
     max-width: 100%;
     overflow: auto;
+
+    img {
+      max-width: 100%;
+    }
+
+    pre {
+      background-color: #f1f5f9;
+      padding: 5px 20px;
+      border-radius: 5px;
+      width: fit-content;
+    }
   }
 
   /* titles */
