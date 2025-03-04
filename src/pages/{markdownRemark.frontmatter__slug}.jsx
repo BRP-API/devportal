@@ -15,10 +15,7 @@ import {
   Separator,
   IconButton,
   SideNav,
-  SideNavItem,
-  SideNavLink,
   SideNavList,
-  NumberBadge,
 } from "@rijkshuisstijl-community/components-react";
 import "./rhc-styles.css";
 
@@ -66,7 +63,7 @@ const Sidebar = ({ sidebar }) => (
       {sidebar.items.map((item, index) => (
         <SideNavList key={index}>
           {/* display title label */}
-          {item.title && <a className="item title">{item.title}</a>}
+          {item.title && <p className="item title">{item.title}</p>}
           {item.subnav.map((subitem, subindex) => (
             <SideNavList key={subindex}>
               {/* display link with href */}
@@ -77,7 +74,7 @@ const Sidebar = ({ sidebar }) => (
               )}
               {/* display title only */}
               {!subitem.href && subitem.label && (
-                <a className="subitem">{subitem.label}</a>
+                <p className="subitem">{subitem.label}</p>
               )}
               {/* display subnav with multiple items */}
               {subitem.title && (
@@ -443,7 +440,7 @@ export default function Template({ data }) {
 
 function applyPrefixPath(config) {
   // const prefixPath = "";
-  const prefixPath = 'https://brp-api.github.io/devportal';
+  const prefixPath = "https://brp-api.github.io/devportal";
 
   // apply prefix to sidebar items
   config.sidebar.items.map((groupItem) => {
@@ -453,6 +450,18 @@ function applyPrefixPath(config) {
           ? item.href
           : prefixPath + item.href;
       }
+
+      if (item.subnav) {
+        item.subnav.map((subItem) => {
+          if (subItem.href) {
+            subItem.href = subItem.href.startsWith("http")
+              ? subItem.href
+              : prefixPath + subItem.href;
+          }
+          return subItem;
+        });
+      }
+
       return item;
     });
 
