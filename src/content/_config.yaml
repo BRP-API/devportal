@@ -1,0 +1,91 @@
+# header is t.b.v generatie header (logo en menu)
+# De 'title' is de paginatitel
+# Het 'navbar' is het horizontale header menu bestaande uit een of meerdere items
+# Een 'item' zonder 'href' genereert slechts een kopje.
+header: 
+  title: BRP API
+
+# sidebar is t.b.v. generatie side-navigation menu.
+# Een 'label' zonder 'href' genereert slechts een kopje.
+sidebar:
+  items:
+  - title: 'web api'
+    subnav:
+    - label: Overview
+      href: '/#'
+    - label: Getting started
+      href: 'getting-started'
+    - title: Concepts
+      subnav: 
+        - label: Authentication
+          href: 'tutorials/authentication'
+        - label: Authorization
+          href: 'tutorials/authorization'
+    - title: Tutorials
+      subnav: 
+        - label: Authentication
+          href: 'tutorials/authentication'
+        - label: Authorization
+          href: 'tutorials/authorization'
+    - title: How-Tos
+      subnav: 
+        - label: Authentication
+          href: 'tutorials/authentication'
+        - label: Authorization
+          href: 'tutorials/authorization'
+  - title: reference
+    subnav:
+    - title: Personen
+      subnav:
+      - label: Releasenotes
+        href: '/haal-centraal-brp-personen/release-notes'
+      - label: Specificatie
+        href: '/haal-centraal-brp-personen/specificatie'
+      - label: Documentatie (Gherkin)
+        href: '/haal-centraal-brp-personen/documentatie'
+    - title: Bewoning
+      subnav:
+      - label: Releasenotes
+        href: '/haal-centraal-brp-bewoning/release-notes'
+      - label: Specificatie
+        href: '/haal-centraal-brp-bewoning/specificatie'
+      - label: Documentatie (Gherkin)
+        href: '/haal-centraal-brp-bewoning/documentatie'
+    - title: Verblijfplaatshistorie
+      subnav:
+        - label: Releasenotes
+          href: '/haal-centraal-brp-historie/release-notes'
+        - label: Specificatie
+          href: '/haal-centraal-brp-historie/specificatie'
+        - label: Documentatie (Gherkin)
+          href: '/haal-centraal-brp-historie/documentatie'
+    - title: Reisdocumenten
+      subnav:
+        - label: Releasenotes
+          href: '/haal-centraal-brp-reisdocumenten/release-notes'
+        - label: Specificatie
+          href: '/haal-centraal-brp-reisdocumenten/specificatie'
+        - label: Documentatie (Gherkin)
+          href: '/haal-centraal-brp-reisdocumenten/documentatie'
+   
+# footer is t.b.v. generatie footer menu
+# Een 'label' zonder 'href' genereert slechts een kopje.
+footer:
+  heading: Team BRP
+  items:
+    - label: Over deze organisatie
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Wetten en regelingen
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Copyright
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Privacy
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Cookies
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Toegankelijkheid
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Open data
+      href: '/haal-centraal-brp-bewoning/#'
+    - label: Kwetsbaarheid melden
+      href: '/haal-centraal-brp-bewoning/#'
