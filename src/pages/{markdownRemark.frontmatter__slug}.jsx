@@ -486,7 +486,6 @@ export const pageQuery = graphql`
         slug
         title
         spec_url
-        config
         fields_tool
       }
     }

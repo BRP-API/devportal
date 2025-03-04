@@ -67,7 +67,7 @@ sidebar:
     - title: Personen
       subnav:
       - label: Releasenotes
-        href: '/haal-centraal-brp-personen/release-notes'
+        href: 'https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/releases'
       - label: Specificatie
         href: '/haal-centraal-brp-personen/specificatie'
       - label: Documentatie (Gherkin)
@@ -75,7 +75,7 @@ sidebar:
     - title: Bewoning
       subnav:
       - label: Releasenotes
-        href: '/haal-centraal-brp-bewoning/release-notes'
+        href: 'https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/releases'
       - label: Specificatie
         href: '/haal-centraal-brp-bewoning/specificatie'
       - label: Documentatie (Gherkin)
@@ -83,7 +83,7 @@ sidebar:
     - title: Verblijfplaatshistorie
       subnav:
         - label: Releasenotes
-          href: '/haal-centraal-brp-historie/release-notes'
+          href: 'https://github.com/BRP-API/Haal-Centraal-BRP-historie-bevragen/releases'
         - label: Specificatie
           href: '/haal-centraal-brp-historie/specificatie'
         - label: Documentatie (Gherkin)
@@ -91,7 +91,7 @@ sidebar:
     - title: Reisdocumenten
       subnav:
         - label: Releasenotes
-          href: '/haal-centraal-brp-reisdocumenten/release-notes'
+          href: 'https://github.com/BRP-API/Haal-Centraal-Reisdocumenten-bevragen/releases'
         - label: Specificatie
           href: '/haal-centraal-brp-reisdocumenten/specificatie'
         - label: Documentatie (Gherkin)
