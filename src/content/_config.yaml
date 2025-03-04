@@ -1,6 +1,8 @@
 # Site configuration
 site:
-  baseurl: "/Haal-Centraal-BRP-bevragen"
+  # prefixPath: ""
+  prefixPath: "https://brp-api.github.io/devportal"
+  baseurl: "/devportal"
   pagesBaseUrl: https://BRP-API.github.io
   repoUrl: https://github.com/BRP-API/Haal-Centraal-BRP-bevragen
   mainBranchUrl: https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master
@@ -19,7 +21,7 @@ site:
   PO-naam: Cathy Dingemanse
   CZ-email: melvin.lee@rvig.nl
   Tester-email: frank.samwel@rvig.nl
-  apiname: "BRP API Personen"
+  apiname: "BRP API"
 
 # header is t.b.v generatie header (logo en menu)
 # De 'title' is de paginatitel

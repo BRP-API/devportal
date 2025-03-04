@@ -23,7 +23,7 @@ De volgende stappen helpen jou op weg om jouw applicatie van de juiste persoonsi
 3. Gebruik de [Getting Started]({{ site.gettingStartedUrl }}) tutorial om te leren hoe je je eerste API call kunt doen!
 
 ## Documentation
-De documentatie is alsvolgt opgebouwd:
+De documentatie is als volgt opgebouwd:
 
 - Concepten, die opheldering geven over alles wat belangrijk is om aan te kunnen sluiten
 - Tutorials, ter introductie en verduidelijking hoe je de API kunt gebruiken

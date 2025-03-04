@@ -439,8 +439,7 @@ export default function Template({ data }) {
 }
 
 function applyPrefixPath(config) {
-  // const prefixPath = "";
-  const prefixPath = "https://brp-api.github.io/devportal";
+  const prefixPath = config.site.prefixPath || "";
 
   // apply prefix to sidebar items
   config.sidebar.items.map((groupItem) => {
