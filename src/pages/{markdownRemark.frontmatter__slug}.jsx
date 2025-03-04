@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import config from "../content/_config.yaml";
 import centralLogoImage from "../img/logo.svg";
 import Markdown from "react-markdown";
+import remarkGfm from 'remark-gfm'
 
 // import rijkshuisstijl componenten en css classes
 import {
@@ -107,7 +108,7 @@ const Content = ({ config, frontmatter, markdown }) => (
     <div className="content">
       <div className="markdown">
         <h1>{frontmatter.title}</h1>
-        <Markdown>{markdown}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
       </div>
       {frontmatter.spec_url && (
         <div className="api-docs-container">
