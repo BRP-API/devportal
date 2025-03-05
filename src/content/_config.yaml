@@ -103,18 +103,18 @@ footer:
   heading: Team BRP
   items:
     - label: Over deze organisatie
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Wetten en regelingen
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Copyright
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Privacy
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Cookies
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Toegankelijkheid
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Open data
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
     - label: Kwetsbaarheid melden
-      href: '/haal-centraal-brp-bewoning/#'
+      href: '#'
