@@ -53,9 +53,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
 - Start de {{ site.apiname }} en de mock met behulp van de volgende statement:
   ```sh
-
   docker-compose -f docker-compose-mock.yml up -d
-
   ```
   De {{ site.apiname }} mock is nu te benaderen via de url: *http://localhost:5001/haalcentraal/api/brp/personen*
 - Valideer dat de {{ site.apiname }} mock draait met behulp van de volgende curl statement:
@@ -79,15 +77,12 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - Start een command prompt window voor de map met de kubernetes manifest bestanden
 - Start de {{ site.apiname }} en de mock met behulp van de volgende statement:
   ```sh
-
   kubectl apply -f .k8s/brppersonenmock-deployment.yaml \
                 -f .k8s/brppersonenmock-service.yaml 
-
   ```
   De {{ site.apiname }} mock is nu te benaderen via de url: *http://localhost:5001/haalcentraal/api/brp/personen*
 - Valideer dat de {{ site.apiname }} mock draait met behulp van de volgende curl statement:
   ```sh
-
   curl --location --request POST 'http://localhost:5001/haalcentraal/api/brp/personen' \
   --header 'Content-Type: application/json' \
   --data-raw '{
@@ -95,12 +90,9 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
       "burgerservicenummer": ["999993653"],
       "fields": ["burgerservicenummer"]
   }'
-
   ```
 - Om de {{ site.apiname }} mock container te stoppen voer je de volgende statement uit:
   ```sh
-
   kubectl delete -f .k8s/brppersonenmock-deployment.yaml \
                  -f .k8s/brppersonenmock-service.yaml 
-
   ```

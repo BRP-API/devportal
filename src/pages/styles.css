@@ -1,4 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+@font-face {
+  font-family: "ROsanswebtextregular";
+  src:
+    url("fonts/ROsanswebtextregular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "ROsanswebtextbold";
+  src: 
+    url("fonts/ROsanswebtextbold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "ROsanswebtextitalic";
+  src: 
+    url("fonts/ROsanswebtextitalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: optional;
+}
 
 html,
 body {
@@ -6,9 +31,17 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Fira Sans", sans-serif;
-  font-display: optional;
-  display: block;
+  font-family: "ROsanswebtextregular", sans-serif;
+}
+
+strong, b {
+  font-family: "ROsanswebtextbold", sans-serif;
+  font-weight: bold;
+}
+
+em, i {
+  font-family: "ROsanswebtextitalic", sans-serif;
+  font-style: italic;
 }
 
 .container {
@@ -134,17 +167,14 @@ body {
     max-width: 100%;
 
     img {
+      display: block;
       max-width: 100%;
     }
 
-    pre {
-      background-color: #f1f5f9;
-      padding: 5px 20px;
-      border-radius: 5px;
-      width: fit-content;
-      max-width: 100%;
-      overflow-x: auto;
-    }
+   pre {
+      display: block;
+      max-width: fit-content;
+   }
   }
 
   /* titles */
@@ -235,7 +265,6 @@ body {
 
 .fields-tool {
   margin: 20px 0;
-  font-family: Arial, sans-serif;
 
   .selectors {
     margin: 15px 0;
@@ -254,7 +283,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 10px;
-    overflow-y: auto
+    overflow-y: auto;
+    resize: none;
   }
 
   .fields-tree-level-0 {

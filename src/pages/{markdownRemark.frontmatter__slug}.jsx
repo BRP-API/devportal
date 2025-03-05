@@ -3,7 +3,9 @@ import { graphql } from "gatsby";
 import config from "../content/_config.yaml";
 import centralLogoImage from "../img/logo.svg";
 import Markdown from "react-markdown";
-import remarkGfm from 'remark-gfm'
+import remarkGfm from "remark-gfm";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 // import rijkshuisstijl componenten en css classes
 import {
@@ -108,7 +110,9 @@ const Content = ({ config, frontmatter, markdown }) => (
     <div className="content">
       <div className="markdown">
         <h1>{frontmatter.title}</h1>
-        <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
+        <Markdown remarkPlugins={[remarkGfm]} components={{ code: CodeBlock }}>
+          {markdown}
+        </Markdown>
       </div>
       {frontmatter.spec_url && (
         <div className="api-docs-container">
@@ -282,9 +286,8 @@ const FieldsTool = () => {
 
       return (
         <ul
-          className={`fields-tree-level-${level} ${
-            path && !expandedGroups[path] ? "hidden" : ""
-          }`}
+          className={`fields-tree-level-${level} ${path && !expandedGroups[path] ? "hidden" : ""
+            }`}
         >
           {nodeKeys.map((key) => {
             const fieldPath = key;
@@ -374,6 +377,19 @@ const FieldsTool = () => {
         readOnly
       />
     </div>
+  );
+};
+
+const CodeBlock = ({ inline, className, children, ...props }) => {
+  const match = /language-(\w+)/.exec(className || '');
+  return !inline && match ? (
+    <SyntaxHighlighter style={dracula} language={match[1]} PreTag="div" {...props}>
+      {String(children).replace(/\n$/, '')}
+    </SyntaxHighlighter>
+  ) : (
+    <code className={className} {...props}>
+      {children}
+    </code>
   );
 };
 
