@@ -102,7 +102,6 @@ em, i {
   display: block;
   line-height: 2rem;
   box-sizing: border-box;
-  min-width: 18em;
 
   a {
     text-decoration: none;
