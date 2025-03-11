@@ -181,20 +181,17 @@ const FieldsTool = () => {
   const toggleField = useCallback(
     (fieldId, checked) => {
       setFields((prevFields) => {
-        // Create a map of all fields and their current states
         const fieldMap = {};
         prevFields.forEach((field) => {
           fieldMap[field] = true;
         });
-
-        // Update the clicked field
+  
         if (checked) {
           fieldMap[fieldId] = true;
         } else {
           delete fieldMap[fieldId];
         }
-
-        // Handle children (if the field is a group)
+  
         const updateChildren = (parentId) => {
           fieldsList.forEach((field) => {
             if (field.startsWith(`${parentId}.`)) {
@@ -206,34 +203,27 @@ const FieldsTool = () => {
             }
           });
         };
-
-        if (checked) {
-          updateChildren(fieldId);
-        } else {
-          updateChildren(fieldId);
-        }
-
-        // Handle parent logic
+  
+        updateChildren(fieldId);
+  
         const parts = fieldId.split(".");
         if (parts.length > 1) {
           const parentPath = parts.slice(0, -1).join(".");
-
-          // Check if all siblings are checked to determine parent state
+  
           const siblings = fieldsList.filter(
             (field) =>
               field.startsWith(`${parentPath}.`) &&
               field !== fieldId &&
               field.split(".").length === parts.length
           );
-
+  
           const allSiblingsChecked = siblings.every(
             (sibling) => fieldMap[sibling]
           );
-
+  
           if (allSiblingsChecked && checked) {
             fieldMap[parentPath] = true;
-
-            // Remove individual children if parent is checked
+  
             fieldsList.forEach((field) => {
               if (field.startsWith(`${parentPath}.`)) {
                 delete fieldMap[field];
@@ -243,7 +233,17 @@ const FieldsTool = () => {
             delete fieldMap[parentPath];
           }
         }
-
+  
+        Object.keys(fieldMap).forEach((field) => {
+          const parentParts = field.split(".");
+          for (let i = 1; i < parentParts.length; i++) {
+            const parent = parentParts.slice(0, i).join(".");
+            if (fieldMap[parent]) {
+              delete fieldMap[field];
+            }
+          }
+        });
+  
         return Object.keys(fieldMap);
       });
     },
