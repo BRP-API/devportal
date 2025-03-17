@@ -18,11 +18,9 @@ import {
   Separator,
   IconButton,
   SideNav,
-  SideNavList,
+  SideNavList
 } from "@rijkshuisstijl-community/components-react";
 import "./rhc-styles.css";
-
-import "./styles.css";
 
 // import redoc standalone component
 import { RedocStandalone } from "redoc";
@@ -39,7 +37,7 @@ const Header = ({ header, sidebar }) => {
       <img src={centralLogoImage} alt="central-logo" className="central-logo" />
       <div className="header-top">
         <div className="header-title">
-          <Heading appearanceLevel={5} level={1}>
+          <Heading appearanceLevel={3} level={1}>
             {header.title}
           </Heading>
         </div>
@@ -82,10 +80,12 @@ const Sidebar = ({ sidebar }) => (
               {/* display subnav with multiple items */}
               {subitem.title && (
                 <details className="details-flex">
-                  <summary>{subitem.title}</summary>
+                  <summary>
+                    {subitem.title}
+                  </summary>
+                  {/* {subitem.title} */}
                   {subitem.subnav.map((subsubitem, subsubindex) => (
-                    <a
-                      key={subsubindex}
+                    <a key={subsubindex}
                       className="subsubitem"
                       href={subsubitem.href}
                     >
@@ -174,6 +174,7 @@ const FieldsTool = () => {
       }
     };
 
+    setFields([]);
     fetchFieldsList();
   }, [searchType]);
 
@@ -185,13 +186,25 @@ const FieldsTool = () => {
         prevFields.forEach((field) => {
           fieldMap[field] = true;
         });
-  
+
         if (checked) {
           fieldMap[fieldId] = true;
         } else {
           delete fieldMap[fieldId];
         }
-  
+
+        if (!checked) {
+          if (fieldId.includes('.')) {
+            let parentId = fieldId.split(".")[0];
+            const children = fieldsList.filter(f => f.startsWith(`${parentId}.`));
+
+            //If all children of the parent are deselected, uncheck the parent
+            if (children.every(child => !fieldMap[child])) {
+              delete fieldMap[parentId];
+            }
+          }
+        }
+
         const updateChildren = (parentId) => {
           fieldsList.forEach((field) => {
             if (field.startsWith(`${parentId}.`)) {
@@ -203,47 +216,29 @@ const FieldsTool = () => {
             }
           });
         };
-  
+
         updateChildren(fieldId);
-  
+
         const parts = fieldId.split(".");
         if (parts.length > 1) {
           const parentPath = parts.slice(0, -1).join(".");
-  
+
           const siblings = fieldsList.filter(
             (field) =>
               field.startsWith(`${parentPath}.`) &&
               field !== fieldId &&
               field.split(".").length === parts.length
           );
-  
+
           const allSiblingsChecked = siblings.every(
             (sibling) => fieldMap[sibling]
           );
-  
+
           if (allSiblingsChecked && checked) {
             fieldMap[parentPath] = true;
-  
-            fieldsList.forEach((field) => {
-              if (field.startsWith(`${parentPath}.`)) {
-                delete fieldMap[field];
-              }
-            });
-          } else if (!checked) {
-            delete fieldMap[parentPath];
           }
         }
-  
-        Object.keys(fieldMap).forEach((field) => {
-          const parentParts = field.split(".");
-          for (let i = 1; i < parentParts.length; i++) {
-            const parent = parentParts.slice(0, i).join(".");
-            if (fieldMap[parent]) {
-              delete fieldMap[field];
-            }
-          }
-        });
-  
+
         return Object.keys(fieldMap);
       });
     },
@@ -265,7 +260,7 @@ const FieldsTool = () => {
       const parts = field.split(".");
       let current = tree;
 
-      parts.forEach((part, index) => {
+      parts.forEach((_, index) => {
         const path = parts.slice(0, index + 1).join(".");
         if (!current[path]) {
           current[path] = {};
@@ -341,6 +336,33 @@ const FieldsTool = () => {
 
   const tree = buildTree();
 
+  // Filter by group
+  const filterByGroup = (fields) => {
+    const filtered = new Set(fields);
+
+    const areAllChildrenSelected = (parent) => {
+      const children = fieldsList.filter(f => f.startsWith(parent + "."));
+      return children.length > 0 && children.every(child => filtered.has(child));
+    };
+
+    const allButOneChildrenSelected = (parent) => {
+      const children = fieldsList.filter(f => f.startsWith(parent + "."));
+      return children.length > 1 && children.filter(child => !filtered.has(child)).length === 1;
+    }
+
+    fieldsList.forEach(field => {
+      if (areAllChildrenSelected(field)) {
+        fieldsList.filter(f => f.startsWith(field + ".")).forEach(child => filtered.delete(child));
+        filtered.add(field);
+      }
+      else if (allButOneChildrenSelected(field)) {
+        filtered.delete(field);
+      }
+    });
+
+    return Array.from(filtered);
+  };
+
   return (
     <div className="fields-tool">
       <h2>1. Selecteer het vraagtype</h2>
@@ -351,6 +373,7 @@ const FieldsTool = () => {
       </p>
 
       <select
+        className="select-search-type"
         value={searchType}
         onChange={(e) => setSearchType(e.target.value)}
       >
@@ -373,7 +396,7 @@ const FieldsTool = () => {
       </h2>
       <textarea
         className="fields-output"
-        value={JSON.stringify(fields)}
+        value={JSON.stringify(filterByGroup(fields))}
         readOnly
       />
     </div>

@@ -10,20 +10,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "core-js": "^3.40.0",
+    "core-js": "^3.41.0",
     "gatsby": "^5.14.1",
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-remark": "^6.14.0",
     "mobx": "^6.13.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-markdown": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^10.1.0",
     "react-syntax-highlighter": "^15.6.1",
     "remark-gfm": "^4.0.1",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
-    "@rijkshuisstijl-community/components-react": "^1.0.0-alpha.144",
+    "@rijkshuisstijl-community/components-react": "^1.0.0",
     "redoc": "^2.4.0"
   }
 }

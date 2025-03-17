@@ -34,7 +34,7 @@ header:
 # Een 'label' zonder 'href' genereert slechts een kopje.
 sidebar:
   items:
-  - title: 'web api'
+  - title: 'WEB API'
     subnav:
     - label: Overview
       href: '/'
@@ -62,7 +62,7 @@ sidebar:
           href: '/how-tos/fields-samenstellen'
         - label: Uitproberen
           href: '/how-tos/uitproberen'
-  - title: reference
+  - title: REFERENCE
     subnav:
     - title: Personen
       subnav:
