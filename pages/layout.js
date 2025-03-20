@@ -1,6 +1,6 @@
-import Header from '@/components/Header'
-import Footer from '@/components/footer'
-import Sidebar from '@/components/Sidebar'
+import Header from '../components/Header'
+import Footer from '../components/footer'
+import Sidebar from '../components/Sidebar'
  
 export default function Layout({ children }) {
   return (
