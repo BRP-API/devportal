@@ -247,11 +247,12 @@ export default function FieldsTool() {
         3. Kopieer de waarde hieronder en gebruik dit in je request bij de
         fields parameter
       </h2>
-      <textarea
-        className="fields-output"
-        value={JSON.stringify(filterByGroup(fields))}
-        readOnly
-      />
+      <div className="fields-output">
+        <textarea
+          value={JSON.stringify(filterByGroup(fields))}
+          readOnly
+        />
+      </div>
     </div>
   );
 };
