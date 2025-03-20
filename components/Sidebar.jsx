@@ -43,7 +43,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "#" },
               { label: "Specificatie", href: "/bewoning/specificatie" },
-              { label: "Documentatie", href: "/bewoning/specificatie" },
+              { label: "Documentatie", href: "/bewoning/documentatie" },
             ]
           },
           {
@@ -51,7 +51,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "#" },
               { label: "Specificatie", href: "/historie/specificatie" },
-              { label: "Documentatie", href: "/historie/specificatie" },
+              { label: "Documentatie", href: "/historie/documentatie" },
             ]
           },
           {
@@ -59,7 +59,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "#" },
               { label: "Specificatie", href: "/reisdocumenten/specificatie" },
-              { label: "Documentatie", href: "/reisdocumenten/specificatie" },
+              { label: "Documentatie", href: "/reisdocumenten/documentatie" },
             ]
           }
         ],
