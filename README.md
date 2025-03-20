@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://brp-api.github.io/devportal">
-    <img alt="Devportal" src="https://raw.githubusercontent.com/BRP-API/devportal/refs/heads/main/src/img/logo.svg" width="60" />
+    <img alt="Devportal" src="https://raw.githubusercontent.com/BRP-API/devportal/refs/heads/main/public/logo.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -24,7 +24,7 @@ npm install
 
 Start de lokale development server:
 ```bash
-npm run develop
+npm run dev
 ```
 
 Maak een nieuwe build:
@@ -34,23 +34,14 @@ npm run build
 
 Start een build:
 ```bash
-npm run start
+npm run serve
 ```
 
 ## Project structuur
 
-Dit project bevat de typische Gatsby project-structuur met een aantal kleine aanpassingen.
-
-```
-.
-├── src/
-├── .gitignore
-├── gatsby-config.js
-├── package.json
-└── README.md
-```
-
-De `src/` folder bevat een aantal subfolders waaronder:
-  1. `content`: Deze folder bevat de markdown bestanden die omgezet worden naar HTML.
-  2. `img`: Deze folder bevat de static assets.
-  3. `pages`: Deze folder bevat de Javascript en React componenten waarmee de markdown content omgezet wordt naar pagina's en van styling wordt voorzien.
+Dit project bevat de volgende onderdelen
+  1. `pages`: Deze folder bevat de markdown bestanden die omgezet worden naar HTML.
+  2. `public`: Deze folder bevat de static assets.
+  3. `styles`: Deze folder bevat de styles en de fonts.
+  4. `components`: Deze folder bevat React componenten.
+  
