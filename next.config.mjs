@@ -11,6 +11,7 @@ export default withMDX({
     output: 'export',
     images: {
         unoptimized: true,
-    }
+    },
+    basePath: '/devportal',
     // Other Next.js configurations
 })
