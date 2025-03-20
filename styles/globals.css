@@ -1,10 +1,5 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: white;
-  color: #333;
+:root {
+  --primary-color: #154273;
 }
 
 @font-face {
@@ -60,7 +55,7 @@ i {
   text-align: left;
   padding: 0 20px;
   height: 100px;
-  border-bottom: #154273 2px solid;
+  border-bottom: var(--primary-color) 2px solid;
 }
 
 .header-navbar {
@@ -101,7 +96,6 @@ i {
 
 .sidebar summary::marker {
   color: #154273;
-  /* Specifically changes marker color */
 }
 
 .sidebar {
@@ -116,7 +110,7 @@ i {
 
   a {
     text-decoration: none;
-    color: #154273;
+    color: var(--primary-color);
   }
 
   a:hover {
@@ -135,7 +129,6 @@ i {
 
   .details-flex a {
     display: block;
-    /* This makes each <a> take up the full width */
   }
 
   .subsubitem {
@@ -150,7 +143,7 @@ i {
 
   .title {
     font-weight: bold;
-    color: #154273;
+    color: var(--primary-color);
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
@@ -169,8 +162,8 @@ i {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border-top: 2px solid #154273;
-  color: #154273;
+  border-top: 2px solid var(--primary-color);
+  color: var(--primary-color);
   font-size: 0.8rem;
 }
 
@@ -194,7 +187,7 @@ i {
   }
 
   th {
-    background-color: #154273;
+    background-color: var(--primary-color);
     color: white;
     padding: 10px;
     text-align: center;
@@ -211,15 +204,31 @@ i {
   }
 }
 
-.navbar-mobile {
+.sidebar-mobile {
   display: none;
+}
+
+/* this is a span */
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 10px;
+  gap: 10px;
+
+  /* this is a button containing a img svg */
+  img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .mobile-menu {
   position: fixed;
   top: 0;
-  left: -400px;
-  width: 350px;
+  left: -101vw;
+  width: 300px;
   height: 100%;
   background-color: white;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
@@ -233,10 +242,11 @@ i {
 
 .mobile-menu.open {
   left: 0;
-}
 
-.mobile-menu .header-navbar {
-  flex-grow: 1;
+  .menu-toggle {
+    justify-content: flex-end;
+    padding: 20px;
+  }
 }
 
 .fields-tool {
@@ -309,10 +319,6 @@ i {
     background-color: #ddd;
   }
 
-  .hidden {
-    display: none;
-  }
-
   input[type="checkbox"] {
     cursor: pointer;
   }
@@ -323,9 +329,12 @@ i {
     display: none;
   }
 
-  .navbar-mobile {
-    display: flex;
-    align-items: center;
+  .sidebar-mobile {
+    display: block;
+  }
+
+  .container {
+    flex-direction: column;
   }
 
   .content {
