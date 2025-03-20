@@ -247,6 +247,16 @@ i {
     justify-content: flex-end;
     padding: 20px;
   }
+
+  .sidebar {
+    div {
+      padding-bottom: 0.5rem;
+
+      a {
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
 }
 
 .fields-tool {

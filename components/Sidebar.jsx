@@ -14,7 +14,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Concepts",
             subnav: [
-              { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen" },
+              { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
               { label: "Informatieproducten", href: "/concepten/informatieproducten" },
               { label: "REST-principes", href: "/concepten/rest-principes" },
               { label: "Autorisatie & filteren", href: "/concepten/autorisatie-en-filteren" }
@@ -35,7 +35,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Personen",
             subnav: [
-              { label: "Releasenotes", href: "#" },
+              { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
               { label: "Documentatie", href: "/personen/documentatie" }
             ],
@@ -43,7 +43,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Bewoning",
             subnav: [
-              { label: "Releasenotes", href: "#" },
+              { label: "Releasenotes", href: "/bewoning/releases" },
               { label: "Specificatie", href: "/bewoning/specificatie" },
               { label: "Documentatie", href: "/bewoning/documentatie" },
             ]
@@ -51,7 +51,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Verblijfplaatshistorie",
             subnav: [
-              { label: "Releasenotes", href: "#" },
+              { label: "Releasenotes", href: "/historie/releases" },
               { label: "Specificatie", href: "/historie/specificatie" },
               { label: "Documentatie", href: "/historie/documentatie" },
             ]
@@ -59,7 +59,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Reisdocumenten",
             subnav: [
-              { label: "Releasenotes", href: "#" },
+              { label: "Releasenotes", href: "/reisdocumenten/releases" },
               { label: "Specificatie", href: "/reisdocumenten/specificatie" },
               { label: "Documentatie", href: "/reisdocumenten/documentatie" },
             ]
