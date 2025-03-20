@@ -12,6 +12,6 @@ export default withMDX({
     images: {
         unoptimized: true,
     },
-    basePath: '/devportal',
+    basePath: process.env.NODE_ENV === 'production' ? '/devportal' : '',
     // Other Next.js configurations
 })
