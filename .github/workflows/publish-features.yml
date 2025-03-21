@@ -20,10 +20,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout target repository
         uses: actions/checkout@v4
 
-      - name: Checkout Repository
+      - name: Checkout source repository
         uses: actions/checkout@v4
         with:
           repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
@@ -41,3 +41,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add pages/features
           git commit -m "Publish features"
+          git push
