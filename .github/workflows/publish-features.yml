@@ -20,20 +20,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
       - name: Checkout source repository
         uses: actions/checkout@v4
         with:
           repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
+          path: source-repo
           ref: chore/publish-features
-      
-      - name: Checkout target repository
-        uses: actions/checkout@v4
 
       - name: Verplaats .md files van /publish naar /pages/features
         run: |
           mkdir -p pages/features
           echo "# Features" > pages/features/README.md
-          mv publish/*.md pages/features
+          mv source-repo/publish/*.md pages/features
 
       - name: Commit changes
         run: |
@@ -41,4 +44,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add pages/features
           git commit -m "Publish features"
-          git push
+          git push origin ${{ github.ref }}
