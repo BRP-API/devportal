@@ -1,4 +1,4 @@
-[![Gatsby Publish](https://github.com/BRP-API/devportal/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/BRP-API/devportal/actions/workflows/publish.yml)
+[![Publish](https://github.com/BRP-API/devportal/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/BRP-API/devportal/actions/workflows/deploy.yml)
 
 <p align="center">
   <a href="https://brp-api.github.io/devportal">
