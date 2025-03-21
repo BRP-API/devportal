@@ -1,0 +1,23 @@
+name: Move .feature files
+
+on:
+  workflow_dispatch:
+    inputs:
+      repository:
+        description: 'Publish .feature files from this repository'
+        required: true
+        type: choice
+        options:
+          - Haal-Centraal-BRP-bevragen
+jobs:
+  move-feature-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          repository: BRP-API/${{ github.event.inputs.repository }}
