@@ -20,14 +20,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout target repository
-        uses: actions/checkout@v4
-
       - name: Checkout source repository
         uses: actions/checkout@v4
         with:
           repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
           ref: chore/publish-features
+      
+      - name: Checkout target repository
+        uses: actions/checkout@v4
 
       - name: Verplaats .md files van /publish naar /pages/features
         run: |
