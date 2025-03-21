@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
-          ref: chore/publish-features-markdown
+          ref: chore/publish-features
 
       - name: Verplaats .md files van /publish naar /pages/features
         run: |
