@@ -32,7 +32,7 @@ jobs:
       - name: Verplaats .md files van /publish naar /pages/features
         run: |
           mkdir -p pages/features
-          mv publish/*.md pages/features
+          mv Haal-Centraal-BRP-bevragen/publish/*.md pages/features
 
       - name: Commit changes
         run: |
