@@ -5,13 +5,16 @@ on:
     branches: ["specs/publish-features-as-md"]
   workflow_dispatch:
     inputs:
-      repository:
+      sourceRepository:
         description: 'Publish .feature files from this repository'
         required: true
+        default: Haal-Centraal-BRP-bevragen 
         type: choice
         options:
           - Haal-Centraal-BRP-bevragen
-        default: Haal-Centraal-BRP-bevragen
+          - Haal-Centraal-BRP-bewoning
+          - Haal-Centraal-Reisdocumenten-bevragen
+          - Haal-Centraal-BRP-historie
 jobs:
   move-feature-files:
     runs-on: ubuntu-latest
@@ -23,4 +26,4 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          repository: BRP-API/${{ github.event.inputs.repository }}
+          repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
