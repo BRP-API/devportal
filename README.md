@@ -12,10 +12,7 @@
 Het developer portal is de plek waar documentatie, how-to's, references en specificaties van de BRP API's worden gepubliceerd.
 
 ## Getting started
-Je kunt de developer portal lokaal opstarten via de Gatsby CLI(
-[Installatie instructies](
-https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/#gatsby-cli))
-
+Je kunt de developer portal lokaal opstarten met NPM
 
 Installeer de dependencies in de root van het project:
 ```bash
