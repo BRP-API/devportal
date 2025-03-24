@@ -1,14 +1,17 @@
 import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
+import rehypeHighlight from 'rehype-highlight'
 
 const withMDX = createMDX({
     // Add markdown plugins here, as desired
     extension: /\.mdx?$/,
 
-    // Add GFM (GitHub Flavored Markdown) support
     options: {
         remarkPlugins: [
-            remarkGfm
+            remarkGfm // Add GFM (GitHub Flavored Markdown) support
+        ],
+        rehypePlugins: [
+            rehypeHighlight // Add syntax highlighting to code blocks
         ],
     },
 });
