@@ -171,7 +171,7 @@ export default function FieldsTool() {
                     </button>
                   )}
                 </div>
-                {hasChildren && (
+                {hasChildren && expandedGroups[fieldPath] && (
                   <FieldsTree
                     node={node[key]}
                     path={fieldPath}
