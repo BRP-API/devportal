@@ -1,8 +1,16 @@
 import createMDX from '@next/mdx'
+import remarkGfm from 'remark-gfm'
 
 const withMDX = createMDX({
     // Add markdown plugins here, as desired
     extension: /\.mdx?$/,
+
+    // Add GFM (GitHub Flavored Markdown) support
+    options: {
+        remarkPlugins: [
+            remarkGfm
+        ],
+    },
 });
 
 // Merge MDX config with Next.js config
