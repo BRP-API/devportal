@@ -13,7 +13,7 @@ defaults:
 
 on:
   push:
-    branches: ["specs/publish-features-as-md"]
+    branches: ["specs/publish"]
   workflow_dispatch:
     inputs:
       sourceRepository:
