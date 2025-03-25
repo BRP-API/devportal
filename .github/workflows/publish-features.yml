@@ -1,5 +1,16 @@
 name: Publiceer features
 
+env:
+  Haal-Centraal-BRP-bevragen: master
+  Haal-Centraal-BRP-bewoning: master
+  Haal-Centraal-Reisdocumenten-bevragen: master
+  Haal-Centraal-BRP-historie: master
+  brp-api-gezag: main
+
+defaults:
+  run:
+    shell: bash
+
 on:
   push:
     branches: ["specs/publish-features-as-md"]
@@ -15,11 +26,18 @@ on:
           - Haal-Centraal-BRP-bewoning
           - Haal-Centraal-Reisdocumenten-bevragen
           - Haal-Centraal-BRP-historie
+          - brp-api-gezag
+
 jobs:
   move-feature-files:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set source ref environment variable
+        run: |
+          echo "SOURCE_REF=${{ env[github.event.inputs.sourceRepository] }}" >> $GITHUB_ENV
+          echo "Bronrepository branch is $SOURCE_REF"
+
       - name: Checkout target repository
         uses: actions/checkout@v4
         with:
@@ -30,18 +48,23 @@ jobs:
         with:
           repository: BRP-API/${{ github.event.inputs.sourceRepository || 'Haal-Centraal-BRP-bevragen' }}
           path: source-repo
-          ref: chore/publish-features
+          ref: ${{ env.SOURCE_REF }}
 
       - name: Verplaats .md files van /publish naar /pages/features
         run: |
-          mkdir -p pages/features
-          echo "# Features" > pages/features/README.md
-          mv source-repo/publish/*.md pages/features
+          echo "Source repo: ${{ github.event.inputs.sourceRepository }}"
+          echo "Source branch: $SOURCE_REF"
 
-      - name: Commit changes
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add pages/features
-          git commit -m "Publish features"
-          git push origin ${{ github.ref }}
+      # - name: Verplaats .md files van /publish naar /pages/features
+      #   run: |
+      #     mkdir -p pages/features
+      #     echo "# Features" > pages/features/README.md
+      #     mv source-repo/publish/*.md pages/features
+
+      # - name: Commit changes
+      #   run: |
+      #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      #     git config --global user.name "github-actions[bot]"
+      #     git add pages/features
+      #     git commit -m "Publish features"
+      #     git push origin ${{ github.ref }}
