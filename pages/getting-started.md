@@ -4,11 +4,7 @@ Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelde
 
 1. Bekijk de [functionaliteit en specificaties](#functionaliteit-en-specificaties)
 2. Probeer en test de {{apiname}} [lokaal](#probeer-en-test-de-api-lokaal) of in de [proef omgeving](#probeer-en-test-de-api-in-de-proef-omgeving)
-3. [Download]({{onboardingUrl}}/onboarding){:target="_blank" rel="noopener"} en lees het onboardingproces
-
-
-[Link met onboarding]({{onboardingUrl}}/onboarding)
-{{onboardingUrl}}/onboarding
+3. [Download]({{onboardingUrl}}/onboarding) en lees het onboardingproces
 
 ## Functionaliteit en specificaties
 
@@ -16,7 +12,7 @@ De {{apiname}} is gespecificeerd met behulp van de [OpenAPI Specification v3.0.3
 
 De OAS3 specificatie van de {{apiname}} kan worden bekeken met behulp van [Redoc](./redoc).
 
-Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml){:target="_blank" rel="noopener"} van de '{{apiname}}' om hiermee consumer code te genereren.
+Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de '{{apiname}}' om hiermee consumer code te genereren.
 
 De [functionele documentatie](./features-overzicht) van de {{apiname}} vind je in het [features overzicht](./features-overzicht).
 
@@ -31,9 +27,9 @@ Je kunt de {{apiname}} uitproberen op de proefomgeving met de volgende url: [{{p
 
 Een mock van de {{apiname}} is beschikbaar als een containerized applicatie, die je gemakkelijk kunt hosten op een lokale machine of in een testomgeving. Bijkomend voordeel is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand.
 
-Je kunt het [docker compose bestand]({{mainBranchUrl}}/docker-compose-mock.yml){:target="_blank" rel="noopener"} gebruiken om de {{apiname}} mock met behulp van [Docker Desktop](https://www.docker.com/products/docker-desktop) te draaien op een lokale machine.
+Je kunt het [docker compose bestand]({{mainBranchUrl}}/docker-compose-mock.yml) gebruiken om de {{apiname}} mock met behulp van [Docker Desktop](https://www.docker.com/products/docker-desktop) te draaien op een lokale machine.
 
-In plaats van het docker compose bestand kun je de [Kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s){:target="_blank" rel="noopener"} gebruiken om de {{apiname}} mock te draaien op een lokale machine. De {{apiname}} mock maakt gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) als input om de productie situatie zoveel mogelijk te kunnen simuleren.
+In plaats van het docker compose bestand kun je de [Kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s) gebruiken om de {{apiname}} mock te draaien op een lokale machine. De {{apiname}} mock maakt gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) als input om de productie situatie zoveel mogelijk te kunnen simuleren.
 
 De volgende paragrafen beschrijven wat je moet doen om de {{apiname}} mock op een lokale machine te installeren en aan te roepen.
 
@@ -50,7 +46,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 ### Gebruik Docker als container engine
 
-- Download het [docker compose bestand]({{mainBranchUrl}}/docker-compose.yml){:target="_blank" rel="noopener"}
+- Download het [docker compose bestand]({{mainBranchUrl}}/docker-compose.yml)
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
 - Start de {{apiname}} en de mock met behulp van de volgende statement:
   ```sh
@@ -80,7 +76,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 ### Gebruik Kubernetes als container engine
 
-- Download de [kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s){:target="_blank" rel="noopener"}
+- Download de [kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s)
 - Start een command prompt window voor de map met de kubernetes manifest bestanden
 - Start de {{apiname}} en de mock met behulp van de volgende statement:
   ```sh
