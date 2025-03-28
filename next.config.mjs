@@ -1,14 +1,14 @@
 import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
+import remarkConfigInjector from './utils/index.mjs';
 
 const withMDX = createMDX({
-    // Add markdown plugins here, as desired
     extension: /\.mdx?$/,
-
     options: {
         remarkPlugins: [
-            remarkGfm // Add GFM (GitHub Flavored Markdown) support
+            remarkConfigInjector, // Inject _config.yml values into markdown content
+            remarkGfm // Add support for GFM (GitHub Flavored Markdown)
         ],
         rehypePlugins: [
             rehypeHighlight // Add syntax highlighting to code blocks
@@ -16,7 +16,6 @@ const withMDX = createMDX({
     },
 });
 
-// Merge MDX config with Next.js config
 export default withMDX({
     pageExtensions: ['js', 'cjs', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
     output: 'export',
@@ -24,5 +23,4 @@ export default withMDX({
         unoptimized: true,
     },
     basePath: process.env.NODE_ENV === 'production' ? '/devportal' : '',
-    // Other Next.js configurations
 })
