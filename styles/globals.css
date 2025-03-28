@@ -83,7 +83,7 @@ i {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: #154273;
+  background: var(--primary-color);
 }
 
 .container {
@@ -92,10 +92,6 @@ i {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
-}
-
-.sidebar summary::marker {
-  color: #154273;
 }
 
 .sidebar {
@@ -119,6 +115,10 @@ i {
 
   summary {
     cursor: pointer;
+  }
+
+  summary::marker {
+    color: var(--primary-color);
   }
 
   .details-flex {
@@ -157,14 +157,8 @@ i {
   }
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  border-top: 2px solid var(--primary-color);
-  color: var(--primary-color);
-  font-size: 0.8rem;
+.sidebar-mobile {
+  display: none;
 }
 
 .redoc-container {
@@ -175,10 +169,8 @@ i {
 .content {
   flex: 1;
   box-sizing: border-box;
-  /* border-left: 1px solid #154273; */
   overflow-x: auto;
 
-  /* tables */
   table {
     border-collapse: collapse;
     overflow: auto;
@@ -204,11 +196,16 @@ i {
   }
 }
 
-.sidebar-mobile {
-  display: none;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 0.8rem;
 }
 
-/* this is a span */
 .menu-toggle {
   display: flex;
   align-items: center;
@@ -217,7 +214,6 @@ i {
   padding: 10px;
   gap: 10px;
 
-  /* this is a button containing a img svg */
   img {
     width: 25px;
     height: 25px;

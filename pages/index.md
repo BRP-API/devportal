@@ -15,7 +15,7 @@ Deze informatieproducten worden voortdurend verbeterd door de RvIG. Door de BRP 
 De volgende stappen helpen jou op weg om jouw applicatie van de juiste persoonsinformatie uit de BRP te voorzien:
 1. Controleer of jouw organisatie of klant een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
 2. Bedenk welke functie(s) en welke informatieproducten van de BRP API je wilt gebruiken. Hiervoor zal RvIG samen met u een aanvullend autorisatiebesluit opstellen. Voor gemeenten is dit niet nodig.
-3. Gebruik de [Getting Started]({{ site.gettingStartedUrl }}) tutorial om te leren hoe je je eerste API call kunt doen!
+3. Gebruik de [Getting Started](getting-started) tutorial om te leren hoe je je eerste API call kunt doen!
 
 ## Documentation
 De documentatie is als volgt opgebouwd:
@@ -26,19 +26,19 @@ De documentatie is als volgt opgebouwd:
 - API specificatie
 
 ## Planning en Roadmap
-De BRP API is live sinds mei 2023 en bestaat uit de onderdelen Personen, [Bewoning]({{ site.pagesBaseUrl }}/Haal-Centraal-BRP-bewoning) en [Reisdocumenten]({{ site.pagesBaseUrl }}/Haal-Centraal-Reisdocumenten-bevragen). Rond 1 juli 2024 wordt [Verblijfplaatshistorie]({{ site.pagesBaseUrl }}/Haal-Centraal-BRP-historie-bevragen) verwacht, waarmee je verblijfplaatsen van een persoon kunt opvragen op een peildatum of in een bepaalde periode. 
+De BRP API is live sinds mei 2023 en bestaat uit de onderdelen Personen, [Bewoning]({{pagesBaseUrl}}/Haal-Centraal-BRP-bewoning) en [Reisdocumenten]({{pagesBaseUrl}}/Haal-Centraal-Reisdocumenten-bevragen). Rond 1 juli 2024 wordt [Verblijfplaatshistorie]({{pagesBaseUrl}}/Haal-Centraal-BRP-historie-bevragen) verwacht, waarmee je verblijfplaatsen van een persoon kunt opvragen op een peildatum of in een bepaalde periode. 
 
 ## Contact
-* Heb je een vraag? Neem contact op met de Product Owner {{ site.PO-naam }}, [{{ site.PO-email }}](mailto:{{ site.PO-email }}) 
+* Heb je een vraag? Neem contact op met de Product Owner {{PO-naam}}, [{{PO-email}}](mailto:{{PO-email}}) 
 * Bug Melden
   [Maak een bug issue aan >>](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
 * Verbeteringen doorgeven
   [Maak een verbeter issue aan >>](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
 
-* Product Owner: Cathy Dingemanse, [{{ site.PO-email }}](mailto:{{ site.PO-email }})
-* Developer en customer zero: Melvin Lee, [{{ site.CZ-email }}](mailto:{{ site.CZ-email }})
-* Tester: Frank Samwel, [{{ site.Tester-email }}](mailto:{{ site.Tester-email }})
+* Product Owner: Cathy Dingemanse, [{{PO-email}}](mailto:{{PO-email}})
+* Developer en customer zero: Melvin Lee, [{{CZ-email}}](mailto:{{CZ-email}})
+* Tester: Frank Samwel, [{{Tester-email}}](mailto:{{Tester-email}})
 
 ## Licentie
 Copyright &copy; RvIG 2024
-Licensed under the [EUPL]({{ site.mainBranchUrl }}/LICENCE.md)
+Licensed under the [EUPL]({{mainBranchUrl}}/LICENCE.md)
