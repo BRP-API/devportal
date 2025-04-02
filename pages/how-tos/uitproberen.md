@@ -1,13 +1,3 @@
-## Probeer en test de API in de proefomgeving
-
-Je kunt de {{ apiname }} uitproberen op de proefomgeving met de volgende url: [{{ proefProxyUrl }}]. 
-
-### Prerequisites
-Je bent in het bezit van een apikey. Deze kun je aanvragen bij de product owner [{{ PO-email }}](mailto:{{ PO-email }}). 
-
-### Uitproberen
-Voeg de apikey toe aan een request met de __X-API-KEY__ header.
-
 ## Probeer en test de API lokaal
 
 Van de {{ apiname }} Personen is een mock beschikbaar als een containerized applicatie. Deze kun je gemakkelijk hosten op een lokale machine of in een testomgeving. Het voordeel van deze oplossing ten opzichte van de proefomgeving is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand. 
