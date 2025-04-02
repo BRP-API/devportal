@@ -1,13 +1,12 @@
 ## Probeer en test de API lokaal
 
-Van de {{ apiname }} Personen is een mock beschikbaar als een containerized applicatie. Deze kun je gemakkelijk hosten op een lokale machine of in een testomgeving. Het voordeel van deze oplossing ten opzichte van de proefomgeving is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand. 
-Standaard maakt de {{ apiname }} Personen mock gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) als input om de productie situatie zo goed mogelijk te simuleren.
+Voor alle functies (Personen, Verblijfplaatshistorie en Bewoning) van de de {{ apiname }} is een mock beschikbaar als een containerized applicatie. Deze kun je gemakkelijk hosten op een lokale machine of in een testomgeving. Het voordeel van deze oplossing is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand. Standaard maken de {{ apiname }} mocks gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) om de productie situatie zo goed mogelijk te simuleren.
 
 Je kunt het [docker compose bestand]({{ mainBranchUrl }}/docker-compose-mock.yml) gebruiken om de {{ apiname }} Personen mock met behulp van [Docker Desktop](https://www.docker.com/products/docker-desktop) te draaien op een lokale machine.
 
-Je kunt er ook voor kiezen om de [Kubernetes configuratie bestanden]({{ devBranchUrl}}/.k8s) gebruiken om de {{ apiname }} Personen mock te draaien op een lokale machine. 
+Je kunt er ook voor kiezen om de [Kubernetes configuratie bestanden]({{ devBranchUrl}}/.k8s) gebruiken om de {{ apiname }} mocks te draaien op een lokale machine. 
 
-De volgende paragrafen beschrijven wat je moet doen om de {{ apiname }} Personen mock op een lokale machine te installeren en aan te roepen.
+De volgende paragrafen beschrijven wat je moet doen om de {{ apiname }} mocks op een lokale machine te installeren en aan te roepen.
 
 ### Prerequisites
 
