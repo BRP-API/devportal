@@ -25,6 +25,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Fields samenstellen", href: "/how-tos/fields-samenstellen" },
               { label: "Uitproberen", href: "/how-tos/uitproberen" },
+              { label: "Onboarden", href: "/how-tos/onboarden" },
             ],
           },
         ],
