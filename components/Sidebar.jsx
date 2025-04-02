@@ -21,10 +21,10 @@ const Sidebar = ({ sidebar }) => {
             ],
           },
           {
-            title: "How-Tos",
+            title: "Hoe-kan-ik",
             subnav: [
-              { label: "Fields samenstellen", href: "/how-tos/fields-samenstellen" },
-              { label: "Uitproberen", href: "/how-tos/uitproberen" },
+              { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
+              { label: "de API uitproberen", href: "/how-tos/uitproberen" },
               { label: "Onboarden", href: "/how-tos/onboarden" },
             ],
           },
