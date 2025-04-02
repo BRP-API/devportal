@@ -2,7 +2,7 @@
 
 Voor alle functies (Personen, Verblijfplaatshistorie en Bewoning) van de de {{ apiname }} is een mock beschikbaar als een containerized applicatie. Deze kun je gemakkelijk hosten op een lokale machine of in een testomgeving. Het voordeel van deze oplossing is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand. Standaard maken de {{ apiname }} mocks gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) om de productie situatie zo goed mogelijk te simuleren.
 
-Je kunt het [docker compose bestand]({{ mainBranchUrl }}/docker-compose-mock.yml) gebruiken om de {{ apiname }} Personen mock met behulp van [Docker Desktop](https://www.docker.com/products/docker-desktop) te draaien op een lokale machine.
+Je kunt het [docker compose bestand]({{ mainBranchUrl }}/docker-compose-mock.yml) gebruiken om de {{ apiname }} mocks met behulp van [Docker Desktop](https://www.docker.com/products/docker-desktop) te draaien op een lokale machine.
 
 Je kunt er ook voor kiezen om de [Kubernetes configuratie bestanden]({{ devBranchUrl}}/.k8s) gebruiken om de {{ apiname }} mocks te draaien op een lokale machine. 
 
