@@ -1,6 +1,6 @@
 ## Dataminimalisatie
 
-Ieder request aan de BRP API Personenbbevat verplicht een fields parameter waarmee je aangeeft welke velden van de gevonden persoon of personen geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend die gegevens vragen waarvoor jouw organisatie doelbinding heeft/ geautoriseerd is *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
+Ieder request aan de BRP API Personenbbevat verplicht een fields parameter waarmee je aangeeft welke velden van de gevonden persoon of personen geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend die gegevens vragen waarvoor jouw organisatie geautoriseerd is *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
 
 ## Filteren van de velden van de gevonden personen
 
