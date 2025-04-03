@@ -14,11 +14,11 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Concepts",
             subnav: [
-              { label: "Informatieproducten", href: "/concepten/informatieproducten" }
+              { label: "Informatieproducten", href: "/concepten/informatieproducten" },
               { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
               { label: "Informatieproducten", href: "/concepten/informatieproducten" },
               { label: "REST-principes", href: "/concepten/rest-principes" },
-              { label: "Autorisatie & filteren", href: "/concepten/autorisatie-en-filteren" }
+              { label: "Autorisatie & filteren", href: "/concepten/autorisatie-en-filteren" },
             ],
           },
           {
@@ -39,7 +39,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
-              { label: "Documentatie", href: "/personen/documentatie" }
+              { label: "Documentatie", href: "/personen/documentatie" },
             ],
           },
           {
