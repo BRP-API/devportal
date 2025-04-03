@@ -46,14 +46,14 @@ Dit project bevat de volgende onderdelen
 
 1. Hoe kan ik linkjes toevoegen?
    - Verwijzingen naar markdownbestanden in dit project kunnen als volgt toegevoegd worden:
-   - `[Voorbeeld](./README.md)`
+   - `[Voorbeeld](./bestand)`
    - Linken naar subfolders kan ook door
-   - `[Voorbeeld](./pages/index.md)`
+   - `[Voorbeeld](./pages/bestand)`
    - Terug navigeren? Dat kan door meerdere `../` combinaties toe te voegen.
-   - `[Voorbeeld](../../bestand.md)`
+   - `[Voorbeeld](../../bestand)`
 
 > [!Tip]  
-> Relatieve links dienen te beginnen met een punt (.) en eindigen met de bestandsextensie (.md/.mdx)
+> Relatieve links dienen te beginnen met een punt (.) en NIET eindigen met de bestandsextensie (.md/.mdx)
 
 2. Aanhalingstekens in de _config.yml zijn niet nodig en kunnen eventueel weggelaten worden
    
@@ -67,4 +67,4 @@ Dit project bevat de volgende onderdelen
 
 4. Hoe kan ik verwijzen naar Markdown-bestanden die een spatie in de bestandsnaam bevatten?
    - Dit kan door de spatie te vervangen door %20
-   - `[Voorbeeld met spatie](./voorbeeld%20met%spatie.md)`
+   - `[Voorbeeld met spatie](./voorbeeld%20met%spatie)`
