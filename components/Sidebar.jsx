@@ -14,6 +14,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "Concepts",
             subnav: [
+              { label: "Informatieproducten", href: "/concepten/informatieproducten" }
               { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
               { label: "Informatieproducten", href: "/concepten/informatieproducten" },
               { label: "REST-principes", href: "/concepten/rest-principes" },
