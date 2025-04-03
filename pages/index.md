@@ -1,7 +1,7 @@
 # Welkom bij de BRP API
 ## Zoek en raadpleeg persoonsinformatie
 
-Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Basisregistratie Personen (BRP) integreren in taakapplicaties van jouw organisatie. Naast de vertrouwde persoonsgegevens die door gemeenten en RNI loketten worden geregistreerd, levert de BRP API ook informatieproducten. Informatieproducten zijn bewerkingen van de standaard gegevens tot:
+Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Basisregistratie Personen (BRP) integreren in taakapplicaties van jouw organisatie. Naast de vertrouwde persoonsgegevens die door gemeenten en RNI loketten worden geregistreerd, levert de BRP API ook [informatieproducten](xxxxconcepten informatoeproducten). Informatieproducten zijn bewerkingen van de standaard gegevens tot:
 - Adressering: aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in het venster van een envelop.
 - Bewoning: wie er samen in een woning woonde gedurende een periode, of op een peildatum.
 - Gezag: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
@@ -21,9 +21,9 @@ Eerst de BRP API uitproberen? Gebruik [de API uitproberen](/how-tos/uitproberen)
 
 ## Voorwaarden
 1. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
-2. Start de [onboarding](how-tos/onboarden)
+2. Start de [onboarding](how-tos/onboarden) door een kennismakingsgesprek te plannen via info@rvig.nl.
 3. Bespreek en onderteken het aanvullende autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
-4. Onderteken het convenant
+4. Onderteken het convenant voor [deelname aan het Experiment Dataminimalisatie](xxxxx)
 
 ## Documentation
 De documentatie is als volgt opgebouwd:
