@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #154273;
+  --primary-color: #00588e;
 }
 
 @font-face {
@@ -53,8 +53,8 @@ i {
 .header {
   position: relative;
   text-align: left;
-  padding: 0 20px;
   height: 100px;
+  padding-bottom: 20px;
   border-bottom: var(--primary-color) 2px solid;
 }
 

@@ -6,7 +6,7 @@ const Header = () => {
   
   return (
     <header className='header'>
-      <Image src={`${basePath}/logo.svg`} alt="central-logo" className="central-logo" width={60} height={100} />
+      <Image src={`${basePath}/logo.svg`} alt="central-logo" className="central-logo" width={50} height={90} />
       <div className="header-top">
         <div className="header-title">
           <h1>BRP API</h1>
