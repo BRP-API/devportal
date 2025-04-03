@@ -15,7 +15,7 @@ Met de '{{apiname}}' kun je het zoeken en raadplegen van persoonsinformatie uit 
 3. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit
 4. Vraag een acces token aan voor de productieomgeving en sluit aan.
 
-Eerst de '{{apiname}}' uitproberen? Gebruik [lokaal testen gids](/how-tos/lokaal testen) om je eerste API call te doen!
+Eerst de '{{apiname}}' uitproberen? Gebruik [lokaal testen gids](./how-tos/lokaal%20testen) om je eerste API call te doen!
 
 ## Voorwaarden
 1. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
