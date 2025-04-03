@@ -2,12 +2,12 @@
 ## Zoek en raadpleeg persoonsinformatie
 
 Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Basisregistratie Personen (BRP) integreren in taakapplicaties van jouw organisatie. Naast de vertrouwde persoonsgegevens die door gemeenten en RNI loketten worden geregistreerd, levert de BRP API ook [informatieproducten](xxxxconcepten informatoeproducten). Informatieproducten zijn bewerkingen van de standaard gegevens tot:
-- Adressering: aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in het venster van een envelop.
-- Bewoning: wie er samen in een woning woonde gedurende een periode, of op een peildatum.
-- Gezag: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
-- Leeftijd (in jaren)
-- Volledige naam: met adellijke titels en predicaten, zonder gebruik van de naam van de partner
-- Voorletters
+- *Adressering*: aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in het venster van een envelop.
+- *Bewoning*: wie er samen in een woning woonde gedurende een periode, of op een peildatum.
+- *Gezag*: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
+- *Leeftijd* (in jaren)
+- *Volledige naam*: met adellijke titels en predicaten, zonder gebruik van de naam van de partner
+- *Voorletters*
   
 ## Getting Started
 1. Bouw en test de aansluiting op de BRP API in jouw applicatie lokaal met de [BRP API mock](xxxxx)
