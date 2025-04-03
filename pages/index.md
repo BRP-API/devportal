@@ -13,7 +13,7 @@ Met de {{apiname}} kun je het zoeken en raadplegen van persoonsinformatie uit de
 1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de {{apiname}} om consumer code te genereren.
 2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal](./how-tos/lokaal%20testen) met de {{apiname}}. 
 3. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit.
-4. Vraag een acces token aan voor de productieomgeving.
+4. Vraag een access token aan voor de productieomgeving.
 
 De {{apiname}} eerst uitproberen? Gebruik de [lokaal uitproberen gids](./how-tos/lokaal%20testen) om je eerste API call te doen!
 
