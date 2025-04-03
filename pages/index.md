@@ -18,10 +18,9 @@ Met de {{apiname}} kun je het zoeken en raadplegen van persoonsinformatie uit de
 De {{apiname}} eerst uitproberen? Gebruik de [lokaal uitproberen gids](./how-tos/lokaal%20testen) om je eerste API call te doen!
 
 ## Voorwaarden
-1. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
-2. Start de [onboarding](./how-tos/onboarden) door een kennismakingsgesprek te plannen via info@rvig.nl.
-3. Bespreek en onderteken het aanvullende autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
-4. Onderteken het convenant voor [deelname aan het Experiment Dataminimalisatie](xxxxx)
+1. Aansluiten mag alleen met een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. 
+2. Een aanvullende autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
+3. Een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](xxxxx)
 
 ## Documentatie
 De documentatie is alsvolgt opgebouwd:
