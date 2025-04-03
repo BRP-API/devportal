@@ -9,9 +9,6 @@ Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Bas
 - Volledige naam: met adellijke titels en predicaten, zonder gebruik van de naam van de partner
 - Voorletters
   
-Deze informatieproducten worden voortdurend verbeterd door de RvIG en andere overheidsorganisaties met wie wij samenwerken, zoals de Rechtspraak en het ministerie van Justitie en Veiligheid voor het afleiden van Gezag. Door de informatieproducten van de BRP API te gebruiken innoveert jouw organisatie automatisch mee. Bovendien hoeft jouw organisatie minder persoonsgegevens te verwerken, omdat de BRP API direct biedt wat jij nodig hebt. Daarmee zet je een grote stap vooruit op het gebied van dataminimalisatie en voldoet jouw organisatie beter aan de AVG. De regels die we gebruiken zijn bovendien voor iedereen inzichtelijk, zie XXXXXX.
-De juridische grondslag voor het bewerken van persoonsgegevens is geregeld in het [Experimentbesluit Dataminimalisatie](https://zoek.officielebekendmakingen.nl/stb-2024-96.html), ter voorbereiding op een stucturele wetswijziging.
-
 ## Getting Started
 1. Bouw en test de aansluiting op de BRP API in jouw applicatie lokaal met de [BRP API mock](xxxxx)
 2. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit
