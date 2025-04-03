@@ -24,7 +24,7 @@ const Sidebar = ({ sidebar }) => {
             title: "Hoe-kan-ik",
             subnav: [
               { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
-              { label: "lokaal uitproberen/testen", href: "/how-tos/uitproberen" },
+              { label: "lokaal testen", href: "/how-tos/lokaal testen" },
               { label: "Onboarden", href: "/how-tos/onboarden" },
             ],
           },
