@@ -20,7 +20,7 @@ De {{apiname}} eerst uitproberen? Gebruik de [lokaal uitproberen gids](./how-tos
 ## Voorwaarden
 1. Aansluiten mag alleen met een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. 
 2. Een aanvullende autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
-3. Een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](xxxxx)
+3. Een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](xxxxx).
 
 ## Documentatie
 De documentatie is alsvolgt opgebouwd:
