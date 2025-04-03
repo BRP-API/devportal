@@ -1,7 +1,7 @@
-# Welkom bij de BRP API
+# Welkom bij de '{{apiname}}'
 ## Zoek en raadpleeg persoonsinformatie
 
-Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Basisregistratie Personen (BRP) integreren in taakapplicaties van jouw organisatie. Naast de vertrouwde persoonsgegevens die door gemeenten en RNI loketten worden geregistreerd, levert de BRP API ook [informatieproducten](xxxxconcepten informatoeproducten). Informatieproducten zijn bewerkingen van de standaard gegevens tot:
+Met de '{{apiname}}' kun je het zoeken en raadplegen van persoonsinformatie uit de Basisregistratie Personen (BRP) integreren in taakapplicaties van jouw organisatie. Naast de vertrouwde persoonsgegevens die door gemeenten en RNI loketten worden geregistreerd, levert de '{{apiname}}' ook [informatieproducten](xxxxconcepten informatoeproducten). Informatieproducten zijn bewerkingen van de standaard gegevens tot:
 - *Adressering*: *aanschrijfwijze*, *aanhef*, een verwijzing naar een *persoon in de lopende tekst* van een brief, en *adresregels* die altijd passen in het venster van een envelop.
 - *Bewoning*: wie er samen in een woning woonde gedurende een periode, of op een peildatum.
 - *Gezag*: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
@@ -10,11 +10,12 @@ Met de BRP API kun je het zoeken en raadplegen van persoonsinformatie uit de Bas
 - *Voorletters*
   
 ## Getting Started
-1. Bouw en test de aansluiting op de BRP API in jouw applicatie lokaal met de [BRP API mock](xxxxx)
-2. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit
-3. Vraag een acces token aan voor de productieomgeving en sluit aan.
+1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de '{{apiname}}' om hiermee consumer code te genereren.
+2. Bouw en test de aansluiting op de '{{apiname}}' in jouw applicatie lokaal met de ['{{apiname}}' mock](xxxxx)
+3. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit
+4. Vraag een acces token aan voor de productieomgeving en sluit aan.
 
-Eerst de BRP API uitproberen? Gebruik [de API uitproberen](/how-tos/uitproberen) gids om je eerste API call te doen!
+Eerst de '{{apiname}}' uitproberen? Gebruik [lokaal testen gids](/how-tos/lokaal testen) om je eerste API call te doen!
 
 ## Voorwaarden
 1. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
@@ -25,13 +26,13 @@ Eerst de BRP API uitproberen? Gebruik [de API uitproberen](/how-tos/uitproberen)
 ## Documentation
 De documentatie is als volgt opgebouwd:
 
-- Concepten: lees de uitleg van belangrijke onderwerpen die een rol spelen bij het gebruik van de BRP API
+- Concepten: lees de uitleg van belangrijke onderwerpen die een rol spelen bij het gebruik van de '{{apiname}}'
 - Tutorials: leer hoe je zaken kunt regelen die nodig zijn bij het gebruik van de API 
 - Tooling: gebruik de tool die je sneller op weg helpt de fields parameter correct te implementeren
-- Referenties: de specificaties van de BRP API functies Personen, Verblijplaatshistorie en Bewoning
+- Referenties: de specificaties van de '{{apiname}}' functies Personen, Verblijfplaatshistorie en Bewoning
 
 ## Planning en Roadmap
-De BRP API is live sinds mei 2023 en bestaat uit de onderdelen Personen, [Bewoning]({{pagesBaseUrl}}/Haal-Centraal-BRP-bewoning) en [Reisdocumenten]({{pagesBaseUrl}}/Haal-Centraal-Reisdocumenten-bevragen). Rond 1 juli 2024 wordt [Verblijfplaatshistorie]({{pagesBaseUrl}}/Haal-Centraal-BRP-historie-bevragen) verwacht, waarmee je verblijfplaatsen van een persoon kunt opvragen op een peildatum of in een bepaalde periode. 
+De '{{apiname}}' is live sinds mei 2023 en bestaat uit de onderdelen Personen, [Bewoning]({{pagesBaseUrl}}/Haal-Centraal-BRP-bewoning) en [Reisdocumenten]({{pagesBaseUrl}}/Haal-Centraal-Reisdocumenten-bevragen). Rond 1 juli 2024 wordt [Verblijfplaatshistorie]({{pagesBaseUrl}}/Haal-Centraal-BRP-historie-bevragen) verwacht, waarmee je verblijfplaatsen van een persoon kunt opvragen op een peildatum of in een bepaalde periode. 
 
 ## Contact
 * Heb je een vraag? Neem contact op met de Product Owner {{PO-naam}}, [{{PO-email}}](mailto:{{PO-email}}) 
