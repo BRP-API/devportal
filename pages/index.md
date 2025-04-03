@@ -13,22 +13,25 @@ Deze informatieproducten worden voortdurend verbeterd door de RvIG en andere ove
 De juridische grondslag voor het bewerken van persoonsgegevens is geregeld in het [Experimentbesluit Dataminimalisatie](https://zoek.officielebekendmakingen.nl/stb-2024-96.html), ter voorbereiding op een stucturele wetswijziging.
 
 ## Getting Started
+1. Bouw en test de aansluiting op de BRP API in jouw applicatie lokaal met de [BRP API mock](xxxxx)
+2. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit
+3. Vraag een acces token aan voor de productieomgeving en sluit aan.
+
+Eerst de BRP API uitproberen? Gebruik [de API uitproberen](/how-tos/uitproberen) gids om je eerste API call te doen!
+
+## Voorwaarden
 1. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. Aansluiten mag alleen met een autorisatiebesluit.
 2. Start de [onboarding](how-tos/onboarden)
-3. Bedenk welke functie(s) en welke informatieproducten van de BRP API je wilt gebruiken. Wij zorgen samen met jou en jouw collega's voor een aanvullend autorisatiebesluit. Voor gemeenten is dit niet nodig.
+3. Bespreek en onderteken het aanvullende autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
 4. Onderteken het convenant
-5. Vraag credentials voor de proefomgeving en sluit aan
-6. Vraag credentials aan voor de productieomgeving en sluit aan.
-  
-Eerst de BRP API uitproberen? Gebruik [de API uitproberen](/how-tos/uitproberen) gids om je eerste API call te doen!
 
 ## Documentation
 De documentatie is als volgt opgebouwd:
 
-- Concepten, die opheldering geven over alles wat belangrijk is om aan te kunnen sluiten
-- Tutorials, ter introductie en verduidelijking hoe je de API kunt gebruiken
-- Tooling, die je sneller op weg kan helpen met het aansluiten op de Personen API met de fields parameter
-- API specificatie
+- Concepten: lees de uitleg van belangrijke onderwerpen die een rol spelen bij het gebruik van de BRP API
+- Tutorials: leer hoe je zaken kunt regelen die nodig zijn bij het gebruik van de API 
+- Tooling: gebruik de tool die je sneller op weg helpt de fields parameter correct te implementeren
+- Referenties: de specificaties van de BRP API functies Personen, Verblijplaatshistorie en Bewoning
 
 ## Planning en Roadmap
 De BRP API is live sinds mei 2023 en bestaat uit de onderdelen Personen, [Bewoning]({{pagesBaseUrl}}/Haal-Centraal-BRP-bewoning) en [Reisdocumenten]({{pagesBaseUrl}}/Haal-Centraal-Reisdocumenten-bevragen). Rond 1 juli 2024 wordt [Verblijfplaatshistorie]({{pagesBaseUrl}}/Haal-Centraal-BRP-historie-bevragen) verwacht, waarmee je verblijfplaatsen van een persoon kunt opvragen op een peildatum of in een bepaalde periode. 
