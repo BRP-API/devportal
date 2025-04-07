@@ -1,4 +1,4 @@
-## Zoek en Raadpleeg personen
+# Personen zoek en Raadplegen
 
 Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en raadplegen met hun identificerende gegevens. In de BRP worden personen uniek geïdentificeerd met behulp van hun burgerservicenummer: 
 
@@ -7,7 +7,7 @@ Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en
 
 ## Zoek personen
 
-Je kunt de volgende zoekoperaties gebruiken om een persoon met niet-uniek identificerende persoonsgegevens te vinden:
+Gebruik de volgende zoekoperaties om een persoon met niet-uniek identificerende persoonsgegevens te vinden:
 
 - zoek met geslachtsnaam en geboortedatum
   - [overzicht](./features/zoek-met-geslachtsnaam-en-geboortedatum/overzicht.feature)
@@ -26,21 +26,21 @@ Je kunt de volgende zoekoperaties gebruiken om een persoon met niet-uniek identi
   - [fout cases](./features/zoek-met-nummeraanduiding-identificatie/fout-cases.feature)
 - zoek met adresseerbaar object identificatie
 
-Het resultaat van de zoek operaties is een lijst van personen die voldoen aan de opgegeven parameters. Bij de "zoek met adresseerbaar object identificatie" operatie kunnen van de gevonden personen ook de gezagsrelaties worden gevraagd.
+Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](/how-tos/personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. 
 
-### Vinden van overleden personen
-Standaard worden alleen personen gevonden die in leven zijn. Om ook overleden personen te kunnen vinden, moet de inclusiefOverleden parameter met waarde true worden opgegeven.
-Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Zie de [overlijden overzicht](./features/persoon-beperkt/overlijden/overzicht.feature) feature voor meer informatie over dit veld.
+### Zoek overleden personen
+Standaard worden alleen personen gevonden die in leven zijn. Om overleden personen te vinden, moet je de inclusiefOverleden parameter met waarde "true" opgeven.
+Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Lees voor meer informatie het [overlijden overzicht](./features/persoon-beperkt/overlijden/overzicht.feature).
 
 ## Raadplegen van personen
 
-Als het burgerservicenummer van de te bevragen personen bekend is, kan de volgende operatie worden gebruikt om gegevens van de persoon te raadplegen:
+Als het burgerservicenummer bekend is, moet je deze operatie gebruiken om gegevens van de persoon of personen te raadplegen:
 
 - raadpleeg met burgerservicenummer
   - [overzicht](./features/raadpleeg-met-burgerservicenummer/overzicht.feature)
   - [fout cases](./features/raadpleeg-met-burgerservicenummer/fout-cases.feature)
 
-Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomen met de opgegeven burgerservicenummers.
+Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./how-tos/personen-response-filteren) en waar je recht op hebt.
 
 ### Raadplegen van overleden personen
 De "raadpleeg met burgerservicenummer" operatie levert de personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Dit kunnen ook personen zijn die zijn overleden.
