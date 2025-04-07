@@ -5,19 +5,7 @@ Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en
 * Is het burgerservicenummer van de persoon/personen bekend? Dan moet jouw applicatie de [Raadpleeg persoon met burgerservicenummer](#raadplegen-van-personen) operatie gebruiken om één of meer personen te raadplegen.
 * Is het burgerservicenummer van de persoon/personen niet bekend? Laat deze dan opzoeken met de [Zoek persoon](#zoeken-van-personen) operaties.
 
-# {{ site.apiname }} Web API Features
-
-Met de {{ site.apiname }} Web API kun je  gegevens van actuele personen in de basisregistratie personen (BRP) voor jouw applicatie zoeken en raadplegen met hun identificerende gegevens.
-
-In de BRP worden personen uniek geïdentificeerd met behulp van hun burgerservicenummer. Is het burgerservicenummer van de te raadplegen persoon/personen bekend, dan moet jouw applicatie de [Raadpleeg persoon met burgerservicenummer](#raadplegen-van-personen) operatie gebruiken om de betreffende persoon/personen te raadplegen.
-
-Is het burgerservicenummer van de te raadplegen persoon/personen niet bekend, dan kun je deze laten opzoeken met de [Zoek persoon] operaties.
-
-## Algemene Verordening Gegevensbescherming (AVG)
-
-De BRP bevragen API is ontworpen conform de REST principes. Om ook aan de AVG te conformeren zijn er concessies gedaan aan het toepassen van de REST principes. De belangrijkste concessie is dat de POST methode en niet de GET methode wordt gebruikt om personen te bevragen. Dit zorgt er voor dat er geen [persoonlijk identificeerbare informatie (PII)](https://piwikpro.nl/blog/pii-niet-pii-en-persoonsgegevens/) terecht komen in de url van een request en daardoor ook niet in server logs.
-
-## Zoeken van personen
+## Zoek personen
 
 Je kunt de volgende zoekoperaties gebruiken om een persoon met niet-uniek identificerende persoonsgegevens te vinden:
 
