@@ -23,6 +23,7 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "How-tos",
             subnav: [
+              { label: "zoeken en raadplegen", href: "/how-tos/zoeken-enraadplegen" },
               { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
               { label: "lokaal testen", href: "/how-tos/lokaal testen" },
               { label: "Onboarden", href: "/how-tos/onboarden" },
