@@ -1,4 +1,4 @@
-import React from 'react';
+nen import React from 'react';
 import Link from 'next/link';
 
 const Sidebar = ({ sidebar }) => {
@@ -23,7 +23,8 @@ const Sidebar = ({ sidebar }) => {
           {
             title: "How-tos",
             subnav: [
-              { label: "zoeken en raadplegen", href: "/how-tos/zoeken-en-raadplegen" },
+              { label: "Personen zoeken en raadplegen", href: "/how-tos/personen-zoeken-en-raadplegen" },
+              { label: "Personen response filteren", href: "/how-tos/personen-response-filteren" },
               { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
               { label: "lokaal testen", href: "/how-tos/lokaal testen" },
               { label: "Onboarden", href: "/how-tos/onboarden" },
