@@ -1,4 +1,4 @@
-**zoek en raadpleeg personen**
+## Zoek en Raadpleeg personen
 
 Zoek en raadpleeg gegevens van actuele personen uit de BRP voor jouw applicatie met hun identificerende gegevens. In de BRP worden personen uniek geïdentificeerd met behulp van hun burgerservicenummer. 
 
