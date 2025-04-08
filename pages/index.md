@@ -25,8 +25,9 @@ De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/loka
 ## Documentatie
 De documentatie is alsvolgt opgebouwd:
 
+- How-Tos: praktische gidsen die jou helpen bij het implementeren van de {{apiname}} in jouw applicatie.
 - Concepten: uitleg van belangrijke onderwerpen die een rol spelen bij het gebruik van de {{apiname}}.
-- Tutorials: leer hoe je zaken kunt regelen die nodig zijn bij het gebruik van de {{apiname}}.
+- Tutorials: vergroot jouw kennis over hoe je zaken kunt regelen die nodig zijn bij het gebruik van de {{apiname}}.
 - Tooling: tools die je kunt gebruiken om de {{apiname}} sneller en zonder fouten implementeren.
 - Referenties: de specificaties van de {{apiname}} functies Personen, Verblijfplaatshistorie en Bewoning.
 
