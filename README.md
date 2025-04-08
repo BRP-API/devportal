@@ -68,3 +68,7 @@ Dit project bevat de volgende onderdelen
 4. Hoe kan ik verwijzen naar Markdown-bestanden die een spatie in de bestandsnaam bevatten?
    - Dit kan door de spatie te vervangen door %20
    - `[Voorbeeld met spatie](./voorbeeld%20met%spatie)`
+  
+5. Gebruik bij voorkeur geen spaties, hoofdletters of leestekens in URLs en bestandsnamen. Vervang spaties door koppeltekens (-) om de leesbaarheid te verbeteren en problemen met browserverwijzingen te voorkomen.
+
+6. Gebruik korte, beschrijvende bestandsnamen — bij voorkeur zelfstandige naamwoorden, eventueel aangevuld met werkwoorden.
