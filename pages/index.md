@@ -11,11 +11,11 @@ Met de {{apiname}} kun je het zoeken en raadplegen van persoonsinformatie uit de
   
 ## Getting Started
 1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de {{apiname}} om consumer code te genereren.
-2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal%20testen). 
+2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
 3. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit.
 4. Vraag een access token aan voor de productieomgeving.
 
-De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/lokaal%20testen) om je eerste API call te doen!
+De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/lokaal-testen) om je eerste API call te doen!
 
 ## Voorwaarden
 1. Aansluiten mag alleen met een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. 
