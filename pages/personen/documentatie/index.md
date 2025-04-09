@@ -1,6 +1,6 @@
 # API Documentatie (Gherkin)
 
 **Features overzicht**
-- [Adellijke titel of predicaat](../../features/adellijke_titel_predicaat.feature)
-- [Geslachtsnaam](../../features/geslachtsnaam_leeg_onbekend.feature)
-- [Partners](../../features/meerdere-partners.feature)
+- [Adellijke titel of predicaat](../../features/demo/adellijke_titel_predicaat.feature)
+- [Geslachtsnaam](../../features/demo/geslachtsnaam_leeg_onbekend.feature)
+- [Partners](../../features/demo/meerdere-partners.feature)

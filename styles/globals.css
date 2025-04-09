@@ -194,6 +194,14 @@ i {
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+
+  code {
+    background-color: #f1f5f9;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: var(--primary-color);
+  }
 }
 
 .footer {
