@@ -1,4 +1,4 @@
-# language: nl  
+#language: nl  
 
 
 # Functionaliteit: Persoon beperkt: overlijden
