@@ -1,5 +1,9 @@
 :root {
   --primary-color: #154273;
+  --secondary-color: #01689b;
+  --header-height: 140px;
+  --navbar-height: 70px;
+  --footer-height: 70px;
 }
 
 @font-face {
@@ -54,13 +58,29 @@ i {
   position: relative;
   text-align: left;
   padding: 0 20px;
-  height: 100px;
-  border-bottom: var(--primary-color) 2px solid;
+  height: var(--header-height);
 }
 
-.header-navbar {
-  display: flex !important;
-  justify-content: center !important;
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  width: auto;
+  min-height: var(--navbar-height);
+  background-color: #01689b;
+}
+
+#navbar nav {
+  color: white;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    margin: 20px;
+  }
 }
 
 .header-top {
@@ -79,11 +99,22 @@ i {
   padding-left: 20px;
 }
 
-.central-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--primary-color);
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo .wrapper img {
+  margin-left: -50px;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.logo .wrapper img {
+  width: inherit;
+  max-width: 1168px;
 }
 
 .container {
@@ -157,19 +188,30 @@ i {
   }
 }
 
+.banner {
+  display: none;
+}
+
 .sidebar-mobile {
   display: none;
 }
 
-.redoc-container {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  background-color: #f1f5f9;
+.content:has(.redoc-container) {
+  max-width: none;
+  min-height: none;
 }
 
 .content {
   flex: 1;
   box-sizing: border-box;
   overflow-x: auto;
+  max-width: 1200px;
+  min-height: calc(100vh - var(--navbar-height) - var(--header-height) - var(--footer-height));
+  
+  .redoc-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #f1f5f9;
+  }
 
   table {
     border-collapse: collapse;
@@ -208,10 +250,10 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  border-top: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  color: white;
+  background-color: var(--secondary-color);
   font-size: 0.8rem;
+  height: var(--footer-height);
 }
 
 .menu-toggle {
@@ -345,6 +387,11 @@ i {
 
   .sidebar-mobile {
     display: block;
+  }
+
+  .banner {
+    display: block;
+    background-color: var(--primary-color);
   }
 
   .container {
