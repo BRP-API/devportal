@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <header className='header'>
-        <a href="/" title="Naar de homepage van BRP API devportal">
+        <a href={`${basePath}/`} title="Naar de homepage van BRP API devportal">
           <div className="logo">
             <div className="wrapper">
               <img src={`${basePath}/logo-ri.svg`} alt="central-logo-desktop" className="desktop" />
