@@ -23,7 +23,7 @@ Belangrijke informatie voor de configuratie van jouw Gateway:
 ## Stap 3: Test jouw client applicatie
 Samen beoordelen we de aansluiting. Geslaagd? Dan kun je een aansluiting op de productieomgeving aanvragen.
 
-# Aansluiten op de productie-omgeving
+# Aansluiten productie-omgeving
 
 ## Voorwaarden
 - een door jouw gemandateerde ondertekend [convenant](xxxx)
