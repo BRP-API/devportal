@@ -19,8 +19,8 @@ De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/loka
 
 ## Voorwaarden
 Aansluiten mag alleen met:
-1. een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft 
-2. een aanvullend autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig
+1. een [BRP autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten). Controleer of jouw organisatie of klant (als je een leverancier bent) een autorisatiebesluit heeft. 
+2. een aanvullend autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
 3. een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](https://www.digitaleoverheid.nl/nieuws/doe-mee-met-het-experiment-informatieproducten-uit-de-brp/)
 4. een aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
 5. een API Gateway.
