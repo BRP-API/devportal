@@ -26,7 +26,7 @@ Samen beoordelen we de aansluiting. Geslaagd? Dan kun je een aansluiting op de p
 # Aansluiten op de productie-omgeving
 
 ## Voorwaarden
-- een door jouw gemandateerde ondertekend [Convenant](xxxx)
+- een door jouw gemandateerde ondertekend [convenant](xxxx)
 - een [BRP autorisatiebesluit](xxx) 
 - aansluiten uitsluitend met API Gateway 
 - aansluiting op DigiNetwerk
