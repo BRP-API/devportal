@@ -6,7 +6,7 @@ Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met d
 Belangrijke informatie voor de configuratie van jouw Gateway:
 - sluit aan via DigiNetwerk: 
 - TLS verbinding verplicht. Het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificatie vereist.
-- URL voor aanvraag van het token is: https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token
+- URL voor aanvraag van het token: https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token
 - URL BRP API Personen: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/personen
 - URL BRP API Bewoning: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/bewoningen
 - URL BRP API Verblijfplaatshistorie: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
