@@ -1,4 +1,4 @@
-## Dataminimalisatie
+## Personen Response filteren
 
 Ieder request aan de BRP API Personen bevat verplicht een fields parameter waarmee je aangeeft welke velden van de gevonden persoon of personen in de response geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend die gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
 
