@@ -5,7 +5,7 @@ Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met d
 
 ## Voorwaarden
 - aansluiten mag alleen met met een API Gateway
-- aansluiting op DigiNetwerk
+- aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
 - TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Gebruikt jouw API Gateway al een PKIO certificaat voor een ander product van RvIG, dan kun je dat certificaat gebruiken. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
   
 ## Stap 1: Stuur certificaat
@@ -29,7 +29,7 @@ Samen beoordelen we de aansluiting. Geslaagd? Dan kun je een aansluiting op de p
 - een door jouw gemandateerde ondertekend [convenant](xxxx)
 - een [BRP autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) en een aanvullend autorisatiebesluit voor informatieproducten (niet voor gemeenten) 
 - aansluiten uitsluitend met API Gateway 
-- aansluiting op DigiNetwerk
+- aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
 - TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
 
 ## Stap 1: Stuur certificaat
