@@ -18,9 +18,12 @@ API voor het zoeken en raadplegen van actuele personen, partners, ouders en kind
 De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/lokaal-testen) om je eerste API call te doen!
 
 ## Voorwaarden
-1. Aansluiten mag alleen met een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft. 
-2. Een aanvullend autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig.
-3. Een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](https://www.digitaleoverheid.nl/nieuws/doe-mee-met-het-experiment-informatieproducten-uit-de-brp/).
+Aansluiten mag alleen met:
+1. een autorisatiebesluit. Controleer of jouw organisatie of klant (als je een leverancier bent) een [autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) heeft 
+2. een aanvullend autorisatiebesluit voor informatieproducten. Voor gemeenten is dit niet nodig
+3. een ondertekend convenant voor deelname aan het [Experiment Dataminimalisatie](https://www.digitaleoverheid.nl/nieuws/doe-mee-met-het-experiment-informatieproducten-uit-de-brp/)
+4. een aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
+5. een API Gateway.
 
 ## Documentatie
 De documentatie is alsvolgt opgebouwd:
