@@ -10,7 +10,7 @@ API voor het zoeken en raadplegen van actuele personen, partners, ouders en kind
 - *Voorletters*.
   
 ## Getting Started
-1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de {{apiname}} om consumer code te genereren.
+1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/resolved/openapi.yaml) van de {{apiname}} om consumer code te genereren.
 2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
 3. Vraag een access token aan voor de [proefomgeving](xxxxx) en voer een acceptatietest uit.
 4. Vraag een access token aan voor de productieomgeving.
