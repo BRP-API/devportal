@@ -26,7 +26,7 @@ const Sidebar = ({ sidebar }) => {
               { label: "Personen response filteren", href: "/how-tos/Personen-response-filteren" },
               { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
               { label: "lokaal testen", href: "/how-tos/lokaal-testen" },
-              { label: "Aansluiten", href: "/how-tos/aansluiten" },
+              { label: "aansluiten", href: "/how-tos/aansluiten" },
             ],
           },
         ],
