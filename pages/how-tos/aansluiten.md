@@ -9,7 +9,7 @@ Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met d
 - TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Gebruikt jouw API Gateway al een PKIO certificaat voor een ander product van RvIG, dan kun je dat certificaat gebruiken. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
   
 ## Stap 1: Stuur certificaat
-- stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef een contactpersoon op.
+- stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef jouw contactpersoon op.
 - jouw contactpersoon ontvangt separaat een client ID en een client secret. Deze mogen alleen bekend zijn bij jouw API Gateway.
 
 ## Stap 2: Configureer jouw Gateway
@@ -33,7 +33,7 @@ Samen beoordelen we de aansluiting. Geslaagd? Dan kun je een aansluiting op de p
 - TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
 
 ## Stap 1: Stuur certificaat
-- stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef een contactpersoon op.
+- stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef jouw contactpersoon op.
 - jouw contactpersoon ontvangt separaat een client ID en een client secret. Deze mogen alleen bekend zijn bij jouw API Gateway.
 
 ## Stap 2: Configureer jouw Gateway
