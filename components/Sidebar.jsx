@@ -17,7 +17,6 @@ const Sidebar = ({ sidebar }) => {
               { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
               { label: "Informatieproducten", href: "/concepten/informatieproducten" },
               { label: "REST-principes", href: "/concepten/rest-principes" },
-              { label: "Autorisatie & filteren", href: "/concepten/autorisatie-en-filteren" },
             ],
           },
           {
