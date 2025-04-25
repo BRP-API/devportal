@@ -5,54 +5,54 @@ wil ik personen vinden door het opgeven van de postcode en huisnummer van het ad
 
 ## Achtergrond
 
-- Gegeven adres 'A1'
+- **Gegeven** adres 'A1'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) |
 | --- | --- | --- |
 | 0599 | 2628HJ | 2 |
 
-- En adres 'A2'
+- **En** adres 'A2'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) | huisletter (11.30) |
 | --- | --- | --- | --- |
 | 0599 | 2628HJ | 2 | A |
 
-- En adres 'A3'
+- **En** adres 'A3'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) | huisnummertoevoeging (11.40) |
 | --- | --- | --- | --- |
 | 0599 | 2628HJ | 2 | III |
 
-- En adres 'A4'
+- **En** adres 'A4'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) | aanduiding bij huisnummer (11.50) |
 | --- | --- | --- | --- |
 | 0599 | 2628HJ | 2 | to |
 
-- En adres 'A5'
+- **En** adres 'A5'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) |
 | --- | --- | --- |
 | 0599 | 2629HJ | 2 |
 
-- En adres 'A6'
+- **En** adres 'A6'
 
 | gemeentecode (92.10) | postcode (11.60) | huisnummer (11.20) |
 | --- | --- | --- |
 | 0600 | 2630HJ | 2 |
 
-- En de persoon 'Jan' met burgerservicenummer '000000024'
+- **En** de persoon 'Jan' met burgerservicenummer '000000024'
   - 'Jan' is 5 jaar geleden ingeschreven op adres 'A1'
-- En de persoon 'Piet' met burgerservicenummer '000000025'
+- **En** de persoon 'Piet' met burgerservicenummer '000000025'
   - 'Piet' is 4 jaar geleden ingeschreven op adres 'A2'
-- En de persoon 'Kees' met burgerservicenummer '000000026'
+- **En** de persoon 'Kees' met burgerservicenummer '000000026'
   - 'Kees' is 3 jaar geleden ingeschreven op adres 'A3'
-- En de persoon 'Gerda' met burgerservicenummer '000000027'
+- **En** de persoon 'Gerda' met burgerservicenummer '000000027'
   - 'Gerda' is 2 jaar geleden ingeschreven op adres 'A4'
-- En de persoon 'Saskia' met burgerservicenummer '000000028'
+- **En** de persoon 'Saskia' met burgerservicenummer '000000028'
   - 'Saskia' is op 17-10-2020 ingeschreven op adres 'A5'
   - 'Saskia' is op 05-04-2023 overleden
-- En de persoon 'Henk' met burgerservicenummer '000000029'
+- **En** de persoon 'Henk' met burgerservicenummer '000000029'
   - 'Henk' is 1 jaar geleden ingeschreven op adres 'A6'
 
 ## Regel: personen worden gevonden als de postcode en huisnummer van het adres waar zij staan ingeschreven overeenkomen met de opgegeven postcode (niet hoofdlettergevoelig) en huisnummer

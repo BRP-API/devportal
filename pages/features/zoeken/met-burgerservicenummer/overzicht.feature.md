@@ -5,9 +5,9 @@ wil ik de actuele gegevens van één of meer personen kunnen raadplegen door het
 
 ## Achtergrond
 
-- Gegeven de persoon 'Robin' met burgerservicenummer '000000024'
-- En de persoon 'Saskia' met burgerservicenummer '000000025'
-- En de persoon 'Gerda' met burgerservicenummer '000000026'
+- **Gegeven** de persoon 'Robin' met burgerservicenummer '000000024'
+- **En** de persoon 'Saskia' met burgerservicenummer '000000025'
+- **En** de persoon 'Gerda' met burgerservicenummer '000000026'
 
 ## Regel: een persoon moet worden gezocht met zijn burgerservicenummer om zijn actuele gegevens te kunnen raadplegen
 

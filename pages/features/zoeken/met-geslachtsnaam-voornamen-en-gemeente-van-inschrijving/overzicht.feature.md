@@ -5,7 +5,7 @@ wil ik personen kunnen vinden door het opgeven van de gemeente waar ze zijn inge
 
 ## Achtergrond
 
-- Gegeven adres 'A1'
+- **Gegeven** adres 'A1'
 
 | gemeentecode (92.10) | identificatiecode verblijfplaats (11.80) |
 | --- | --- |
