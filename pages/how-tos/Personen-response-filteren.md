@@ -17,7 +17,7 @@ Wil meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](
 
 ### Filteren van datum en waardetabel velden
 
-De {{ site.apiname }} API kent de volgende datum types:
+De {{apiname}} Personen kent de volgende datum types:
 
 - VolledigeDatum
 - DatumOnbekend
@@ -77,7 +77,7 @@ Meer informatie over het gebruik van de __adresseringBinnenland__ fields alias v
 
 ### Filteren van partner velden
 
-Als je partners van een persoon vraagt worden alleen de gevraagde gegevens van de actuele partner(s) geleverd. Dat zijn partner(s)met een niet ontbonden huwelijk of geregistreerd partnerschap met de persoon. Heeft de persoon alleen ontbonden huwelijk/geregistreerd partnerschappen, dan worden de gevraagde gegevens van de partner geleverd met het meest recent ontbonden huwelijk of partnerschap. Lees meer over het vragen van partnergegevens in [partnervelden vragen met fields](./features/persoon/partner/overzicht.feature) 
+Als je partners van een persoon vraagt, worden alleen de gevraagde gegevens van de actuele partner(s) geleverd. Dat zijn partner(s)met een niet ontbonden huwelijk of geregistreerd partnerschap met de persoon. Heeft de persoon alleen ontbonden huwelijk/geregistreerd partnerschappen, dan worden de gevraagde gegevens geleverd van de partner met het meest recent ontbonden huwelijk of partnerschap. Lees meer over het vragen van partnergegevens in [partnervelden vragen met fields](./features/persoon/partner/overzicht.feature) 
 
 ### Filteren van nationaliteitvelden
 
@@ -99,7 +99,7 @@ Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een 
 ## Eén of meer gevraagde velden zijn in onderzoek
 
 Om een afnemer te informeren dat één of meer gevraagde velden in onderzoek zijn, worden de bijbehorende velden inOnderzoek en datumIngangOnderzoek geleverd.
-Wanneer één of meer velden waaruit een informatieproduct wordt afgeleid in onderzoek zijn, dan is het informatieproduct ook in onderzoek en wordt het inOnderzoekveld van het informatieproduct geleverd. Lees meer over onderzoeksgegevens in [in onderzoek](./features/in-onderzoek.feature) 
+Wanneer een gegeven in onderzoek is dat belangrijk is bij de afleiding van informatieproduct, dan is het informatieproduct ook in onderzoek. In dat geval wordt het inOnderzoekveld van het informatieproduct geleverd. Lees meer over onderzoeksgegevens in [in onderzoek](./features/in-onderzoek.feature) 
 
 ### Vastgesteld verblijft niet op adres
 
