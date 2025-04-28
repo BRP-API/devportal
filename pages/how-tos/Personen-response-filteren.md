@@ -99,7 +99,7 @@ Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een 
 ## Eén of meer gevraagde velden zijn in onderzoek
 
 Om een afnemer te informeren dat één of meer gevraagde velden in onderzoek zijn, worden de bijbehorende velden inOnderzoek en datumIngangOnderzoek geleverd.
-Wanneer een gegeven in onderzoek is dat belangrijk is bij de afleiding van informatieproduct, dan is het informatieproduct ook in onderzoek. In dat geval wordt het inOnderzoekveld van het informatieproduct geleverd. Lees meer over onderzoeksgegevens in [in onderzoek](./features/in-onderzoek.feature) 
+Wanneer een gegeven in onderzoek is dat belangrijk is bij de afleiding van informatieproduct, dan is het informatieproduct ook in onderzoek. In dat geval wordt het inOnderzoekveld van het informatieproduct geleverd. Lees meer over onderzoeksgegevens in [in onderzoek](./features/in-onderzoek.feature). 
 
 ### Vastgesteld verblijft niet op adres
 
@@ -116,7 +116,7 @@ Lees meer over **indicatieVastgesteldVerblijftNietOpAdres** in:
 Om de payload van een response klein te houden, bevat de response van de BRP API de volgende waarden NIET:
 
 - niet gevraagde velden. Deze velden hebben _null_ als waarde.
-- gevraagde velden die de gevraagde persoon niet heeft. Deze velden hebben _null_ als waarde. Voorbeeld: je vraagt het naam.voorvoegsel veld van een persoon die geen voorvoegsel in zijn naam heeft.
+- gevraagde velden die de gevraagde persoon niet heeft. Deze velden hebben _null_ als waarde. Voorbeeld: je vraagt het naam.voorvoegsel veld van een persoon die geen voorvoegsel in de naam heeft.
 - gevraagde velden hebben de _false_ waarde. Voorbeeld: je vraagt het indicatieCurateleRegister veld van een persoon die niet onder curatele is gesteld.
 - gevraagde velden is een groep velden die de persoon niet heeft. Voorbeeld: je vraagt de verblijfstitel velden van een persoon die geen verblijfstitel heeft.
 - gevraagde velden hebben de __standaard__ waarde. In de BRP wordt de standaard waarde gebruikt om aan te geven dat een gegeven onbekend is. Voorbeeld: je vraagt het geboorte.plaats veld van een persoon van wie de geboorteplaats onbekend is.
