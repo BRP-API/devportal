@@ -6,7 +6,7 @@ Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met d
 ## Voorwaarden
 - aansluiten mag alleen met met een API Gateway
 - aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
-- TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Gebruikt jouw API Gateway al een PKIO certificaat voor een ander product van RvIG, dan kun je dat certificaat gebruiken. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
+- TLS met PKIO certificaat met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Gebruikt jouw API Gateway al een PKIO certificaat voor een ander product van RvIG? Dan kun je dat certificaat opnieuw gebruiken. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
   
 ## Stap 1: Stuur certificaat
 - stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef jouw contactpersoon op.
