@@ -28,7 +28,7 @@ Test jouw applicatie met [deze testset](https://www.rvig.nl/testsetpersoonslijst
 ## Voorwaarden
 - een door jouw gemandateerde ondertekend [convenant](xxxx)
 - een [BRP autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) en een aanvullend autorisatiebesluit voor informatieproducten (niet voor gemeenten) 
-- aansluiten uitsluitend met API Gateway 
+- aansluiten mag uitsluitend met een API Gateway 
 - aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
 - TLS met PKIO certificaat/certificaten met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
 
