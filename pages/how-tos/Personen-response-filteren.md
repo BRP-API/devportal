@@ -1,15 +1,15 @@
 # Personen response filteren
 
-Ieder request aan de BRP API Personen bevat verplicht een fields parameter waarmee je aangeeft welke velden van de gevonden persoon of personen in de response geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend die gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
+Geef met de verplichte fields parameter in ieder request aan welke velden van de gevonden persoon of personen in het antwoord geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
 
 ## Filteren van de velden van de gevonden personen
 
-Je vraagt een veld door het volledige pad van het veld op te geven in de fields parameter. Het volledige pad van een veld is de samenvoeging van de naam van het veld en de namen van zijn 'ouder' velden met een '.' karakter tussen de veld namen. Voorbeelden van volledige paden zijn:
+Je vraagt een veld door het volledige pad van het veld op te geven in de fields parameter. Het volledige pad van een veld is de samenvoeging van de naam van het veld en de namen van zijn 'ouder' velden met een punt tussen de veld namen. Voorbeelden van volledige paden zijn:
 
-- geboorte.datum (volledig pad van het geboortedatum veld van een persoon)
-- kinderen.naam.voornamen (volledig pad van het voornamen veld van de kinderen van een persoon)
+- geboorte.datum (volledig pad van het geboortedatumveld van een persoon)
+- kinderen.naam.voornamen (volledig pad van het voornamenveld van de kinderen van een persoon)
 
-Zie de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden voor meer informatie en voorbeelden van het gebruik van veldpaden en de fields parameter. 
+Bekijk de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden voor meer informatie en voorbeelden van het gebruik van veldpaden en de fields parameter. 
 
 Het [fields-filtered-PersoonBeperkt.csv]({{ site.persoonBeperktFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand bevat een overzicht van de toegestane fields waarden voor de Zoek personen operaties. Voor de Raadpleeg persoon operatie kun je dit overzicht vinden in het [fields-filtered-Persoon.csv]({{ site.persoonFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand.
 
@@ -29,7 +29,7 @@ en de volgende waardetabel types:
 - Waardetabel
 - AdellijkeTitelPredicaatType
 
-Bij het vragen van één of meerdere velden van deze types worden altijd alle velden van het gevraagde type geleverd. In het [fields](./features/fields.feature) feature bestand vind je voorbeelden hiervan onder de volgende rules:
+Bij het vragen van één of meerdere velden van deze types worden altijd alle velden van het gevraagde type geleverd. In het [fields](./features/fields.feature) feature bestand lees je hoe de volgende regels worden toegepast:
 
 - [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van de 'waardetabel' veld](./features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-waardetabel-veld-levert-alle-velden-van-de-waardetabel-veld)
 - [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van de 'datum' veld](./features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-datum-veld-levert-alle-velden-van-de-datum-veld)
