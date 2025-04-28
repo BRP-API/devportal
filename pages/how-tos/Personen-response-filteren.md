@@ -11,7 +11,7 @@ Je vraagt een veld door het volledige pad van het veld op te geven in de fields 
 
 Bekijk de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden voor meer informatie en voorbeelden. 
 
-Snel en foutloos fields samenstellen voor de BRP API Personen? Gebruik de [fields tool](./fields){:target="_blank" rel="noopener"}.
+Snel en foutloos fields samenstellen voor de BRP API Personen? Gebruik de [fields tool](./fields-samenstellen).
 Alleen een overzicht van alle toegestane fields waarden nodig? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{ site.persoonBeperktFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand voor een overzicht van de toegestane fields waarden voor de Zoek personen operaties en het [fields-filtered-Persoon.csv]({{ site.persoonFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand voor de fields waarden van de Raadpleeg persoon operatie.
 
 ### Filteren van datum en waardetabel velden
