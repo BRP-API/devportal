@@ -4,7 +4,7 @@ Geef met de verplichte fields parameter in ieder request aan welke velden van de
 
 ## Filteren van de velden van de gevonden personen
 
-Je vraagt een veld door het volledige pad van het veld op te geven in de fields parameter. Het volledige pad van een veld is de samenvoeging van de naam van het veld en de namen van zijn 'ouder' velden met een punt tussen de veld namen. Voorbeelden van volledige paden zijn:
+Je vraagt een veld door het volledige pad van het veld op te geven in de fields parameter. Het volledige pad van een veld is de samenvoeging van de naam van het veld en de namen van zijn 'ouder' velden met een punt tussen de veldnamen. Voorbeelden van volledige paden zijn:
 
 - geboorte.datum (volledig pad van het geboortedatumveld van een persoon)
 - kinderen.naam.voornamen (volledig pad van het voornamenveld van de kinderen van een persoon)
