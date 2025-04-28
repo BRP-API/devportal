@@ -13,7 +13,7 @@ Snel en foutloos fields samenstellen voor de requests van jouw applicatie? Gebru
 
 Heb je een overzicht nodig van alle toegestane fields waarden? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{persoonBeperktFieldsCsvUrl}}) bestand voor een overzicht van de toegestane fields waarden voor de Zoek personen operaties en het [fields-filtered-Persoon.csv]({{site.persoonFieldsCsvUrl}}) bestand voor de fields waarden van de Raadpleeg persoon operatie.
 
-Wil meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden over regels en voorbeelden. 
+Wil meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) voor uitleg van de werking van de fields parameter met regels en voorbeelden. 
 
 ### Filteren van datum en waardetabel velden
 
