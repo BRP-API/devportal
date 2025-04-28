@@ -1,7 +1,7 @@
 # Testen op de Proefomgeving
 
-Is jouw API clientapplicatie klaar? 
-Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met de API testen in de Proefomgeving met [deze testset](https://www.rvig.nl/testsetpersoonslijstenproefomgevingBRPV). Iedere afnemer mag maximaal één aansluiting op BRP API proefomgeving realiseren.
+Heb je jouw client applicatie gerealiseerd met behulp van de [BRP API mock](./how-tos/lokaal-testen), en ben je toe aan de acceptatietest op de omgeving van RvIG?  
+Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met de API testen in de Proefomgeving met [deze testset](https://www.rvig.nl/testsetpersoonslijstenproefomgevingBRPV). Iedere afnemer van RvIG/ gemeente mag maximaal één aansluiting op BRP API proefomgeving realiseren.
 
 ## Voorwaarden
 - aansluiten mag alleen met met een API Gateway
