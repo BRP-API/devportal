@@ -81,7 +81,7 @@ Als je partners van een persoon vraagt, worden alleen de gevraagde gegevens van 
 
 ### Filteren van nationaliteitvelden
 
-De {{ site.apiname }} API Personen kent de volgende nationaliteit types:
+De {{apiname}} Personen kent de volgende nationaliteit types:
 
 - Nationaliteit
 - Staatloos
@@ -89,7 +89,7 @@ De {{ site.apiname }} API Personen kent de volgende nationaliteit types:
 - VastgesteldNietNederlander
 - Onbekend
 
-en levert uitsluitend gegevens van actuele nationaliteiten. Dat zijn nationaliteiten die niet beeindigd zijn. Lees meer in [nationaliteitvelden vragen met fields](./features/persoon/nationaliteit/overzicht.feature) 
+DE {{apiname}} Personen levert uitsluitend gegevens van actuele nationaliteiten. Dat zijn nationaliteiten die niet beëindigd zijn. Lees meer in [nationaliteitvelden vragen met fields](./features/persoon/nationaliteit/overzicht.feature). 
 
 
 ### Filteren van verblijfstitelvelden
