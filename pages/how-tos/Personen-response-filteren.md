@@ -28,7 +28,7 @@ en de volgende waardetabel types:
 - Waardetabel
 - AdellijkeTitelPredicaatType
 
-Bij het vragen van één of meerdere velden van deze types worden altijd alle velden van het gevraagde type geleverd. In het [fields](./features/fields.feature) feature bestand lees je hoe de volgende regels worden toegepast:
+Als je één of meer velden van deze types vraagt, dan worden altijd alle velden geleverd. Lees [hier](./features/fields.feature) hoe de volgende regels precies worden toegepast:
 
 - [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van de 'waardetabel' veld](./features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-waardetabel-veld-levert-alle-velden-van-de-waardetabel-veld)
 - [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van de 'datum' veld](./features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-datum-veld-levert-alle-velden-van-de-datum-veld)
