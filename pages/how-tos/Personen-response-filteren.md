@@ -9,7 +9,7 @@ Je vraagt een veld door het volledige pad van het veld op te geven in de fields 
 - geboorte.datum (volledig pad van het geboortedatumveld van een persoon)
 - kinderen.naam.voornamen (volledig pad van het voornamenveld van de kinderen van een persoon)
 
-Snel en foutloos fields samenstellen voor de requests van jouw applicatie? Gebruik de [fields tool](./fields-samenstellen).
+Wil je snel en foutloos fields samenstellen voor de requests van jouw applicatie? Gebruik dan de [fields tool](./fields-samenstellen). Succes gegarandeerd!
 
 Heb je een overzicht nodig van alle toegestane fieldswaarden? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{persoonBeperktFieldsCsvUrl}}) overzicht van de toegestane fieldswaarden voor de Zoek personen operaties en het [fields-filtered-Persoon.csv]({{persoonFieldsCsvUrl}}) overzicht voor de fieldswaarden van de Raadpleeg persoon operatie.
 
