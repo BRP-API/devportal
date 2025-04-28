@@ -9,7 +9,7 @@ Je vraagt een veld door het volledige pad van het veld op te geven in de fields 
 - geboorte.datum (volledig pad van het geboortedatumveld van een persoon)
 - kinderen.naam.voornamen (volledig pad van het voornamenveld van de kinderen van een persoon)
 
-Bekijk de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden voor meer informatie en voorbeelden van het gebruik van veldpaden en de fields parameter. 
+Bekijk de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) feature bestanden voor meer informatie en voorbeelden. 
 
 Het [fields-filtered-PersoonBeperkt.csv]({{ site.persoonBeperktFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand bevat een overzicht van de toegestane fields waarden voor de Zoek personen operaties. Voor de Raadpleeg persoon operatie kun je dit overzicht vinden in het [fields-filtered-Persoon.csv]({{ site.persoonFieldsCsvUrl }}){:target="_blank" rel="noopener"} bestand.
 
