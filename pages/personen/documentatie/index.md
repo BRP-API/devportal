@@ -1,4 +1,4 @@
-# Beschrijving gedrag BRP API Personen ((Gherkin)
+# Beschrijving gedrag BRP API Personen (Gherkin)
 
 - zoek met burgerservicenummer
     - [features overzicht](../../features/zoeken/met-burgerservicenummer/overzicht.feature)
