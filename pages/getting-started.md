@@ -5,7 +5,7 @@ Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelde
 Als developer kun je direct aan de slag:
 1. Download de OAS3 specificatie van de {{apiname}} om consumer code te genereren.
 2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
-3. Vraag een access token aan voor de [proefomgeving](./how-tos/testen-op-de-proefomgeving) en voer een acceptatietest uit.
+3. Vraag een access token aan voor de [proefomgeving](./how-tos/aansluiten) en voer een acceptatietest uit.
 4. Vraag een access token aan voor de productieomgeving.
 
 ## Functionaliteit en specificaties
