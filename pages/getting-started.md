@@ -11,7 +11,7 @@ Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelde
 
 De interface van de {{apiname}} is beschreven met [OpenAPI Specification v3.0.3](https://spec.openapis.org/oas/v3.0.3).
 
-De OAS3 specificatie van de {{apiname}} kan worden bekeken met behulp van Redoc. Bekijk de specificaties van [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./verblijfplaatshistorie/specificatie).
+De OAS3 specificatie van de {{apiname}} kan worden bekeken met behulp van Redoc. Bekijk de specificaties van [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./historie/specificatie).
 
 Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/genereervariant/openapi.yaml) van de '{{apiname}}' om hiermee consumer code te genereren.
 
