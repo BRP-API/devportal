@@ -4,7 +4,7 @@ Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelde
 
 1. Bekijk de [functionaliteit en specificaties](#functionaliteit-en-specificaties)
 2. Probeer en test de {{apiname}} [lokaal](./how-tos/lokaal-testen)
-3. Sluit aan op de [RvIG {{apiname}} omgeving](./howtos/aansluiten) 
+3. Sluit aan op de [{{apiname}} omgeving](./how-tos/aansluiten) bij RvIG
 
 ## Functionaliteit en specificaties
 
