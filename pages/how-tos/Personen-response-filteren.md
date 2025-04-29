@@ -1,6 +1,6 @@
 # Personen response filteren
 
-Geef met de verplichte fields parameter in ieder request aan welke velden van de gevonden persoon of personen in het antwoord geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
+Geef in ieder request met de verplichte fields parameter aan welke velden van de gevonden persoon of personen in het antwoord geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
 
 ## Filteren van de velden van de gevonden personen
 
@@ -9,9 +9,9 @@ Je vraagt een veld door het volledige pad van het veld op te geven in de fields 
 - geboorte.datum (volledig pad van het geboortedatumveld van een persoon)
 - kinderen.naam.voornamen (volledig pad van het voornamenveld van de kinderen van een persoon)
 
-Wil je snel en foutloos fields samenstellen voor de requests van jouw applicatie? Gebruik dan de [fields tool](./fields-samenstellen). Succes gegarandeerd, zonder dat je (na het lezen van deze pagina) dieper in de details van de werking van de fieldsparameter hoeft te duiken. 
+Wil je snel en foutloos fields samenstellen voor de requests van jouw applicatie? Gebruik dan de [fields tool](./fields-samenstellen). Succes is gegarandeerd, zonder dat je diep in de details van de werking van de fieldsparameter hoeft te duiken. 
 
-Heb je een overzicht nodig van alle toegestane fieldswaarden? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{persoonBeperktFieldsCsvUrl}}) overzicht van de toegestane fieldswaarden voor de Zoek personen operaties en het [fields-filtered-Persoon.csv]({{persoonFieldsCsvUrl}}) overzicht voor de fieldswaarden van de Raadpleeg persoon operatie.
+Heb je een overzicht nodig van alle toegestane fieldswaarden? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{persoonBeperktFieldsCsvUrl}}) overzicht van de toegestane fieldswaarden voor de Zoek Personen operaties en het [fields-filtered-Persoon.csv]({{persoonFieldsCsvUrl}}) overzicht voor de fieldswaarden van de Raadpleeg Persoon operatie.
 
 Wil je meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](./features/fields.feature) en de [fields fout cases](./features/fields-fout-cases.feature) voor uitleg over de werking van de fields parameter met regels en voorbeelden. 
 
