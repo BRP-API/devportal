@@ -10,8 +10,6 @@ Als developer kun je direct aan de slag:
 
 ## Functionaliteit en specificaties
 
-De interface van de {{apiname}} is beschreven met [OpenAPI Specification v3.0.3](https://spec.openapis.org/oas/v3.0.3).
-
 Bekijk de OAS3 specificatie in Redoc van van de {{apiname}} [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./historie/specificatie).
 
 Download de [OAS3 {{apiname}} Personen]({{PersonenSpecUrl}}), [OAS3 {{apiname}} Bewoning]({{BewoningSpecUrl}}) en [OAS3 {{apiname}} Verblijfplaatshistorie]({{VerblijfplaatshistorieSpecUrl}}) en genereer hiermee consumercode.
