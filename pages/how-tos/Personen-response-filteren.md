@@ -1,6 +1,7 @@
 # Personen response filteren
 
 Geef in ieder request met de verplichte fields parameter aan welke velden van de gevonden persoon of personen in het antwoord geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
+Een autorisatie die is beperkt tot het zoeken binnen inwoners van de eigen gemeente kan niet worden afgedwongen met de fields parameter. Hiervoor kun je de [queryparameter "gemeente van inschrijving"](./how-tos/personen-zoeken-en-raadplegen) gebruiken. 
 
 ## Filteren van de velden van de gevonden personen
 
