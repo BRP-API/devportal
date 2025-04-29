@@ -2,9 +2,10 @@
 
 Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelden voor deelname aan het Experiment dataminimalisatie. Stuur een mail naar info@RvIG voor een kennismakingmakingsgesprek en onboarding.
 
-1. Bekijk de [functionaliteit en specificaties](#functionaliteit-en-specificaties)
-2. Probeer en test de {{apiname}} [lokaal](./how-tos/lokaal-testen)
-3. Sluit aan op de [{{apiname}} omgeving](./how-tos/aansluiten) bij RvIG
+1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/resolved/openapi.yaml) van de {{apiname}} om consumer code te genereren.
+2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
+3. Vraag een access token aan voor de [proefomgeving](./how-tos/testen-op-de-proefomgeving) en voer een acceptatietest uit.
+4. Vraag een access token aan voor de productieomgeving.
 
 ## Functionaliteit en specificaties
 
