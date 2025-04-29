@@ -17,7 +17,7 @@ Belangrijke informatie voor de configuratie van jouw Gateway:
 - sluit aan via DigiNetwerk 
 - URL voor aanvraag van het token: https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token
 - URL BRP API Personen: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/personen
-- URL BRP API Bewoning: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/bewoningen
+- URL BRP API Bewoning: https://apigw.npr.idm.diginetwerk.net/lap/api/bewoning/bewoningen
 - URL BRP API Verblijfplaatshistorie: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
 
 ## Stap 3: Test jouw client applicatie
@@ -40,6 +40,6 @@ Test jouw applicatie met [deze testset](https://www.rvig.nl/testsetpersoonslijst
 Belangrijke informatie voor de configuratie van jouw Gateway:
 - sluit aan via DigiNetwerk 
 - URL voor aanvraag van het token: https://auth.idm.diginetwerk.net/nidp/oauth/nam/token
-- URL BRP API Personen: https://apigw.idm.diginetwerk.net/lap/api/brp/personen
-- URL BRP API Bewoning: https://apigw.idm.diginetwerk.net/lap/api/brp/bewoningen
-- URL BRP API Verblijfplaatshistorie: https://apigw.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
+- URL BRP API Personen: https://apigw.idm.diginetwerk.net/api/brp/personen
+- URL BRP API Bewoning: https://apigw.idm.diginetwerk.net/api/brp/bewoningen
+- URL BRP API Verblijfplaatshistorie: https://apigw.idm.diginetwerk.net/api/brp/verblijfplaatshistorie
