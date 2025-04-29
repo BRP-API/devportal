@@ -3,8 +3,8 @@
 Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelden voor deelname aan het Experiment dataminimalisatie. Stuur een mail naar info@RvIG voor een kennismakingmakingsgesprek en onboarding.
 
 1. Bekijk de [functionaliteit en specificaties](#functionaliteit-en-specificaties)
-2. Probeer en test de {{apiname}} [lokaal](#probeer-en-test-de-api-lokaal)
-3. [Download]({{onboardingUrl}}/onboarding) en lees het onboardingproces
+2. Probeer en test de {{apiname}} [lokaal](./how-tos/lokaal-testen)
+3. Sluit aan op de [RvIG {{apiname}} omgeving](./howtos/aansluiten) 
 
 ## Functionaliteit en specificaties
 
