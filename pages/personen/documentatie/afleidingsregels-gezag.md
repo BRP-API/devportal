@@ -1,3 +1,0 @@
-# Afleiding informatieproduct Gezag
-
-
