@@ -26,4 +26,4 @@ Een mock van de {{apiname}} is beschikbaar als een containerized applicatie, die
 
 ## Vraag een access token aan voor de RvIG proefomgeving
 
-Lees hier hoe je kunt [aansluiten op de RvIG proef- en productieomgeving](./how-tos/aansluiten).
+Lees [hier](./how-tos/aansluiten) hoe je kunt aansluiten op de RvIG proef- en productieomgeving.
