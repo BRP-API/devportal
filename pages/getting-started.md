@@ -12,7 +12,7 @@ Als developer kun je direct aan de slag:
 
 Bekijk de OAS3 specificatie in Redoc van van de {{apiname}} [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./historie/specificatie).
 
-Download de [OAS3 {{apiname}} Personen]({{PersonenSpecUrl}}), [OAS3 {{apiname}} Bewoning]({{BewoningSpecUrl}}) en [OAS3 {{apiname}} Verblijfplaatshistorie]({{VerblijfplaatshistorieSpecUrl}}) en genereer hiermee consumercode.
+Download de [OAS3 {{apiname}} Personen]({{PersonenSpecUrl}}), [OAS3 {{apiname}} Bewoning]({{BewoningSpecUrl}}) of [OAS3 {{apiname}} Verblijfplaatshistorie]({{VerblijfplaatshistorieSpecUrl}}) die je nodig hebt en genereer hiermee consumercode.
 
 Lees goed hoe je de gegevens in [de response van de {{apiname}} Personen filtert](./how-tos/personen-response-filteren), zodat jouw applicatie uitsluitend informatie vraagt die op dat moment nodig is en waarvoor autorisatie is verleend.
 
