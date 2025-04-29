@@ -21,7 +21,7 @@ Een beschrijving van de {{apiname}} functies en hun gedrag vind je onder [gedrag
 
 ## Probeer en test de {{apiname}} lokaal
 
-Een mock van de {{apiname}} is beschikbaar als een containerized applicatie, die je gemakkelijk kunt hosten op een lokale machine of in een testomgeving. Lees [hier](./how-tos/lokaal-testen) hoe je dat doet.
+Test jouw applicatie door de een mock van jouw {{apiname}} functie te gebruiken en deze lokaal als een containerized applicatie te draaien. Je kunt deze containerized applicatie gemakkelijk hosten op een lokale machine of in jouw testomgeving. Lees [hier](./how-tos/lokaal-testen) hoe je dat doet.
 
 ## Vraag een access token aan voor de RvIG proefomgeving
 
