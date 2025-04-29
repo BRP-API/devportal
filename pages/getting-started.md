@@ -14,7 +14,7 @@ Bekijk de OAS3 specificatie in Redoc van van de {{apiname}} [Personen](./persone
 
 Download de [OAS3 {{apiname}} Personen]({{PersonenSpecUrl}}), [OAS3 {{apiname}} Bewoning]({{BewoningSpecUrl}}) of [OAS3 {{apiname}} Verblijfplaatshistorie]({{VerblijfplaatshistorieSpecUrl}}) die je nodig hebt en genereer hiermee consumercode.
 
-Lees goed hoe je de gegevens in [de response van de {{apiname}} Personen filtert](./how-tos/personen-response-filteren), zodat jouw applicatie uitsluitend informatie vraagt die op dat moment nodig is en waarvoor autorisatie is verleend. Maak eventueel gebruik van de [tool om fields samen te stellen](./how-tos/fields-samenstellen).
+Lees goed hoe je [de response van de {{apiname}} Personen filtert](./how-tos/personen-response-filteren), zodat jouw applicatie uitsluitend informatie vraagt die op dat moment nodig is en waarvoor autorisatie is verleend. Maak eventueel gebruik van de [tool om fields samen te stellen](./how-tos/fields-samenstellen).
 
 Een beschrijving van de {{apiname}} functies en hun gedrag vind je onder [gedrag {{apiname}} Personen](./personen/gedrag), [gedrag {{apiname}} Bewoning](./bewoning/gedrag) en [gedrag {{apiname}} Verblijfplaatshistorie](./verblijfplaatshistorie/gedrag).
 
