@@ -40,7 +40,7 @@ const Sidebar = ({ sidebar }) => {
               { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
               { label: "Gedrag", href: "/personen/gedrag" },
-              { label: "Documentatie", href: "/personen/documentatie" },
+              { label: "Afleiding Informatieproducten", href: "/personen/afleiding-informatieproducten" },
             ],
           },
           {
