@@ -30,13 +30,12 @@ De documentatie is alsvolgt opgebouwd:
 
 - How-Tos: praktische gidsen die jou helpen bij het implementeren van de {{apiname}} in jouw applicatie.
 - Concepten: uitleg van belangrijke onderwerpen die een rol spelen bij het gebruik van de {{apiname}}.
-- Tutorials: vergroot jouw kennis over hoe je zaken kunt regelen die nodig zijn bij het gebruik van de {{apiname}}.
 - Referenties: de specificaties van de {{apiname}} functies Personen, Verblijfplaatshistorie en Bewoning.
 
-## Planning en Roadmap
-In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage "gezag niet te bepalen" wordt verder verlaagd door gezag te bepalen voor een deel van de kinderen die in het buitenland zijn geboren. 
+## Planning en Roadmap 
+In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage "gezag niet te bepalen" wordt verder verlaagd door gezag te bepalen voor een deel van de kinderen die in het buitenland zijn geboren, of in het buitenland hebben gewoond. 
 
-De  Notificaties worden op 1 januari 2026 opgeleverd voor gebruik door gemeenten.  
+De BRP API Notificaties is dit jaar gepland voor gebruik door gemeenten.  
 
 ## Contact
 * Bug Melden
