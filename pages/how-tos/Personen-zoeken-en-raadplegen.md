@@ -55,16 +55,18 @@ Ben je uitsluitend geautoriseerd voor het raadplegen van eigen inwoners van een 
 De "raadpleeg met burgerservicenummer" operatie levert de personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Dit kunnen ook personen zijn die zijn overleden.
 Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'.  Zie de [overlijden overzicht](./../features/persoon/overlijden/overzicht.feature) feature voor meer informatie over dit veld.
 
+# Automatisch meegeleverde gegevens
+Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat er iets bijzonders aan de hand is.
 
 ## Eén of meer gevraagde velden zijn in onderzoek
 
-Om een afnemer te informeren dat één of meer gevraagde velden in onderzoek zijn, worden de bijbehorende inOnderzoek en datumIngangOnderzoek velden ook geleverd.
-Wanneer één of meer velden waaruit een andere veld wordt afgeleid (bijv. de adressering velden) in onderzoek zijn, dan is het afgeleide veld ook in onderzoek en wordt het inOnderzoekveld van het afgeleide veld ook geleverd.
-In het [in onderzoek](./../features/in-onderzoek.feature) featurebestand zijn de regels beschreven wanneer de inOnderzoekvelden wel/niet worden geleverd.
+Zijn één of meer gevraagde velden in onderzoek, dan worden de bijbehorende *inOnderzoek* en *datumIngangOnderzoek* velden altijd meegeleverd.
+Wanneer één of meer velden in onderzoek zijn waaruit een informatieproduct wordt afgeleid (bijv. de adressering velden), dan is het informatieproduct ook in onderzoek en wordt het inOnderzoekveld van het informatieproduct meegeleverd.
+Lees meer over de [regels van in onderzoek](./../features/in-onderzoek.feature) die beschrijven wanneer de inOnderzoekvelden wel en niet worden geleverd.
 
 ### Vastgesteld verblijft niet op adres
 
-Wanneer tijdens onderzoek is vastgesteld dat een persoon niet meer verblijft op het geregistreerde adres en verblijfplaatsgegevens en/of adresregels van de betreffende persoon worden gevraagd, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd.
+Wanneer je de verblijfplaatsgegevens of adresregels van een persoon opvraagt waarvan tijdens onderzoek is vastgesteld dat deze niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd.
 
 De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is beschreven in de volgende feature bestanden:
 - [vastgesteld verblijft niet op adres (verblijfplaats binnenland)](./../features/persoon/verblijfplaats/adres/vastgesteld-verblijft-niet-op-adres.feature)
@@ -74,7 +76,7 @@ De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is 
 
 ## Geen/null/false waarde, leeg object waarde en standaard waarde
 
-Om de payload van een response klein te houden, is er voor gekozen om velden met de volgende waarden niet te leveren in de response:
+Om de payload van een response klein te houden, zijn de volgende waarden geen onderdeel van de response:
 
 - niet gevraagde velden. Deze velden hebben _null_ als waarde.
 - gevraagde velden die de gevraagde persoon niet heeft. Deze velden hebben _null_ als waarde. Voorbeeld: naam.voorvoegsel veld wordt gevraagd voor een persoon die geen voorvoegsel in zijn naam heeft.
