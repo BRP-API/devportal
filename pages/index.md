@@ -2,9 +2,12 @@
 ## Zoek en raadpleeg persoonsinformatie
 
 API voor het zoeken en raadplegen van informatie uit de basisregistratie personen (BRP). De {{apiname}} heeft drie functies:
-1. **Personen**: voor het zoeken en raadplegen van van actuele personen, partners, ouders en kinderen uit de BRP, inclusief de registratie niet-ingezeten (RNI).
-2. **Bewoning**: voor het raadplegen van de historische bewoning van een adres. Met de API kun je de samenstelling(en) van bewoners van een woning raadplegen binnen een periode of op een peildatum.
-3. **Verblijfplaatshistorie**: voor het opvragen van de verblijfplaats(en) van een persoon in een periode of op een peildatum.
+
+**1. Personen**: voor het zoeken en raadplegen van van actuele personen, partners, ouders en kinderen uit de BRP, inclusief de registratie niet-ingezeten (RNI).
+
+**2. Bewoning**: voor het raadplegen van de historische bewoning van een adres. Met de API kun je de samenstelling(en) van bewoners van een woning raadplegen binnen een periode of op een peildatum.
+
+**3. Verblijfplaatshistorie**: voor het opvragen van de verblijfplaats(en) van een persoon in een periode of op een peildatum.
 
 <br>
 
