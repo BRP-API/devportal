@@ -12,7 +12,7 @@ API voor het zoeken en raadplegen van informatie uit de basisregistratie persone
 <br>
 
 De {{apiname}} Personen levert naast persoonsgegevens uit de BRP ook [informatieproducten](./concepten/informatieproducten):
-- **Adressering**: **aanschrijfwijze**, **aanhef**, een verwijzing naar een **persoon in de lopende tekst** van een brief, en **adresregels** die passen in het venster van een envelop
+- **Adressering**: **aanschrijfwijze**, **aanhef**, een verwijzing naar een **persoon in de lopende tekst** van een brief, en **adresregels** die passen in een envelopvenster.
 - **Bewoning**: wie er samen in een woning woonde gedurende een periode, of op een peildatum
 - **Gezag**: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister 
 - **Leeftijd** (in jaren)
