@@ -32,11 +32,11 @@ Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aa
 
 Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter *gemeenteVanInschrijving* met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven.
 
-### Zoek overleden personen
+### Overleden personen zoeken
 Standaard worden alleen personen gevonden die in leven zijn. Om overleden personen te vinden, moet je de inclusiefOverleden parameter met waarde "true" opgeven.
 Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Lees voor meer informatie het [overlijden overzicht](./../features/persoon-beperkt/overlijden/overzicht.feature).
 
-## Raadplegen van personen
+## Personen raadplegen
 
 Als het burgerservicenummer bekend is, moet je deze operatie gebruiken om gegevens van de persoon of personen te raadplegen:
 
@@ -50,7 +50,7 @@ Het resultaat van deze operatie is een lijst van personen van wie het burgerserv
 
 Ben je uitsluitend geautoriseerd voor het raadplegen van eigen inwoners van een gemeente? Gebruik dan de queryparameter *gemeenteVanInschrijving* met de eigen gemeentecode. Als de geraadpleegde persoon niet in de opgegeven gemeente woont, zal de response leeg zijn.
 
-### Raadplegen van overleden personen
+### Overleden personen raadplegen
 
 De "raadpleeg met burgerservicenummer" operatie levert de personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Dit kunnen ook personen zijn die zijn overleden.
 Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'.  Zie de [overlijden overzicht](./../features/persoon/overlijden/overzicht.feature) feature voor meer informatie over dit veld.
@@ -64,7 +64,7 @@ Zijn één of meer gevraagde velden in onderzoek, dan worden de bijbehorende *in
 Wanneer één of meer velden in onderzoek zijn waaruit een informatieproduct wordt afgeleid (bijv. de adressering velden), dan is het informatieproduct ook in onderzoek en wordt het inOnderzoekveld van het informatieproduct meegeleverd.
 Lees meer over de [regels van in onderzoek](./../features/in-onderzoek.feature) die beschrijven wanneer de inOnderzoekvelden wel en niet worden geleverd.
 
-### Vastgesteld verblijft niet op adres
+### Persoon verblijft niet meer op adres
 
 Wanneer je de verblijfplaatsgegevens of adresregels van een persoon opvraagt waarvan tijdens onderzoek is vastgesteld dat deze niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd.
 
