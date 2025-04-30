@@ -1,6 +1,6 @@
 ## Informatieproducten
 
-Informatieproducten zijn bewerkingen van de door gemeenten en RNI loketten verzamelde gegevens tot een product dat direct voorziet in een klantbehoefte. De BRP API kent de volgende informatieproducten:
+Informatieproducten zijn bewerkingen van de door gemeenten en RNI loketten verzamelde gegevens tot een product dat direct voorziet in een klantbehoefte. De {{apiname}} kent de volgende informatieproducten:
 - Adressering: aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in het venster van een envelop.
 - Bewoning: wie er samen in een woning woonde gedurende een periode, of op een peildatum.
 - Gezag: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
