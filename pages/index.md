@@ -6,6 +6,7 @@ API voor het zoeken en raadplegen van informatie uit de basisregistratie persone
 2. **Bewoning**: voor het raadplegen van de historische bewoning van een adres. Met de API kun je de samenstelling(en) van bewoners van een woning raadplegen binnen een periode of op een peildatum.
 3. **Verblijfplaatshistorie**: voor het opvragen van de verblijfplaats(en) van een persoon in een periode of op een peildatum.
 
+
 De BRP API Personen levert naast persoonsgegevens uit de BRP ook [informatieproducten](./concepten/informatieproducten):
 - *Adressering*: *aanschrijfwijze*, *aanhef*, een verwijzing naar een *persoon in de lopende tekst* van een brief, en *adresregels* die passen in het venster van een envelop
 - *Bewoning*: wie er samen in een woning woonde gedurende een periode, of op een peildatum
