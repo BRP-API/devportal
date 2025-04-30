@@ -38,9 +38,9 @@ In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage kindere
 De BRP API Notificaties is dit jaar gepland voor gebruik door gemeenten.  
 
 ## Contact
-* Bug Melden
+* Bug Melden?
   [Maak een bug issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
-* Verbeteringen doorgeven
+* Verbeteringen doorgeven?
   [Maak een verbeter issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
 * Heb je een vraag? Neem contact op met: 
     * Product Owner: Cathy Dingemanse, [{{PO-email}}](mailto:{{PO-email}})
