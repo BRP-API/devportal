@@ -40,7 +40,7 @@ De documentatie is alsvolgt opgebouwd:
 ## Planning en Roadmap 
 In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage kinderen met de uitspraak "gezag niet te bepalen" wordt verder verlaagd. Dat doen we door gezag te bepalen voor een deel van de kinderen die in het buitenland zijn geboren, of in het buitenland hebben gewoond. 
 
-De BRP API Notificaties is dit jaar gepland voor gebruik door gemeenten.  
+De vierde functie van de {{apiname}} is in ontwikkeling. De {{apiname}} Notificaties is dit jaar gepland voor gebruik door gemeenten.  
 
 ## Contact
 * Bug Melden?
