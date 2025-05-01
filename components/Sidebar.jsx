@@ -40,8 +40,22 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
-              { label: "Documentatie", href: "/personen/documentatie" },
-              { label: "Informatieproducten", href: "/personen/informatieproducten" },
+              {
+                title: "Documentatie",
+                subnav: [
+                  { label: "Standaardwaardes null en false", href: "/personen/documentatie/geen-null-false-standaardwaarde" },
+                ],
+              },
+              {
+                title: "Informatieproducten",
+                subnav: [
+                  { label: "Adressering", href: "/personen/informatieproducten/adressering" },
+                  { label: "Gezag", href: "/personen/informatieproducten/gezag" },
+                  { label: "Leeftijd", href: "/personen/informatieproducten/leeftijd" },
+                  { label: "Volledige naam", href: "/personen/informatieproducten/volledige-naam" },
+                  { label: "Voorletters", href: "/personen/informatieproducten/voorletters" },
+                ],
+              },
             ],
           },
           {
@@ -98,10 +112,22 @@ const Sidebar = ({ sidebar }) => {
                   {subitem.title && (
                     <details className="details-flex">
                       <summary>{subitem.title}</summary>
-                      {subitem.subnav.map((subsubitem, index) => (
-                        <Link className="subsubitem" href={subsubitem.href} key={index}>
-                          {subsubitem.label}
-                        </Link>
+                      {subitem.subnav.map((subsubitem, subsubindex) => (
+                        subsubitem.href && (
+                          <Link className="subsubitem" href={subsubitem.href} key={subsubindex}>
+                            {subsubitem.label}
+                          </Link>
+                        )
+                        || !subsubitem.href && (
+                          <details className="details-flex">
+                            <summary>{subsubitem.title}</summary>
+                            {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
+                              <Link className="subsubitem" href={subsubsubitem.href} key={subsubsubindex}>
+                                {subsubsubitem.label}
+                              </Link>
+                            ))}
+                          </details>
+                        )
                       ))}
                     </details>
                   )}
@@ -139,10 +165,22 @@ const Sidebar = ({ sidebar }) => {
                     {subitem.title && (
                       <details className="details-flex">
                         <summary>{subitem.title}</summary>
-                        {subitem.subnav.map((subsubitem, index) => (
-                          <Link className="subsubitem" href={subsubitem.href} key={index} onClick={() => document.querySelector('.mobile-menu').classList.remove('open')}>
-                            {subsubitem.label}
-                          </Link>
+                        {subitem.subnav.map((subsubitem, subsubindex) => (
+                            subsubitem.href && (
+                              <Link className="subsubitem" href={subsubitem.href} key={subsubindex}>
+                                {subsubitem.label}
+                              </Link>
+                            )
+                            || !subsubitem.href && (
+                              <details className="details-flex">
+                                <summary>{subsubitem.title}</summary>
+                                {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
+                                    <Link className="subsubitem" href={subsubsubitem.href} key={subsubsubindex}>
+                                      {subsubsubitem.label}
+                                    </Link>
+                                ))}
+                              </details>
+                            )
                         ))}
                       </details>
                     )}
