@@ -44,6 +44,7 @@ const Sidebar = ({ sidebar }) => {
                 title: "Documentatie",
                 subnav: [
                   { label: "Standaardwaarden null en false", href: "/personen/documentatie/geen-null-false-standaardwaarde" },
+                  { label: "standaard geleverde gegevens", href: "/personen/documentatie/meegeleverde-gegevens" },
                 ],
               },
               {
