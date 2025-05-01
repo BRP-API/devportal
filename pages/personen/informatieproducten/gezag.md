@@ -49,19 +49,21 @@ In de API beschouwen we de gemeente van inschrijving van een persoon bepalend vo
 ### Voorbeeld: Er is in een gerechtelijke uitspraak gezag toegewezen en daarna is de minderjarige geëmigreerd
 * __Gegeven__ persoon 'Bert'
   * heeft 'Aart' en 'Gerda' als ouders
-* __En__ 2 jaar geleden is in een gerechtelijke uitspraak het gezag toegewezen aan <toegewezen aan>
+* __En__ 2 jaar geleden is in een gerechtelijke uitspraak het gezag toegewezen aan \<toegewezen aan\>
 * __En__ 'Bert' is 1 jaar geleden geëmigreerd naar België
 * __Als__ 'gezag' wordt gevraagd van 'Bert'
 * __Dan__ is het gezag over 'Bert' niet te bepalen met de toelichting 'gezag is niet te bepalen omdat minderjarige niet Nederland als gewone verblijfplaats heeft.'
 
-Voorbeelden:
-  | toegewezen aan             | gezag uitspraak in Nederland                                  |
-  | 'Gerda'                    | eenhoofdig ouderlijk gezag met ouder 'Gerda'                  |
-  | 'Aart'                     | eenhoofdig ouderlijk gezag met ouder 'Aart'                   |
-  | beide ouders               | gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart' |
-  | een voogdijinstelling      | voogdij                                                       |
-  | ouder 'Gerda' en een derde | gezamenlijk gezag met ouder 'Gerda' en een onbekende derde    |
-  | ouder 'Aart' en een derde  | gezamenlijk gezag met ouder 'Aart' en een onbekende derde     |
+#### Voorbeelden:
+
+| toegewezen aan             | gezag uitspraak in Nederland                                  |
+|----------------------------|---------------------------------------------------------------|
+| 'Gerda'                    | eenhoofdig ouderlijk gezag met ouder 'Gerda'                  |
+| 'Aart'                     | eenhoofdig ouderlijk gezag met ouder 'Aart'                   |
+| beide ouders               | gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart' |
+| een voogdijinstelling      | voogdij                                                       |
+| ouder 'Gerda' en een derde | gezamenlijk gezag met ouder 'Gerda' en een onbekende derde    |
+| ouder 'Aart' en een derde  | gezamenlijk gezag met ouder 'Aart' en een onbekende derde     |
 
 ## Regel: Gezag als er sprake is van opschorting bijhouding ministerieel besluit
 
