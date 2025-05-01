@@ -40,6 +40,7 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
+              { label: "Documentatie", href: "/personen/documentatie" },
               { label: "Informatieproducten", href: "/personen/informatieproducten" },
             ],
           },
