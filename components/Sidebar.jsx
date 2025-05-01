@@ -40,7 +40,6 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "/personen/releases" },
               { label: "Specificatie", href: "/personen/specificatie" },
-              { label: "Gedrag", href: "/personen/gedrag" },
               { label: "Afleiding Informatieproducten", href: "/personen/afleiding-informatieproducten" },
             ],
           },
