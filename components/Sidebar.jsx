@@ -43,7 +43,7 @@ const Sidebar = ({ sidebar }) => {
               {
                 title: "Documentatie",
                 subnav: [
-                  { label: "Standaardwaardes null en false", href: "/personen/documentatie/geen-null-false-standaardwaarde" },
+                  { label: "Standaardwaarden null en false", href: "/personen/documentatie/geen-null-false-standaardwaarde" },
                 ],
               },
               {
