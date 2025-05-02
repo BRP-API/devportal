@@ -33,5 +33,5 @@ Bij personen die hebben gevraagd om hun gegevens niet te delen met kerken of and
 
 Bij personen die zijn ingeschreven in de RNI worden de gegevens over de RNI deelnemer automatisch meegeleverd. Deelnemers zijn aangewezen bestuursorganen die beveogd zijn om personen in te schrijven of gegevens aan te leveren voor de RNI. Lees meer over [de regels voor het leveren van RNI deelnemer](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/rni/overzicht.feature).
 
-## Verificatiegegevens
+## Verificatiegegevens (RNI)
 Bij personen die zijn ingeschreven in de RNI wordt de verificatie van de opgenomen gegevens altijd meegeleverd. Lees meer over [de regels voor het leveren van de verificatie](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/verificatie/fields.feature)
