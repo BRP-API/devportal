@@ -1,6 +1,6 @@
 # Automatisch meegeleverde gegevens
 
-Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat er iets bijzonders aan de hand is.
+Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat er iets bijzonders aan de hand is. [Automatisch geleverde velden mag je niet vragen met de fields parameter](Haal-Centraal-BRP-bevragen/features/bevragen/fields-fout-cases.feature: Abstract Scenario: Automatisch geleverd veld <fields> mag niet worden gevraagd bij raadplegen).
 
 ## Eén of meer gevraagde velden zijn in onderzoek
 
