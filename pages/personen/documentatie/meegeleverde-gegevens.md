@@ -27,4 +27,4 @@ De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is 
 
 ## Persoon heeft "geheimhoudingPersoonsgegevens" 
 
-Bij personen die hebben gevraagd om hun gegevens niet te delen met kerken of andere organisaties waaraan een gemeente persoonsgegevens mag geven (bijvoorbeeld sportvereniging of een goed doel) wordt automatisch geheimhoudingPersoonsgegevens = true geleverd. 
+Bij personen die hebben gevraagd om hun gegevens niet te delen met kerken of andere organisaties waaraan een gemeente persoonsgegevens mag geven (bijvoorbeeld sportvereniging of een goed doel) wordt automatisch geheimhoudingPersoonsgegevens met waarde true geleverd. Lees meer over [de regels voor de levering van geheimhoudingPersoonsgegevens](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/geheimhouding/overzicht.feature).
