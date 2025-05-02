@@ -29,9 +29,9 @@ De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is 
 
 Bij personen die hebben gevraagd om hun gegevens niet te delen met kerken of andere organisaties waaraan een gemeente persoonsgegevens mag geven (bijvoorbeeld sportvereniging of een goed doel) wordt automatisch geheimhoudingPersoonsgegevens met waarde true geleverd. Lees meer over [de regels voor de levering van geheimhoudingPersoonsgegevens](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/geheimhouding/overzicht.feature).
 
-## Organisatie die de persoon heeft ingeschreven in de RNI (deelnemer) 
+## RNI deelnemer)
 
-Bij personen die zijn ingeschreven in de RNI worden de gegevens over de RNI deelnemer automatisch meegeleverd. Deelnemers zijn aangewezen bestuursorganen die beveogd zijn om personen in te schrijven of gegevens aan te leveren voor de RNI. Lees meer over [de regels voor het leveren van RNI deelnemer](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/rni/overzicht.feature).
+Bij personen die zijn ingeschreven in de RNI worden de gegevens over de RNI deelnemer automatisch meegeleverd. Deelnemers zijn aangewezen bestuursorganen die bevoegd zijn om personen in te schrijven of gegevens aan te leveren voor de RNI. Lees meer over [de regels voor het leveren van RNI deelnemer](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/rni/overzicht.feature).
 
 ## Verificatiegegevens (RNI)
 Bij personen die zijn ingeschreven in de RNI wordt de verificatie van de opgenomen gegevens altijd meegeleverd. Lees meer over [de regels voor het leveren van de verificatie](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/verificatie/fields.feature)
