@@ -4,7 +4,7 @@ Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat
 
 ## De persoonsgegevens worden niet meer bijgehouden 
 
-Als van een persoon de bijhouding van de persoonsgegevens is gestopt, wordt het veld opschortingBijhouding geleverd zonder dat je er met field naar vraagt. In de {{apiname}} worden slechts vijf redenen voor opschorting geleverd: overleden, emigratie, ministerieel besluit, RNI en onbekend. Bij opschorting door ministerieel besluit wordt er getwijfeld aan de juistheid van de persoonsgegevens in de BRP, en 
+Als van een persoon de bijhouding van de persoonsgegevens is gestopt, wordt het veld *opschortingBijhouding* geleverd zonder dat je er met field naar vraagt. In de {{apiname}} worden slechts vijf redenen voor opschorting geleverd: overleden, emigratie, ministerieel besluit, RNI en onbekend. Bij opschorting door ministerieel besluit wordt er getwijfeld aan de juistheid van de persoonsgegevens in de BRP, en 
 wordt iemand bijvoorbeeld (tijdelijk) uitgeschreven uit de BRP of als niet-ingezetene beschouwd. Lees meer over [de regels voor de levering van opschortingBijhouding en het gebruik van de fields parameter](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/opschorting-bijhouding/fields.feature).
 
 
