@@ -1,6 +1,13 @@
 # Automatisch meegeleverde gegevens
 
-Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat er iets bijzonders aan de hand is. [Automatisch geleverde velden mag je niet vragen met de fields parameter](Haal-Centraal-BRP-bevragen/features/bevragen/fields-fout-cases.featureAbstract-Scenario:-Automatisch-geleverd-vel<fields>mag-niet-worden-gevraagd-bij-raadplegen).
+Sommige gegevens worden automatisch meegeleverd om de afnemer te waarschuwen dat er iets bijzonders aan de hand is. [Automatisch geleverde velden mag je niet vragen met de fields parameter](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/opschorting-bijhouding/fields.feature.Regel:opschortingBijhouding-mag-niet-worden-gevraagd-omdat-het-automatisch-wordt-geleverd).
+
+## De persoonsgegevens worden niet meer bijgehouden 
+
+Als van een persoon de bijhouding van de persoonsgegevens is gestopt, wordt het veld opschortingBijhouding geleverd zonder dat je er met field naar vraagt. In de {{apiname}} worden slechts vijf redenen voor opschorting geleverd: overleden, emigratie, ministerieel besluit, RNI en onbekend. Bij opschorting door ministerieel besluit wordt er getwijfeld aan de juistheid van de persoonsgegevens in de BRP, en 
+wordt iemand bijvoorbeeld (tijdelijk) uitgeschreven uit de BRP of als niet-ingezetene beschouwd. Lees meer over [de regels voor de levering van opschortingBijhouding en het gebruik van de fields parameter](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/opschorting-bijhouding/fields.feature).
+
+
 
 ## Eén of meer gevraagde velden zijn in onderzoek
 
@@ -18,3 +25,6 @@ De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is 
 - [vastgesteld verblijft niet op adres (adresregels vragen bij personen raadplegen)](./../features/persoon/adressering/adres-regels/vastgesteld-verblijft-niet-op-adres.feature)
 - [vastgesteld verblijft niet op adres (adresregels vragen bij personen zoeken)](./../features/persoon-beperkt/adressering/adres-regels/vastgesteld-verblijft-niet-op-adres.feature)
 
+## Persoon heeft "geheimhoudingPersoonsgegevens" 
+
+Bij personen die hebben gevraagd om hun gegevens niet te delen met kerken of andere organisaties waaraan een gemeente persoonsgegevens mag geven (bijvoorbeeld sportvereniging of een goed doel) wordt automatisch geheimhoudingPersoonsgegevens = true geleverd. 
