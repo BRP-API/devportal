@@ -73,15 +73,7 @@ const Sidebar = ({ sidebar }) => {
               { label: "Releasenotes", href: "/historie/releases" },
               { label: "Specificatie", href: "/historie/specificatie" },
               { label: "Documentatie", href: "/historie/documentatie" },
-            ]
-          },
-          {
-            title: "Reisdocumenten",
-            subnav: [
-              { label: "Releasenotes", href: "/reisdocumenten/releases" },
-              { label: "Specificatie", href: "/reisdocumenten/specificatie" },
-              { label: "Documentatie", href: "/reisdocumenten/documentatie" },
-            ]
+           ]
           }
         ],
       },
