@@ -31,7 +31,7 @@ Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aa
 
 ### Uitsluitend binnengemeentelijk zoeken
 
-Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter *gemeenteVanInschrijving* met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven.
+Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter **gemeenteVanInschrijving** met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven.
 
 ### Overleden personen zoeken
 Standaard worden alleen personen gevonden die in leven zijn. Om overleden personen te vinden, moet je de inclusiefOverleden parameter met waarde "true" opgeven.
@@ -45,7 +45,7 @@ Als het burgerservicenummer bekend is, moet je deze operatie gebruiken om gegeve
   - [overzicht](./../features/raadpleeg-met-burgerservicenummer/overzicht.feature)
   - [fout cases](./../features/raadpleeg-met-burgerservicenummer/fout-cases.feature)
 
-Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./Personen-response-filteren) en waar je recht op hebt.
+Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./how-tos/personen-response-filteren) en waar je recht op hebt.
 
 ### Uitsluitend binnengemeentelijk raadplegen 
 
