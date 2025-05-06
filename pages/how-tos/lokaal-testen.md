@@ -11,7 +11,7 @@ De volgende paragrafen beschrijven wat je moet doen om de {{ apiname }} mocks op
 ### Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) voor het hosten van containers
-- Zet Kubernetes ondersteuning aan in Docker Desktop in het Settings/Kubernetes configuratie scherm ![Enable Kubernetes](../img/docker-desktop-enable-k8s.png)
+- Zet Kubernetes ondersteuning aan in Docker Desktop in het Settings/Kubernetes configuratie scherm ![Enable Kubernetes](docker-desktop-enable-k8s.png)
 om Docker Desktop te gebruiken om de containers te hosten met behulp van de Kubernetes engine. 
 
 Optioneel kun je de volgende tools ook op de lokale machine installeren:
@@ -22,7 +22,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 ### Gebruik Docker als container engine
 
-- Download het [docker compose bestand]({{ mainBranchUrl }}/docker-compose.yml)
+- Download het [docker compose bestand]({{mainBranchUrl}}/docker-compose.yml)
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
 - Start de {{ apiname }} Personen mock met behulp van de volgende statement:
   ```sh
@@ -52,7 +52,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 ### Gebruik Kubernetes als container engine
 
-- Download de [kubernetes configuratie bestanden]({{ devBranchUrl }}/.k8s){:target="_blank" rel="noopener"}
+- Download de [kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s)
 - Start een command prompt window voor de map met de kubernetes manifest bestanden
 - Start de {{ apiname }} en de mock met behulp van de volgende statement:
   ```sh
