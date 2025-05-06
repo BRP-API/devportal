@@ -1,6 +1,6 @@
 # Getting Started
 
-Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelden voor deelname aan het Experiment dataminimalisatie. Stuur een mail naar [{{RvIG-email}}](mailto: {{RvIG-email}}) voor een kennismakingmakingsgesprek en onboarding.
+Gemeenten en andere organisaties met een autorisatiebesluit kunnen zich aanmelden voor deelname aan het Experiment dataminimalisatie. Stuur een mail naar [{{RvIG-email}}](mailto:{{RvIG-email}}) voor een kennismakingmakingsgesprek en onboarding.
 
 Als developer kun je direct aan de slag:
 1. Download de OAS3 specificatie van de {{apiname}} om consumer code te genereren.
