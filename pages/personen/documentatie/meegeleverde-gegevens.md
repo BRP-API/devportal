@@ -13,7 +13,7 @@ wordt iemand bijvoorbeeld (tijdelijk) uitgeschreven uit de BRP of als niet-ingez
 
 Zijn één of meer gevraagde velden in onderzoek, dan worden de bijbehorende **inOnderzoek** en **datumIngangOnderzoek** velden altijd meegeleverd.
 Wanneer één of meer velden in onderzoek zijn waaruit een informatieproduct wordt afgeleid (bijv. de adressering velden), dan is het informatieproduct ook in onderzoek en wordt het inOnderzoekveld van het informatieproduct meegeleverd.
-Lees meer over de [regels van in onderzoek](./../features/in-onderzoek.feature) die beschrijven wanneer de inOnderzoekvelden wel en niet worden geleverd.
+Lees meer over de [regels van in onderzoek](https://github.com/BRP-API/personen-informatie-service/blob/main/features/in-onderzoek.feature) die beschrijven wanneer de inOnderzoekvelden wel en niet worden geleverd.
 
 ## Persoon verblijft niet meer op adres
 
