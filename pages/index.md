@@ -20,10 +20,11 @@ De {{apiname}} Personen levert naast persoonsgegevens uit de BRP ook [informatie
 - **Voorletters**.
   
 ## Getting Started
-1. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/resolved/openapi.yaml) van de {{apiname}} om consumer code te genereren.
-2. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
-3. Vraag een access token aan voor de [proefomgeving](./how-tos/aansluiten) en voer een acceptatietest uit.
-4. Vraag een access token aan voor de productieomgeving.
+1.Bekijk de OAS3 specificatie in Redoc van van de {{apiname}} [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./historie/specificatie).
+2. Download de [OAS3 specificatie]({{mainBranchUrl}}/specificatie/resolved/openapi.yaml) van de {{apiname}} Personen om consumer code te genereren.
+3. Bouw de aansluiting op de {{apiname}} in jouw applicatie en [test lokaal met de {{apiname}}](./how-tos/lokaal-testen). 
+4. Vraag een access token aan voor de [proefomgeving](./how-tos/aansluiten) en voer een acceptatietest uit.
+5. Vraag een access token aan voor de productieomgeving.
 
 De {{apiname}} eerst uitproberen? Gebruik de [lokaal testen gids](./how-tos/lokaal-testen) om je eerste API call te doen!
 
