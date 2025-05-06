@@ -3,7 +3,7 @@
 <!-- ![k8s](docker-desktop-enable-k8s.png) -->
 
 ## Aanhef bepalen
-```feature
+```gherkin
 # language: nl
 
 Functionaliteit: Aanhef bepalen 
