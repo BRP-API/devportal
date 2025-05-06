@@ -16,9 +16,9 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Personen zoeken en raadplegen", href: "/how-tos/personen-zoeken-en-raadplegen" },
               { label: "Personen response filteren", href: "/how-tos/personen-response-filteren" },
-              { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
-              { label: "lokaal testen", href: "/how-tos/lokaal-testen" },
-              { label: "aansluiten", href: "/how-tos/aansluiten" },
+              { label: "Fields samenstellen", href: "/how-tos/fields-samenstellen" },
+              { label: "Lokaal testen", href: "/how-tos/lokaal-testen" },
+              { label: "Aansluiten", href: "/how-tos/aansluiten" },
             ],
           },
           {
