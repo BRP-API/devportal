@@ -2,12 +2,12 @@
 
 Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en raadplegen met hun identificerende gegevens. In de BRP worden personen uniek geïdentificeerd met hun burgerservicenummer.
 
-* Is het burgerservicenummer van de persoon/personen bekend? Dan moet jouw applicatie de *Raadpleeg persoon met burgerservicenummer* operatie gebruiken om één of meer personen te raadplegen.
-* Is het burgerservicenummer van de persoon/personen niet bekend? Laat deze dan opzoeken met de *Zoek persoon* operaties.
+* Is het burgerservicenummer van de persoon/personen bekend? Dan moet jouw applicatie de **Raadpleeg persoon met burgerservicenummer** operatie gebruiken om één of meer personen te raadplegen.
+* Is het burgerservicenummer van de persoon/personen niet bekend? Laat deze dan opzoeken met de **Zoek persoon** operaties.
 
 ## Zoek personen
 
-Gebruik de volgende zoekoperaties om een persoon te zoeken door niet-uniek identificerende persoonsgegevens op te geven:
+Gebruik de volgende zoekoperaties om een persoon te zoeken door (niet-uniek) identificerende persoonsgegevens op te geven:
 
 - zoek met geslachtsnaam en geboortedatum
   - [overzicht](./../features/zoek-met-geslachtsnaam-en-geboortedatum/overzicht.feature)
@@ -26,7 +26,8 @@ Gebruik de volgende zoekoperaties om een persoon te zoeken door niet-uniek ident
   - [fout cases](./../features/zoek-met-nummeraanduiding-identificatie/fout-cases.feature)
 - zoek met adresseerbaar object identificatie
 
-Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](./Personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. 
+### Twee response-typen bij zoeken
+Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](./Personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoekMetAdresseerbaarObjectIdentificatie. Om alle gezagsrelaties op een adres te kunnen vragen is de response van deze zoekoperatie is uitgebreid met informatieproduct gezag. De zoekMetAdresseerbaarObjectIdentificatie zoekoperatie levert de **gezagPersoonBeperkt response**. 
 
 ### Uitsluitend binnengemeentelijk zoeken
 
