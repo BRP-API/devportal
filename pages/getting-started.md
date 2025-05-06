@@ -19,7 +19,7 @@ Lees [hoe je de response van de {{apiname}} Personen filtert](./how-tos/personen
 
 ## Probeer en test de {{apiname}} lokaal
 
-Test jouw applicatie door de een mock van jouw {{apiname}} functie te gebruiken en deze lokaal als een containerized applicatie te draaien. Je kunt deze containerized applicatie gemakkelijk hosten op een lokale machine of in jouw testomgeving. Lees [hier](./how-tos/lokaal-testen) hoe je dat doet.
+Test jouw applicatie door de een mock van jouw {{apiname}} functie te gebruiken en deze lokaal als een containerized applicatie te draaien. Je kunt deze [containerized applicatie gemakkelijk hosten op een lokale machine](./how-tos/lokaal-testen) of in jouw testomgeving.
 
 ## Vraag een access token aan voor de RvIG proefomgeving
 
