@@ -12,15 +12,6 @@ const Sidebar = ({ sidebar }) => {
           { label: "Overview", href: "/" },
           { label: "Getting started", href: "/getting-started" },
           {
-            title: "Concepts",
-            subnav: [
-              { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
-              { label: "Gemeente-is-verstrekker", href: "/concepten/gemeente-is-verstrekker" },
-              { label: "Informatieproducten", href: "/concepten/informatieproducten" },
-              { label: "REST-principes", href: "/concepten/rest-principes" },
-            ],
-          },
-          {
             title: "How-tos",
             subnav: [
               { label: "Personen zoeken en raadplegen", href: "/how-tos/Personen-zoeken-en-raadplegen" },
@@ -28,6 +19,15 @@ const Sidebar = ({ sidebar }) => {
               { label: "fields samenstellen", href: "/how-tos/fields-samenstellen" },
               { label: "lokaal testen", href: "/how-tos/lokaal-testen" },
               { label: "aansluiten", href: "/how-tos/aansluiten" },
+            ],
+          },
+          {
+            title: "Concepts",
+            subnav: [
+              { label: "Aansluitpatronen", href: "/concepten/aansluitpatronen/gemeente" },
+              { label: "Gemeente-is-verstrekker", href: "/concepten/gemeente-is-verstrekker" },
+              { label: "Informatieproducten", href: "/concepten/informatieproducten" },
+              { label: "REST-principes", href: "/concepten/rest-principes" },
             ],
           },
         ],
