@@ -4,7 +4,7 @@
 
 ## Aanhef bepalen
 ```gherkin
-# language: nl
+#language: nl
 
 Functionaliteit: Aanhef bepalen 
   Als consumer van de BRP API Wil ik de aanhef (introducerende zin van een brief of e-mail) voor een persoon kunnen vragen
