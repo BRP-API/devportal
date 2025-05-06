@@ -4,6 +4,9 @@ import yaml from 'js-yaml';
 import { visit } from 'unist-util-visit';
 
 export default function remarkConfigInjector() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
+  const imgDirectoryInPublic = 'img';
+
   return (tree, file) => {
     const dir = path.dirname(file.history[0]);
     let config = {};
@@ -31,6 +34,15 @@ export default function remarkConfigInjector() {
         node.url = node.url.replace(placeholderRegex, (match, key) => {
           return config[key] || match;
         });
+      }
+    });
+
+    visit(tree, 'paragraph', node => {
+      const image = node.children.find(child => child.type === 'image');
+
+      if (image) {
+        const fileName = image.url.replace('./', '');
+        image.url = `${basePath}/${imgDirectoryInPublic}/${fileName}`;
       }
     });
   };

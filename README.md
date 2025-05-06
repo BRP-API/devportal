@@ -72,3 +72,8 @@ Dit project bevat de volgende onderdelen
 5. Gebruik bij voorkeur geen spaties, hoofdletters of leestekens in URLs en bestandsnamen. Vervang spaties door koppeltekens (-) om de leesbaarheid te verbeteren en problemen met browserverwijzingen te voorkomen.
 
 6. Gebruik korte, beschrijvende bestandsnamen — bij voorkeur zelfstandige naamwoorden, eventueel aangevuld met werkwoorden.
+
+7. Afbeeldingen toevoegen kan door een JPG/PNG bestand toe te voegen aan de pages/img map. Vervolgens kan er vanuit de markdown-bestanden worden verwezen naar de afbeelding. 
+De afbeelding in `pages/img/afbeelding.png` tonen? Dit kan door de bestandslocatie zonder pages/img/ over te nemen in het markdownbestand. 
+    - `![Afbeelding](afbeelding.png)`  toont image /pages/img/afbeelding.png
+    - `![Afbeelding](./afbeelding.png)`  toont image /pages/img/afbeelding.png
