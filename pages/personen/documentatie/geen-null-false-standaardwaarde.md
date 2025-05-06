@@ -1,6 +1,6 @@
 # Geen/null/false waarde, leeg object waarde en standaard waarde
 
-Om de payload van een response klein te houden, zijn de volgende waarden geen onderdeel van de response:
+Om de payload van een response klein te houden, worden velden in de volgende situaties niet opgenomen in het antwoord:
 
 - niet gevraagde velden. Deze velden hebben _null_ als waarde.
 - gevraagde velden die de gevraagde persoon niet heeft. Deze velden hebben _null_ als waarde. Voorbeeld: naam.voorvoegsel veld wordt gevraagd voor een persoon die geen voorvoegsel in zijn naam heeft.
