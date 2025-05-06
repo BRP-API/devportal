@@ -99,7 +99,7 @@ const Sidebar = ({ sidebar }) => {
               {/* display title label */}
               {item.title && <p className="item title">{item.title}</p>}
               {item.subnav.map((subitem, subindex) => (
-                <div key={subindex}>
+                <div key={`${index}-${subindex}`}>
                   {subitem.href && (
                     <Link className="subitem" href={subitem.href}>
                       {subitem.label}
@@ -111,24 +111,30 @@ const Sidebar = ({ sidebar }) => {
                   )}
                   {/* display subnav with multiple items */}
                   {subitem.title && (
-                    <details className="details-flex">
+                    <details className="details-flex" key={`details-${subindex}`}>
                       <summary>{subitem.title}</summary>
                       {subitem.subnav.map((subsubitem, subsubindex) => (
-                        subsubitem.href && (
-                          <Link className="subsubitem" href={subsubitem.href} key={subsubindex}>
-                            {subsubitem.label}
-                          </Link>
-                        )
-                        || !subsubitem.href && (
-                          <details className="details-flex">
-                            <summary>{subsubitem.title}</summary>
-                            {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
-                              <Link className="subsubitem" href={subsubsubitem.href} key={subsubsubindex}>
-                                {subsubsubitem.label}
-                              </Link>
-                            ))}
-                          </details>
-                        )
+                        <div key={`${index}-${subindex}-${subsubindex}`}>
+                          {subsubitem.href && (
+                            <Link className="subsubitem" href={subsubitem.href}>
+                              {subsubitem.label}
+                            </Link>
+                          )
+                            || !subsubitem.href && (
+                              <details className="details-flex">
+                                <summary>{subsubitem.title}</summary>
+                                {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
+                                  <div key={`${index}-${subindex}-${subsubindex}-${subsubsubindex}`}>
+                                    {subsubsubitem.href && (
+                                      <Link className="subsubitem" href={subsubsubitem.href}>
+                                        {subsubsubitem.label}
+                                      </Link>
+                                    )}
+                                  </div>
+                                ))}
+                              </details>
+                            )}
+                        </div>
                       ))}
                     </details>
                   )}
@@ -151,10 +157,10 @@ const Sidebar = ({ sidebar }) => {
           </div>
           <div className='sidebar'>
             {sidebarData.items.map((item, index) => (
-              <div key={index}>
+              <div key={`m-${index}`}>
                 {item.title && <p className="item title">{item.title}</p>}
                 {item.subnav.map((subitem, subindex) => (
-                  <div key={subindex}>
+                  <div key={`m-${index}-${subindex}`}>
                     {subitem.href && (
                       <Link className="subitem" href={subitem.href} onClick={() => document.querySelector('.mobile-menu').classList.remove('open')}>
                         {subitem.label}
@@ -167,21 +173,27 @@ const Sidebar = ({ sidebar }) => {
                       <details className="details-flex">
                         <summary>{subitem.title}</summary>
                         {subitem.subnav.map((subsubitem, subsubindex) => (
-                            subsubitem.href && (
-                              <Link className="subsubitem" href={subsubitem.href} key={subsubindex}>
+                          <div key={`m-${index}-${subindex}-${subsubindex}`}>
+                            {subsubitem.href && (
+                              <Link className="subsubitem" href={subsubitem.href}>
                                 {subsubitem.label}
                               </Link>
                             )
-                            || !subsubitem.href && (
-                              <details className="details-flex">
-                                <summary>{subsubitem.title}</summary>
-                                {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
-                                    <Link className="subsubitem" href={subsubsubitem.href} key={subsubsubindex}>
-                                      {subsubsubitem.label}
-                                    </Link>
-                                ))}
-                              </details>
-                            )
+                              || !subsubitem.href && (
+                                <details className="details-flex">
+                                  <summary>{subsubitem.title}</summary>
+                                  {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
+                                    <div key={`m-${index}-${subindex}-${subsubindex}-${subsubsubindex}`}>
+                                      {subsubsubitem.href && (
+                                        <Link className="subsubitem" href={subsubsubitem.href}>
+                                          {subsubsubitem.label}
+                                        </Link>
+                                      )}
+                                    </div>
+                                  ))}
+                                </details>
+                              )}
+                          </div>
                         ))}
                       </details>
                     )}
