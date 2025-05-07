@@ -27,7 +27,8 @@ Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) id
 - zoek met adresseerbaar object identificatie
 
 ### Twee responsetypen bij zoeken
-Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](./Personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoek-met-adresseerbaar-object-identificatie. Om alle gezagsrelaties op een adres te kunnen vragen is de response van deze zoekoperatie is uitgebreid met informatieproduct gezag. Als je zoekt met de zoek-met-adresseerbaar-object-identificatie zoekoperatie, dan krijg je de **gezagPersoonBeperkt response**. 
+Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende gegevens, zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoek-met-adresseerbaar-object-identificatie.  
+Om alle gezagsrelaties op een adres te kunnen vragen is de response van de zoekoperatie zoek-met-adresseerbaar-object-identificatie uitgebreid met informatieproduct gezag. Als je zoekt met de zoek-met-adresseerbaar-object-identificatie zoekoperatie, dan krijg je de **gezagPersoonBeperkt response**.   
 Van de personen in beide responsetypen krijg je uitsluitend [gegevens waar je om vraagt](./how-tos/personen-response-filteren) en waar je recht op hebt.
 
 ### Maximaal aantal zoekresultaten
