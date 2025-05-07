@@ -1,4 +1,4 @@
-# Gezag
+# Afleidingsregels Gezag
 
 ## Wat is gezag?  
 Iedereen in Nederland die jonger is dan 18 jaar staat onder gezag. Dit betekent dat zij sommige beslissingen niet zelfstandig mogen nemen. Iemand die gezag heeft over een minderjarige is verantwoordelijk voor de verzorging en opvoeding van de minderjarige en beheert het geld en de spullen van de minderjarige.   
