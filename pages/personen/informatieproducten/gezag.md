@@ -1,8 +1,9 @@
 # Gezag
 
 ## Wat is gezag?  
-Iedereen in Nederland die jonger is dan 18 jaar staat onder gezag. Dit betekent dat zij sommige beslissingen niet zelfstandig mogen nemen. Iemand die gezag heeft over een minderjarige is verantwoordelijk voor de verzorging en opvoeding van de minderjarige en beheert het geld en de spullen van de minderjarige. De gezaghouder is ook de wettelijk vertegenwoordiger van de minderjarige. Minderjarigen mogen vaak niet zelf officiële handelingen doen. De wettelijk vertegenwoordiger doet dit dan voor de minderjarige, bijvoorbeeld door een handtekening te zetten.
-De wettelijk vertegenwoordiger is ook vaak wettelijk aansprakelijk voor wat de minderjarige doet. Gezag gaat veel verder dan alleen een recht op omgang. De ouder met gezag mag namelijk belangrijke beslissingen nemen over het leven van het kind, zoals een schoolkeuze, medische beslissingen, een verhuizing, een vakantie naar het buitenland of het aanvragen van een reisdocument. Een ouder die alleen het gezag uitoefent, heeft bij het nemen van deze beslissingen geen toestemming nodig van de andere (juridische) ouder zonder gezag.
+Iedereen in Nederland die jonger is dan 18 jaar staat onder gezag. Dit betekent dat zij sommige beslissingen niet zelfstandig mogen nemen. Iemand die gezag heeft over een minderjarige is verantwoordelijk voor de verzorging en opvoeding van de minderjarige en beheert het geld en de spullen van de minderjarige.   
+De gezaghouder is ook de wettelijk vertegenwoordiger van de minderjarige. Minderjarigen mogen vaak niet zelf officiële handelingen doen. De wettelijk vertegenwoordiger doet dit dan voor de minderjarige, bijvoorbeeld door een handtekening te zetten. De wettelijk vertegenwoordiger is ook vaak wettelijk aansprakelijk voor wat de minderjarige doet.  
+Gezag gaat veel verder dan alleen een recht op omgang. De ouder met gezag mag namelijk belangrijke beslissingen nemen over het leven van het kind, zoals een schoolkeuze, medische beslissingen, een verhuizing, een vakantie naar het buitenland of het aanvragen van een reisdocument. Een ouder die alleen het gezag uitoefent, heeft bij het nemen van deze beslissingen geen toestemming nodig van de andere (juridische) ouder zonder gezag.
 
 Iedereen die 18 jaar of ouder is en niet onder curatele staat of een geestelijke stoornis heeft kan gezag hebben over een minderjarige. Meestal hebben de ouders het gezag. Het gezag stopt automatisch als het kind 18 jaar wordt. Een minderjarige kan niet meer dan 2 ouders hebben. Over een minderjarige kan het gezag niet door meer dan 2 personen worden uitgeoefend.
 
@@ -44,7 +45,7 @@ Wanneer krijgt een minderjarige een voogd?
 - wanneer de ouders geen gezag (meer) hebben.
 
 Een minderjarige kan automatisch of via de rechter een voogd krijgen:
-- een gezaghouder met gezamenlijk gezag wordt automatisch voogd als de andere gezaghebbende ouder overlijdt of onbevoegd raakt tot de uitoefening van gezag, bijvoorbeeld omdat die ouder onder curatele staat.
+- een gezaghouder met gezamenlijk gezag wordt automatisch voogd als de andere gezaghebbende ouder overlijdt of onbevoegd raakt tot de uitoefening van gezag. Bijvoorbeeld omdat die ouder onder curatele staat.
 - vaak benoemt de rechter een voogd in een gerechtelijke uitspraak. Ook ouders kunnen in hun testament of door een aantekening in het gezagsregister één of twee personen als voogd aanwijzen. De voogdij begint pas als de ouders overleden zijn, het kind nog geen 18 jaar is en de voogd bij de griffie van de rechtbank verklaard heeft dat de voogdij wordt aanvaard. Als de gevraagde persoon toch geen voogd wil zijn, bepaalt de rechter wie de voogd wordt.
 
 ## Leeswijzer afleidingsregels
