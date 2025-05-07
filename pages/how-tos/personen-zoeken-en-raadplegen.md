@@ -27,8 +27,22 @@ Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) id
 - zoek met adresseerbaar object identificatie
 
 ### Twee response-typen bij zoeken
-Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](./Personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoekMetAdresseerbaarObjectIdentificatie. Om alle gezagsrelaties op een adres te kunnen vragen is de response van deze zoekoperatie is uitgebreid met informatieproduct gezag. Als je zoekt met de zoekMetAdresseerbaarObjectIdentificatie zoekoperatie, dan krijg je de **gezagPersoonBeperkt response**. 
+Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende [gegevens waar je om hebt gevraagd](./Personen-response-filteren), zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoek-met-adresseerbaar-object-identificatie. Om alle gezagsrelaties op een adres te kunnen vragen is de response van deze zoekoperatie is uitgebreid met informatieproduct gezag. Als je zoekt met de zoek-met-adresseerbaar-object-identificatie zoekoperatie, dan krijg je de **gezagPersoonBeperkt response**. 
 
+### Maximaal aantal zoekresultaten
+Voor alle zoekoperaties is een maximum gesteld aan het aantal personen in het antwoord die voldoen aan de opgegeven criteria. Zodra het maximum aantal personen wordt overschreden volgt een foutmelding.  
+
+Het aantal gevonden personen in het antwoord is maximaal 10 bij de zoekoperaties:  
+- zoek met geslachtsnaam en geboortedatum
+- zoek met geslachtsnaam, voornamen en gemeente van inschrijving.
+  
+Het aantal gevonden personen in het antwoord is maximaal 30 bij de zoekoperaties:
+- zoek met postcode en huisnummer
+- zoek met straat, huisnummer en gemeente van inschrijving
+- zoek met nummeraanduiding identificatie
+- zoek met adresseerbaar object identificatie
+
+ 
 ### Uitsluitend binnengemeentelijk zoeken
 
 Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter **gemeenteVanInschrijving** met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven.
