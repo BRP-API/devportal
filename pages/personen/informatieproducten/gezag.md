@@ -13,9 +13,9 @@ Er zijn verschillende soorten gezag:
 - Voogdij.
 
 ### Wat bedoelen we met ouders?
-Met "ouders" bedoelen we de juridische ouders volgens de wet. De "juridische ouder" is de ouder die op de geboorteakte staat. Hieronder staat hoe iemand juridisch ouder kan worden:
+Met **ouders** bedoelen we de juridische ouders volgens de wet. De juridische ouder is de ouder die op de geboorteakte staat. Hieronder staat hoe iemand juridisch ouder kan worden:
 
-De moeder van een kind is volgens de wet:   
+De **moeder** van een kind is volgens de wet:   
 - de vrouw uit wie het kind geboren is;
 - de vrouw die het kind heeft geadopteerd; 
 - de vrouw die met de moeder is getrouwd of een geregistreerd partnerschap heeft als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt. Om zwanger te worden is gebruik gemaakt van een onbekende zaaddonor, zoals beschreven in de Wet donorgegevens kunstmatige bevruchting; 
@@ -23,14 +23,14 @@ De moeder van een kind is volgens de wet:
 - de vrouw van wie het ouderschap gerechtelijk is vastgesteld.
 
 
-De vader van een kind is volgens de wet:   
+De **vader** van een kind is volgens de wet:   
 - de man die met de moeder is gehuwd of een geregistreerd partnerschap heeft, als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt;
 - de man die het kind heeft erkend; 
 - de man die het kind heeft geadopteerd;
 - de man van wie het ouderschap gerechtelijk is vastgesteld. 
 
 
-Met niet-ouder bedoelen we:    
+Met **niet-ouder** bedoelen we:    
 - de partner van één van de ouders;
 - een derde met een nauwe persoonlijke relatie met tot de minderjarige (bijvoorbeeld een tante, oom of iemand anders);
 - een voogd.
