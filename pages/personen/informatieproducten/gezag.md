@@ -60,4 +60,4 @@ Gezag wordt bepaald door afleidingsregels in onderstaande volgorde toe te passen
     - met één ouder. Lees de afleidingsregels voor een [minderjarige met één ouder](één-ouder.feature)
     - zonder ouders. Lees de afleidingsregels voor een [minderjarige zonder ouder](geen-ouder.feature)
 5. Minderjarige heeft de de gewone verblijfplaats in het buitenland gehad. Lees de afleidingsregels voor [minderjarige die in het buitenland heeft verbleven](immigrant.feature)
-6. Gezaghouder(s) zijn niet bevoegd of overleden. Lees de afleidingsregels voor [bevoegdheid tot gezag](bevoegdheid-tot-gezag.feature).
+6. Gezaghouder(s) zijn niet bevoegd of overleden. Lees de afleidingsregels voor [bevoegdheid tot gezag](features/specs/gezag-minderjarige/bevoegdheid-tot-gezag.feature).
