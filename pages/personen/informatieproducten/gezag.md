@@ -15,23 +15,26 @@ Er zijn verschillende soorten gezag:
 ### Wat bedoelen we met ouders?
 Met "ouders" bedoelen we de juridische ouders volgens de wet. De "juridische ouder" is de ouder die op de geboorteakte staat. Hieronder staat hoe iemand juridisch ouder kan worden:
 
-De moeder van een kind is volgens de wet:
-- De vrouw uit wie het kind geboren is;
-- De vrouw die het kind heeft geadopteerd; 
-- De vrouw die met de moeder is getrouwd of een geregistreerd partnerschap heeft als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt. Om zwanger te worden is gebruik gemaakt van een onbekende zaaddonor, zoals beschreven in de Wet donorgegevens kunstmatige bevruchting; 
-- De vrouw die het kind heeft erkend;
-- De vrouw van wie het ouderschap gerechtelijk is vastgesteld.
+De moeder van een kind is volgens de wet:   
+- de vrouw uit wie het kind geboren is;
+- de vrouw die het kind heeft geadopteerd; 
+- de vrouw die met de moeder is getrouwd of een geregistreerd partnerschap heeft als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt. Om zwanger te worden is gebruik gemaakt van een onbekende zaaddonor, zoals beschreven in de Wet donorgegevens kunstmatige bevruchting; 
+- de vrouw die het kind heeft erkend;
+- de vrouw van wie het ouderschap gerechtelijk is vastgesteld.
 
-De vader van een kind is volgens de wet:
-- De man die met de moeder is gehuwd of een geregistreerd partnerschap heeft, als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt;
-- De man die het kind heeft erkend; 
-- De man die het kind heeft geadopteerd;
-- De man van wie het ouderschap gerechtelijk is vastgesteld. 
 
-Met niet-ouder bedoelen we:  
-- de partner van één van de ouders
-- een derde met een nauwe persoonlijke relatie met tot de minderjarige (bijvoorbeeld een tante, oom of iemand anders)
+De vader van een kind is volgens de wet:   
+- de man die met de moeder is gehuwd of een geregistreerd partnerschap heeft, als het kind tijdens het huwelijk of geregistreerd partnerschap geboren wordt;
+- de man die het kind heeft erkend; 
+- de man die het kind heeft geadopteerd;
+- de man van wie het ouderschap gerechtelijk is vastgesteld. 
+
+
+Met niet-ouder bedoelen we:    
+- de partner van één van de ouders;
+- een derde met een nauwe persoonlijke relatie met tot de minderjarige (bijvoorbeeld een tante, oom of iemand anders);
 - een voogd.
+
 
 ### Wat is voogdij?
 Voogdij is het gezag van niet-ouders. Iedereen die 18 jaar of ouder is, niet onder curatele staat en geen geestelijke stoornis heeft, kan voogd worden. Ook een jeugdzorgorganisatie (bijvoorbeeld Bureau Jeugdzorg) kan als voogd worden benoemd.
@@ -41,8 +44,8 @@ Wanneer krijgt een minderjarige een voogd?
 - wanneer de ouders geen gezag (meer) hebben.
 
 Een minderjarige kan automatisch of via de rechter een voogd krijgen:
-- Een gezaghouder met gezamenlijk gezag wordt automatisch voogd als de andere gezaghebbende ouder overlijdt of onbevoegd raakt tot de uitoefening van gezag, bijvoorbeeld omdat die ouder onder curatele staat.
-- Vaak benoemt de rechter een voogd in een gerechtelijke uitspraak. Ook ouders kunnen in hun testament of door een aantekening in het gezagsregister één of twee personen als voogd aanwijzen. De voogdij begint pas als de ouders overleden zijn, het kind nog geen 18 jaar is en de voogd bij de griffie van de rechtbank verklaard heeft dat de voogdij wordt aanvaard. Als de gevraagde persoon toch geen voogd wil zijn, bepaalt de rechter wie de voogd wordt.
+- een gezaghouder met gezamenlijk gezag wordt automatisch voogd als de andere gezaghebbende ouder overlijdt of onbevoegd raakt tot de uitoefening van gezag, bijvoorbeeld omdat die ouder onder curatele staat.
+- vaak benoemt de rechter een voogd in een gerechtelijke uitspraak. Ook ouders kunnen in hun testament of door een aantekening in het gezagsregister één of twee personen als voogd aanwijzen. De voogdij begint pas als de ouders overleden zijn, het kind nog geen 18 jaar is en de voogd bij de griffie van de rechtbank verklaard heeft dat de voogdij wordt aanvaard. Als de gevraagde persoon toch geen voogd wil zijn, bepaalt de rechter wie de voogd wordt.
 
 ## Leeswijzer afleidingsregels
 
