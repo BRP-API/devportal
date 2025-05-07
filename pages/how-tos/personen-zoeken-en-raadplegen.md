@@ -7,7 +7,7 @@ Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en
 
 ## Zoek personen
 
-Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) identificerende persoonsgegevens op te geven. In de overzichten en foutcases vind je voorbeelden die laten zien aan welke eisen de parameters moeten voldoen en hoe je wildcards, diacrieten en hoofd- en kleine letters kunt gebruiken.
+Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) identificerende persoonsgegevens op te geven. In de overzichten en foutcases vind je voorbeelden die laten zien aan welke eisen de parameters moeten voldoen, en hoe je wildcards, diacrieten en hoofd- en kleine letters kunt gebruiken.
 
 - zoek met geslachtsnaam en geboortedatum
   - [overzicht](./../features/zoek-met-geslachtsnaam-en-geboortedatum/overzicht.feature)
