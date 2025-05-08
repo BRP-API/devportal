@@ -67,7 +67,7 @@ Meer informatie over het gebruik van de __verblijfplaatsBinnenland__ fields alia
 
 Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelvelden:
 
-1. geautoriseerd voor ZOWEL adresregels van binnenlandse verblijfplaatsen ALS adresregels van buitenlandse verblijfplaatsen (adresregel1, adresregel2 en adresregel3)
+1. geautoriseerd voor ZOWEL adresregels van binnenlandse verblijfplaatsen ALS adresregels van buitenlandse verblijfplaatsen (adresregel1, adresregel2, adresregel3 en land)
 2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)
 
 Als jouw organisatie of applicatie niet geautoriseerd is voor het vragen van adresregels van buitenlandse verblijfplaatsen kun je de standaard veldpaden van adresregels niet gebruiken. Met die veldpaden vraag je namelijk zowel binnenlandse als buitenlandse adresregels op. In plaats daarvan moet je de __adresseringBinnenland__ fields alias gebruiken. Daarmee geef je aan dat je uitsluitend binnenlandse verblijfplaatsen vraagt.
