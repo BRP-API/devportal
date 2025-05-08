@@ -207,7 +207,7 @@ i {
   overflow-x: auto;
   max-width: 1200px;
   min-height: calc(100vh - var(--navbar-height) - var(--header-height) - var(--footer-height));
-  line-height: 1.25rem;
+  line-height: auto;
 
   .redoc-container {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
