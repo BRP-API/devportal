@@ -11,15 +11,12 @@ Adressering bevat alle gegevens die je je nodig hebt voor het versturen van brie
 7. **gebruik in lopende tekst** als je in de tekst van de brief aan een persoon refereert.
    
 
-![image](https://github.com/user-attachments/assets/c28dbcfc-1984-474e-b236-ab50797f20b4)
-![image](https://github.com/user-attachments/assets/59adf280-bc9a-48e1-a345-1025f81ffed6)
+![brief buitenland](brief-buitenland.png)
 
 De eerste vijf gegevens kun je in de brief gebruiken voor een vensterenvelop. De adresregels zijn conform NEN 5825 afgekort, zodat ze binnen het venster van een vensterenvelop passen. 
 Een in de BAG als “Burgemeester Le Fèvre de Montignylaan” opgenomen openbare ruimte wordt dan afgekort als “Burg L F de Montignyln".  
 
-![image](https://github.com/user-attachments/assets/0261e3e1-5f7c-4756-83b2-bda20846ee2c)
-![image](https://github.com/user-attachments/assets/4f9a6bf3-6a95-4a8c-8bdf-65bbe37a285b)
-
+![envelop binnenland](envelop-binnenland.png)
 
 ##  Autoriseren  
 
