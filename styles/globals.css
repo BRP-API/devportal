@@ -227,13 +227,13 @@ i {
     border: 1px solid #ddd;
     font-weight: normal;
     padding: 4px;
-    text-align: center;
+    text-align: left;
   }
 
   td {
     border: 1px solid #ddd;
     padding: 4px;
-    text-align: center;
+    text-align: left;
   }
 
   tr:nth-child(even) {
