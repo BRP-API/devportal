@@ -8,7 +8,8 @@ Adressering bevat alle gegevens die je je nodig hebt voor het versturen van brie
 4. adresregel 3
 5. land
 6. de **aanhef** van de geadresseerde. Met deze introducerende zin begroet je de lezer op een correcte manier met Geachte, of Hoogwelgeboren heer.
-7. **gebruik in lopende tekst** als je in de tekst van de brief aan een persoon refereert.
+7. **gebruik in lopende tekst** als je in de tekst van de brief aan een persoon refereert
+8. Indicatie-vastgesteld-verblijft-niet-op-adres krijg je alleen als tijdens een onderzoek van de bronhouder is vastgesteld dat de persoon niet op het adres woont waar men is ingeschreven. 
    
 
 ![brief buitenland](brief-buitenland.png)
