@@ -52,13 +52,13 @@ Een minderjarige kan automatisch of via de rechter een voogd krijgen:
 
 Gezag wordt bepaald door afleidingsregels in onderstaande volgorde toe te passen:
 
-1. Wanneer minderjarige de vaste verblijfplaats in het buitenland heeft, is het gezag niet te bepalen. Lees de afleidingsregels voor [gezag bepalen voor minderjarigen die in het buitenland verblijven](niet-ingezetene.feature)
-2. Er wordt vastgesteld dat geen gezag is. Lees de afleidingsregels voor [geen gezag functionaliteit](geen-gezag.feature)
-3. Er is een gerechtelijke uitspraak over gezag, die kan worden herzien door adoptie, een reparatiehuwelijk of ontkenning. Lees de afleidnigsregels voor [gerechtelijke uitspraak](gerechtelijke-uitspraak-feature)
+1. Wanneer minderjarige de vaste verblijfplaats in het buitenland heeft, is het gezag niet te bepalen. Lees de afleidingsregels voor [gezag bepalen voor minderjarigen die in het buitenland verblijven](../../features/gezag/niet-ingezetene.feature)
+2. Er wordt vastgesteld dat geen gezag is. Lees de afleidingsregels voor [geen gezag functionaliteit](../../features/gezag/geen-gezag.feature)
+3. Er is een gerechtelijke uitspraak over gezag, die kan worden herzien door adoptie, een reparatiehuwelijk of ontkenning. Lees de afleidnigsregels voor [gerechtelijke uitspraak](../../features/gezag/gerechtelijke-uitspraak.feature)
 4. Gezag wordt bepaald van een minderjarige:
-    - met twee ouders met een relatie met elkaar. Lees de afleidingsregels voor een [minderjarige met twee ouders met relatie](twee-ouders-met-relatie.feature)
-    - met twee ouders zonder een relatie met elkaar. Lees de afleidingsregels voor een [minderjarige met twee ouders zonder relatie](twee-ouders-geen-relatie.feature)
-    - met één ouder. Lees de afleidingsregels voor een [minderjarige met één ouder](één-ouder.feature)
-    - zonder ouders. Lees de afleidingsregels voor een [minderjarige zonder ouder](geen-ouder.feature)
-5. Minderjarige heeft de de gewone verblijfplaats in het buitenland gehad. Lees de afleidingsregels voor [minderjarige die in het buitenland heeft verbleven](immigrant.feature)
-6. Gezaghouder(s) zijn niet bevoegd of overleden. Lees de afleidingsregels voor [bevoegdheid tot gezag](features/specs/gezag-minderjarige/bevoegdheid-tot-gezag.feature).
+    - met twee ouders met een relatie met elkaar. Lees de afleidingsregels voor een [minderjarige met twee ouders met relatie](../../features/gezag/twee-ouders-met-relatie.feature)
+    - met twee ouders zonder een relatie met elkaar. Lees de afleidingsregels voor een [minderjarige met twee ouders zonder relatie](../../features/gezag/twee-ouders-geen-relatie.feature)
+    - met één ouder. Lees de afleidingsregels voor een [minderjarige met één ouder](../../features/gezag/een-ouder.feature)
+    - zonder ouders. Lees de afleidingsregels voor een [minderjarige zonder ouder](../../features/gezag/geen-ouder.feature)
+5. Minderjarige heeft de de gewone verblijfplaats in het buitenland gehad. Lees de afleidingsregels voor [minderjarige die in het buitenland heeft verbleven](../../features/gezag/immigrant.feature)
+6. Gezaghouder(s) zijn niet bevoegd of overleden. Lees de afleidingsregels voor [bevoegdheid tot gezag](../../features/gezag/bevoegdheid-tot-gezag.feature).
