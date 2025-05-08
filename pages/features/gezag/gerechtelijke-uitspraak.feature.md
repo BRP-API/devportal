@@ -1,9 +1,8 @@
-## Functionaliteit: Gerechtelijke uitspraak
+**Functionaliteit**: Gerechtelijke uitspraak
 
 Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is de uitspraak alleen bepalend voor gezag als er geen ontkenning vaderschap, adoptie of (reparatie)huwelijk na de uitspraak heeft plaatsgevonden. De meest recente gebeurtenis is bepalend voor het gezag.
 
-### Achtergrond
-
+**Achtergrond**:
 - **Gegeven** de persoon 'Gerda' met burgerservicenummer '000000012'
   - is meerderjarig
 - **En** de persoon 'Aart' met burgerservicenummer '000000024'
@@ -15,7 +14,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **En** de persoon 'Gerard' met burgerservicenummer '000000061'
   - is meerderjarig
 
-### Regel: Als er een gerechtelijke uitspraak is dat één ouder het gezag heeft, en de ouders zijn daarna (opnieuw) met elkaar gehuwd, dan is er gezamenlijk ouderlijk gezag
+**Regel**: Als er een gerechtelijke uitspraak is dat één ouder het gezag heeft, en de ouders zijn daarna (opnieuw) met elkaar gehuwd, dan is er gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: ouders zijn opnieuw met elkaar gehuwd (reparatiehuwelijk) na de gerechtelijke uitspraak
 
@@ -49,7 +48,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Aart'
 
-### Regel: Als er een gerechtelijke uitspraak is, en daarna is de minderjarige geadopteerd, dan wordt het gezag bepaald van rechtswege
+**Regel**: Als er een gerechtelijke uitspraak is, en daarna is de minderjarige geadopteerd, dan wordt het gezag bepaald van rechtswege
 
 **Voorbeeld**: na de gerechtelijke uitspraak is de minderjarige geadopteerd
 
@@ -65,7 +64,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' voogdij
 
-### Regel: Als er een gerechtelijke uitspraak is dat beide ouders gezag hebben, en het ouderschap is ontkend, dan heeft de overgebleven ouder eenhoofdig ouderlijk gezag
+**Regel**: Als er een gerechtelijke uitspraak is dat beide ouders gezag hebben, en het ouderschap is ontkend, dan heeft de overgebleven ouder eenhoofdig ouderlijk gezag
 
 **Voorbeeld**: na uitspraak over gezag aan beide ouders heeft vader ouderschap ontkend
 
@@ -85,7 +84,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is er tijdelijk geen gezag over 'Bert' met de toelichting 'Tijdelijk geen gezag omdat ouderschap door de gezagshouder is ontkend.'
 
-### Regel: Als er een gerechtelijke uitspraak is dat één ouder het gezag heeft, dan is er eenhoofdig ouderlijk gezag
+**Regel**: Als er een gerechtelijke uitspraak is dat één ouder het gezag heeft, dan is er eenhoofdig ouderlijk gezag
 
 **Voorbeeld**: het gezag is toegewezen aan één van de twee ouders
 
@@ -95,7 +94,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Aart'
 
-### Regel: Als er een gerechtelijke uitspraak is dat beide ouders het gezag hebben, dan is er gezamenlijk ouderlijk gezag
+**Regel**: Als er een gerechtelijke uitspraak is dat beide ouders het gezag hebben, dan is er gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: het gezag is toegewezen aan beide ouders
 
@@ -105,7 +104,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart'
 
-### Regel: Als er een gerechtelijke uitspraak is dat een voogd gezag heeft, dan is er sprake is van voogdij
+**Regel**: Als er een gerechtelijke uitspraak is dat een voogd gezag heeft, dan is er sprake is van voogdij
 
 **Voorbeeld**: het gezag is toegewezen aan een voogdijinstelling
 
@@ -123,7 +122,7 @@ Voor een minderjarige waarover gerechtelijke uitspraak over gezag is gedaan, is 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' voogdij
 
-### Regel: Als er een gerechtelijke uitspraak is dat één van de ouders gezag heeft samen met een derde, dan is er sprake van gezamenlijk gezag
+**Regel**: Als er een gerechtelijke uitspraak is dat één van de ouders gezag heeft samen met een derde, dan is er sprake van gezamenlijk gezag
 
 **Voorbeeld**: het gezag is toegewezen aan een van de ouders en een derde
 

@@ -1,15 +1,14 @@
-## Functionaliteit: Geen ouder
+**Functionaliteit**: Geen ouder
 
 Gezag bepalen voor een minderjarige zonder juridische ouder en nog geen voogdij toegewezen.
 
 Er kan dan een situatie ontstaan dat er geen gezag is over de minderjarige. Deze situatie is altijd tijdelijk.
 
-### Achtergrond
-
+**Achtergrond**:
 - **Gegeven** de persoon 'Bert' met burgerservicenummer '000000048'
   - is minderjarig
 
-### Regel: Als er geen of alleen onbekende ouders zijn, dan is er tijdelijk geen gezag
+**Regel**: Als er geen of alleen onbekende ouders zijn, dan is er tijdelijk geen gezag
 
 **Voorbeeld**: De ouders zijn onbekend
 

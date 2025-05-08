@@ -1,9 +1,8 @@
-## Functionaliteit: Twee ouders geen relatie
+**Functionaliteit**: Twee ouders geen relatie
 
 Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboorte van het kind niet gehuwd zijn of waren en geen partnerschap hebben of hadden.
 
-### Achtergrond
-
+**Achtergrond**:
 - **Gegeven** de persoon 'Gerda' met burgerservicenummer '000000012'
   - is meerderjarig
 - **En** de persoon 'Aart' met burgerservicenummer '000000024'
@@ -13,7 +12,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **En** de persoon 'Ariana' met burgerservicenummer '000000048'
   - is meerderjarig
 
-### Regel: Als de minderjarige is geadopteerd door één of beide ouders dan hebben de ouders samen gezamenlijk ouderlijk gezag
+**Regel**: Als de minderjarige is geadopteerd door één of beide ouders dan hebben de ouders samen gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: Minderjarige is geadopteerd door beide ouders
 
@@ -28,7 +27,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart'
 
-### Regel: Als de minderjarige is erkend na 1 januari 2023 dan hebben de ouders samen gezamenlijk ouderlijk gezag
+**Regel**: Als de minderjarige is erkend na 1 januari 2023 dan hebben de ouders samen gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: Minderjarige is als ongeboren vrucht erkend na 1 januari 2023
 
@@ -45,7 +44,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart'
 
-### Regel: Als de ouders na de geboorte van minderjarige niet met elkaar gehuwd zijn (geweest) en geen partnerschap hebben (gehad) en de minderjarige is erkend voor 1 januari 2023 dan heeft de geboortemoeder eenhoofdig ouderlijk gezag
+**Regel**: Als de ouders na de geboorte van minderjarige niet met elkaar gehuwd zijn (geweest) en geen partnerschap hebben (gehad) en de minderjarige is erkend voor 1 januari 2023 dan heeft de geboortemoeder eenhoofdig ouderlijk gezag
 
 **Voorbeeld**: Ouders zijn nooit met elkaar gehuwd geweest en minderjarige is erkend voor 1 januari 2023
 
@@ -103,7 +102,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Gerda'
 
-### Regel: Als minderjarige vóór de geboorte is erkend na 1 januari 2023, dan hebben de moeder en de erkenner gezamenlijk ouderlijk gezag
+**Regel**: Als minderjarige vóór de geboorte is erkend na 1 januari 2023, dan hebben de moeder en de erkenner gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: Minderjarige is na 1 januari 2023 vóór de geboorte erkend door bekende donor en moeder is gehuwd met een vrouw
 
@@ -121,7 +120,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Ariana'
 
-### Regel: Als minderjarige na de geboorte is erkend en na 1 januari 2023 door een bekende donor, dan hebben de moeder en de partner van de moeder gezamenlijk gezag
+**Regel**: Als minderjarige na de geboorte is erkend en na 1 januari 2023 door een bekende donor, dan hebben de moeder en de partner van de moeder gezamenlijk gezag
 
 **Voorbeeld**: Minderjarige is na 1 januari 2023 en bij geboorteaangifte erkend door de bekende donor en moeder is gehuwd met een vrouw
 
@@ -141,7 +140,7 @@ Gezag bepalen voor een minderjarige met twee juridische ouders die na de geboort
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk gezag met ouder 'Gerda' en derde 'Ariana'
 
-### Regel: Als minderjarige na de geboorte en na 1 januari 2023 is erkend door de partner van de moeder, dan hebben de moeder en de partner van de moeder gezamenlijk ouderlijk gezag
+**Regel**: Als minderjarige na de geboorte en na 1 januari 2023 is erkend door de partner van de moeder, dan hebben de moeder en de partner van de moeder gezamenlijk ouderlijk gezag
 
 **Voorbeeld**: Minderjarige is na 1 januari 2023 en na de geboorte erkend door de vrouwelijke partner van de moeder (meemoeder)
 

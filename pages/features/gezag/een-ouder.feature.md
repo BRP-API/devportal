@@ -1,4 +1,4 @@
-## Functionaliteit: Eén ouder
+**Functionaliteit**: Eén ouder
 
 Gezag bepalen voor een minderjarige met één juridische ouder.
 
@@ -11,8 +11,7 @@ Er is automatisch sprake van gezamenlijk gezag als:
 In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de rechter dit heeft toegekend is er sprake van gezamenlijk gezag via een gerechtelijke uitspraak. Zie
 [feature gerechtelijke uitspraak](gerechtelijke-uitspraak.feature)
 
-### Achtergrond
-
+**Achtergrond**:
 - **Gegeven** de persoon 'Gerda' met burgerservicenummer '000000012'
   - is meerderjarig
 - **En** de persoon 'Aart' met burgerservicenummer '000000024'
@@ -23,7 +22,7 @@ In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de 
   - is minderjarig
   - heeft 'Gerda' als ouder
 
-### Regel: Als de minderjarige niet tijdens een huwelijk of partnerschap van de juridische ouder geboren is, dan heeft de ouder eenhoofdig ouderlijk gezag
+**Regel**: Als de minderjarige niet tijdens een huwelijk of partnerschap van de juridische ouder geboren is, dan heeft de ouder eenhoofdig ouderlijk gezag
 
 **Voorbeeld**: De ouder is nooit gehuwd en had nooit een geregistreerd partnerschap bij geboorte
 
@@ -45,7 +44,7 @@ In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Gerda'
 
-### Regel: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder geboren is, dan hebben de ouder en diens (toenmalige) partner gezamenlijk gezag
+**Regel**: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder geboren is, dan hebben de ouder en diens (toenmalige) partner gezamenlijk gezag
 
 **Voorbeeld**: Minderjarige heeft ouder die gehuwd is met een meemoeder
 
@@ -76,7 +75,7 @@ In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk gezag met ouder 'Gerda' en derde 'Ariana'
 
-### Regel: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder is geadopteerd, dan hebben de ouder en diens (toenmalige) partner gezamenlijk gezag
+**Regel**: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder is geadopteerd, dan hebben de ouder en diens (toenmalige) partner gezamenlijk gezag
 
 **Voorbeeld**: adoptieouder was niet gehuwd op geboortedatum van de minderjarige maar wel gehuwd ten tijde van de adoptiedatum
 
@@ -94,7 +93,7 @@ In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Gerda'
 
-### Regel: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder geboren is en er sprake is van ontkenning vaderschap, dan heeft de ouder eenhoofdig ouderlijk gezag
+**Regel**: Als de minderjarige tijdens het huwelijk of partnerschap van de juridische ouder geboren is en er sprake is van ontkenning vaderschap, dan heeft de ouder eenhoofdig ouderlijk gezag
 
 **Voorbeeld**: Minderjarige heeft ouder die gehuwd is en de partner heeft het vaderschap ontkend
 
@@ -104,7 +103,7 @@ In alle andere gevallen is gezamenlijk gezag aangevraagd bij de rechter. Als de 
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Gerda'
 
-### Regel: De partner behoudt gezag ook na nietigverklaring van het huwelijk
+**Regel**: De partner behoudt gezag ook na nietigverklaring van het huwelijk
 
 **Voorbeeld**: Het huwelijk is na geboorte van de minderjarige nietig verklaard
 

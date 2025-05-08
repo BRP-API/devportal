@@ -1,4 +1,4 @@
-## Functionaliteit: Gezag bepalen voor personen die in het buitenland verbleven hebben
+**Functionaliteit**: Gezag bepalen voor personen die in het buitenland verbleven hebben
 
 Wanneer een minderjarige een tijd een gewone verblijfplaats in het buitenland heeft gehad, kan het gezag onder de toepassing van buitenlands recht wijzigen.
 In sommige situaties is het daardoor niet te bepalen wat het gezag is.
@@ -19,8 +19,7 @@ Nog niet uitgewerkt in deze versie:
 - Verkrijgen van Gezamenlijk ouderlijk gezag bij ongehuwde ouders na verblijf van minderjarige in specifieke landen (België, Spanje, Polen, ...)
 - Bepalen dat er sprake is van buitenlandse adoptie wanneer deze niet in Nederland is erkend (wanneer de buitenlandse akte nog niet is omgezet naar een Nederlandse akte bij Landelijke taken)
 
-### Achtergrond
-
+**Achtergrond**:
 - **Gegeven** de persoon 'Gerda' met burgerservicenummer '000000012'
   - is meerderjarig
 - **En** de persoon 'Aart' met burgerservicenummer '000000024'
@@ -34,7 +33,7 @@ Nog niet uitgewerkt in deze versie:
 - **En** de persoon 'Ariana' zonder burgerservicenummer
   - is meerderjarig
 
-### Regel: Het gezag kan (nog) niet worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad, met twee ouders en waarbij volgens de gegevens in de BRP van rechtswege eenhoofdig ouderlijk gezag zou worden bepaald
+**Regel**: Het gezag kan (nog) niet worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad, met twee ouders en waarbij volgens de gegevens in de BRP van rechtswege eenhoofdig ouderlijk gezag zou worden bepaald
 
 **Voorbeeld**: minderjarige is geboren in het buitenland en in het buitenland geadopteerd door ongehuwde ouders en de buitenlandse adoptieakte is (nog) niet omgezet naar een Nederlandse akte
 
@@ -57,40 +56,69 @@ Nog niet uitgewerkt in deze versie:
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' niet te bepalen met de toelichting 'gezag is niet te bepalen omdat minderjarige in het buitenland heeft verbleven en onbekend is of de andere ouder dan de geboortemoeder daar gezag heeft gekregen.'
 
-**Voorbeeld**: ouders van minderjarige waren nooit met elkaar gehuwd en minderjarige is erkend voor 1-1-2023 en is na 1-1-2023 geremigreerd naar Nederland
+**Abstract Scenario**: ouders van minderjarige waren nooit met elkaar gehuwd en minderjarige is erkend voor 1-1-2023 en is na 1-1-2023 geremigreerd naar Nederland
 
 - **Gegeven** persoon 'Bert'
   - is geboren op 14-10-2019
   - heeft 'Gerda' als ouder
 - **En** 'Bert' is erkend door 'Aart' op 30-11-2019
-- **En** 'Bert' is 5 jaar geleden geëmigreerd naar <land>
+- **En** 'Bert' is 5 jaar geleden geëmigreerd naar `<land>`
 - **En** is op 6-11-2024 geïmmigreerd
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' niet te bepalen met de toelichting 'gezag is niet te bepalen omdat minderjarige in het buitenland heeft verbleven en onbekend is of de andere ouder dan de geboortemoeder daar gezag heeft gekregen.'
 
-### Regel: Een gerechtelijke uitspraak over het gezag voor een minderjarige blijft geldig wanneer de minderjarige een gewone verblijfplaats in het buitenland heeft gehad
+**Voorbeelden**:
+| land | omschrijving land |
+| --- | --- |
+| Duitsland |een land waar volgens het recht van dat land geen gezamenlijk gezag ontstaat bij erkenning |
+| Spanje |een waar door erkenning wel gezamenlijk gezag ontstaat |
 
-**Voorbeeld**: minderjarige is geïmmigreerd en daarna is er in een gerechtelijke uitspraak gezag toegewezen
+
+**Regel**: Een gerechtelijke uitspraak over het gezag voor een minderjarige blijft geldig wanneer de minderjarige een gewone verblijfplaats in het buitenland heeft gehad
+
+**Abstract Scenario**: minderjarige is geïmmigreerd en daarna is er in een gerechtelijke uitspraak gezag toegewezen
 
 - **Gegeven** persoon 'Bert'
   - heeft 'Aart' en 'Gerda' als ouders
   - is geboren in Duitsland
 - **En** is op 29-11-2022 geïmmigreerd
-- **En** op 27-03-2024 is in een gerechtelijke uitspraak het gezag toegewezen aan <toegewezen aan>
+- **En** op 27-03-2024 is in een gerechtelijke uitspraak het gezag toegewezen aan `<toegewezen aan>`
 - **Als** 'gezag' wordt gevraagd van 'Bert'
-- **Dan** is het gezag over 'Bert' <gezag uitspraak>
+- **Dan** is het gezag over 'Bert' `<gezag uitspraak>`
 
-**Voorbeeld**: Er is een gerechtelijke uitspraak gezag toegewezen, daarna is de minderjarige geëmigreerd en vervolgens weer geïmmigreerd
+**Voorbeelden**:
+| toegewezen aan | gezag uitspraak |
+| --- | --- |
+| 'Aart' |eenhoofdig ouderlijk gezag met ouder 'Aart' |
+| 'Gerda' |eenhoofdig ouderlijk gezag met ouder 'Gerda' |
+| beide ouders |gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart' |
+| een voogdijinstelling |voogdij |
+| ouder 'Aart' en een derde |gezamenlijk gezag met ouder 'Aart' en een onbekende derde |
+| ouder 'Gerda' en een derde |gezamenlijk gezag met ouder 'Gerda' en een onbekende derde |
+
+
+**Abstract Scenario**: Er is een gerechtelijke uitspraak gezag toegewezen, daarna is de minderjarige geëmigreerd en vervolgens weer geïmmigreerd
 
 - **Gegeven** persoon 'Bert'
   - heeft 'Aart' en 'Gerda' als ouders
-- **En** 2 jaar geleden is in een gerechtelijke uitspraak het gezag toegewezen aan <toegewezen aan>
+- **En** 2 jaar geleden is in een gerechtelijke uitspraak het gezag toegewezen aan `<toegewezen aan>`
 - **En** 'Bert' is 1 jaar geleden geëmigreerd naar België
 - **En** 'Bert' is vorige maand geïmmigreerd naar Nederland
 - **Als** 'gezag' wordt gevraagd van 'Bert'
-- **Dan** is het gezag over 'Bert' <gezag uitspraak>
+- **Dan** is het gezag over 'Bert' `<gezag uitspraak>`
 
-### Regel: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en gezamenlijk ouderlijk gezag heeft
+**Voorbeelden**:
+| toegewezen aan | gezag uitspraak |
+| --- | --- |
+| 'Aart' |eenhoofdig ouderlijk gezag met ouder 'Aart' |
+| 'Gerda' |eenhoofdig ouderlijk gezag met ouder 'Gerda' |
+| beide ouders |gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart' |
+| een voogdijinstelling |voogdij |
+| ouder 'Aart' en een derde |gezamenlijk gezag met ouder 'Aart' en een onbekende derde |
+| ouder 'Gerda' en een derde |gezamenlijk gezag met ouder 'Gerda' en een onbekende derde |
+
+
+**Regel**: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en gezamenlijk ouderlijk gezag heeft
 
 **Voorbeeld**: minderjarige is in het buitenland geboren en heeft twee ouders die met elkaar gehuwd zijn
 
@@ -123,7 +151,7 @@ Nog niet uitgewerkt in deze versie:
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk ouderlijk gezag met ouder 'Gerda' en ouder 'Aart'
 
-### Regel: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en gezamenlijk gezag heeft
+**Regel**: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en gezamenlijk gezag heeft
 
 **Voorbeeld**: minderjarige is in het buitenland geboren en heeft één ouder die ten tijde van de geboorte van minderjarige gehuwd was
 
@@ -136,7 +164,7 @@ Nog niet uitgewerkt in deze versie:
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' gezamenlijk gezag met ouder 'Gerda' en derde 'Zoe'
 
-### Regel: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en één ouder heeft
+**Regel**: Het gezag kan worden bepaald voor een minderjarige die een gewone verblijfplaats in het buitenland heeft gehad en één ouder heeft
 
 **Voorbeeld**: minderjarige is in het buitenland geboren en heeft één ouder waarbij geen huwelijk bekend is
 
@@ -147,7 +175,7 @@ Nog niet uitgewerkt in deze versie:
 - **Als** 'gezag' wordt gevraagd van 'Bert'
 - **Dan** is het gezag over 'Bert' eenhoofdig ouderlijk gezag met ouder 'Gerda'
 
-### Regel: het gezag kan worden bepaald voor een minderjarige waarvan een of beide gezaghebbenden niet staan ingeschreven in de BRP
+**Regel**: het gezag kan worden bepaald voor een minderjarige waarvan een of beide gezaghebbenden niet staan ingeschreven in de BRP
 
 **Voorbeeld**: minderjarige is in Nederland geboren en een van de ouders is niet ingeschreven in de BRP
 
