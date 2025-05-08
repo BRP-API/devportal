@@ -29,8 +29,8 @@ Afnemers kunnen op twee manieren voor adressering worden geautoriseerd:
 ### Uitsluitend adressering binnenland
 Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelvelden:
 1. geautoriseerd voor ZOWEL adresregels van binnenlandse verblijfplaatsen ALS adresregels van buitenlandse verblijfplaatsen (adresregel1, adresregel2, adresregel3 en land)
-2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)
-Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter moet gebruiken.
+2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)  
+Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter dan moet gebruiken.
 
 # Afleidingsregels adressering
 Lees hier hoe de velden van adressering worden afgeleid:  
