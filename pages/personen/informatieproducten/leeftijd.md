@@ -1,6 +1,7 @@
 # afleidingsregels Leeftijd  
 
-## Waarom leeftjd?  
+
+## Waarom leeftijd?  
 Als je dataminimalisatie toepast is het uitgangspunt dat je niet meer persoonsgegevens verwerkt dan je echt nodig hebt om je doel te bereiken. Heb je alleen leeftijd nodig? Vraag dan niet naar de geboortedatum. 
 Zo heb je bijvoorbeeld alleen de leeftijd nodig als als er een bepaalde leeftijdsgrens is verbonden aan aspecten van jouw dienstverlening. 
 
