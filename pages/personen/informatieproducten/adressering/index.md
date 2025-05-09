@@ -1,4 +1,4 @@
-# Adressering
+# Afleidingsregels Adressering
 
 ## Wat is adressering?
 Adressering bevat alle gegevens die je je nodig hebt voor het versturen van briefpost of een mailing. Kant en klaar, zonder dat jij gegevens zelf hoeft te bewerken. Voor het maken van de brief heb je nodig:  
@@ -32,7 +32,7 @@ Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelveld
 2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)  
 Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter dan moet gebruiken.
 
-## Afleidingsregels
+## Leeswijzer afleidingsregels
 Lees hier hoe de velden van adressering worden afgeleid:  
 - de [aanschrijfwijze](/personen/informatieproducten/adressering/aanschrijfwijze) van de geadresseerde
 - de [adresregels](/personen/informatieproducten/adressering/adresregels)
