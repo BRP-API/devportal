@@ -1,3 +1,9 @@
+[Adressering](/personen/informatieproducten/adressering) / Adresregels
+
 # Adresregels
 
-- de [adresregels](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/features/bevragen/persoon/adressering/adres-regels/overzicht.feature)
+Verblijfplaats gegevens van een persoon worden conform NEN 5825:2002 geleverd.
+
+
+## Features
+Adresregels worden beschreven in [adres-regels/overzicht.feature](/features/persoon/adressering/adres-regels/overzicht.feature).
