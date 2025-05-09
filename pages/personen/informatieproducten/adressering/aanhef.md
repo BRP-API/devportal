@@ -1,3 +1,8 @@
+[Adressering](/personen/informatieproducten/adressering) / Aanhef
+
 # Aanhef
 
-- de [aanhef](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/features/bevragen/persoon/adressering/aanhef/summary.feature) van de geadresseerde
+De aanhef van een persoon zonder partner wordt samengesteld door geslacht, de voorletters, voorvoegsels en geslachtsnaam te combineren.
+
+## Features
+Aanhef wordt beschreven in [aanhef bepalen](/features/persoon/adressering/aanhef/summary.feature).
