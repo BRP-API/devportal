@@ -1,7 +1,11 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Sidebar = ({ sidebar }) => {
+  const pathname = usePathname();
   const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
 
   const defaultSidebar = {
@@ -78,6 +82,8 @@ const Sidebar = ({ sidebar }) => {
     ],
   };
 
+  const isActive = (href) => pathname === href;
+
   const sidebarData = sidebar || defaultSidebar;
 
   return (
@@ -89,9 +95,9 @@ const Sidebar = ({ sidebar }) => {
               {/* display title label */}
               {item.title && <p className="item title">{item.title}</p>}
               {item.subnav.map((subitem, subindex) => (
-                <div key={`${index}-${subindex}`}>
+                <div key={`${index}-${subindex}`} >
                   {subitem.href && (
-                    <Link className="subitem" href={subitem.href}>
+                    <Link className={`subitem ${isActive(subitem.href) ? 'active' : ''}`} href={subitem.href}>
                       {subitem.label}
                     </Link>
                   )}
@@ -106,7 +112,7 @@ const Sidebar = ({ sidebar }) => {
                       {subitem.subnav.map((subsubitem, subsubindex) => (
                         <div key={`${index}-${subindex}-${subsubindex}`}>
                           {subsubitem.href && (
-                            <Link className="subsubitem" href={subsubitem.href}>
+                            <Link className={`subsubitem ${isActive(subsubitem.href) ? 'active' : ''}`} href={subsubitem.href}>
                               {subsubitem.label}
                             </Link>
                           )
@@ -116,7 +122,7 @@ const Sidebar = ({ sidebar }) => {
                                 {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
                                   <div key={`${index}-${subindex}-${subsubindex}-${subsubsubindex}`}>
                                     {subsubsubitem.href && (
-                                      <Link className="subsubitem" href={subsubsubitem.href}>
+                                      <Link className={`subsubitem ${isActive(subsubsubitem.href) ? 'active' : ''}`} href={subsubsubitem.href}>
                                         {subsubsubitem.label}
                                       </Link>
                                     )}

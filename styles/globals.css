@@ -187,6 +187,12 @@ i {
   .subsubitem {
     padding-left: 1.5rem;
   }
+
+  .subitem.active,
+  .subsubitem.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }
 
 .banner {
