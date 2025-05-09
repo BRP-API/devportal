@@ -1,3 +1,13 @@
+[Adressering](/personen/informatieproducten/adressering) / Gebruik in lopende tekst
+
 # Gebruik in lopende tekst
 
-- het [gebruik in lopende tekst](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/tree/master/features/bevragen/persoon/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.
+Gebruik in lopende tekst kan worden gebruikt in bijvoorbeeld een zin in een brief als "In uw brief van 12 mei jongstleden, geeft u het overlijden van uw vader, de heer In het Veld, aan.", waarbij "de heer In het Veld" gehaald is uit attribuut gebruikInLopendeTekst.
+
+Naamgebruik in een lopende tekst voor een persoon:
+- met een hoffelijkheidstitel wordt beschreven in [gebruik-in-lopende-tekst/hoffelijkheidstitel.feature](/features/persoon/adressering/gebruikinlopendetekst/hoffelijkheidstitel.feature)
+- met een adellijke titel of predicaat wordt beschreven in [gebruik-in-lopende-tekst/adellijk.feature](/features/persoon/adressering/gebruikinlopendetekst/adellijk.feature)
+- waarbij geslachtsnaam leeg of onbekend is, wordt beschreven in [gebruik-in-lopende-tekst/geslachtsnaam_leeg_onbekend.feature](/features/persoon/adressering/gebruikinlopendetekst/geslachtsnaam_leeg_onbekend.feature)
+- waarbij geslachtsnaam van de partner leeg of onbekend is, wordt beschreven in [gebruik-in-lopende-tekst/geslachtsnaam_partner_leeg_onbekend.feature](/features/persoon/adressering/gebruikinlopendetekst/geslachtsnaam_partner_leeg_onbekend.feature)
+- met meerdere actuele partners wordt beschreven in [gebruik-in-lopende-tekst/meerdere-partners.feature](/features/persoon/adressering/gebruikinlopendetekst/meerdere-partners.feature)
+- zonder adellijke titel of predicaat wordt beschreven in [gebruik-in-lopende-teksts/niet-adellijk](/features/persoon/adressering/gebruikinlopendetekst/niet-adellijk.feature)
