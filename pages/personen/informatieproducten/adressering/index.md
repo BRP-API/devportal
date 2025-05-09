@@ -1,4 +1,4 @@
-# afleidingsregels Adressering
+# Adressering
 
 ## Wat is adressering?
 Adressering bevat alle gegevens die je je nodig hebt voor het versturen van briefpost of een mailing. Kant en klaar, zonder dat jij gegevens zelf hoeft te bewerken. Voor het maken van de brief heb je nodig:  
@@ -32,14 +32,14 @@ Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelveld
 2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)  
 Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter dan moet gebruiken.
 
-# Afleidingsregels adressering
+## Afleidingsregels
 Lees hier hoe de velden van adressering worden afgeleid:  
-- de [aanschrijfwijze](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/tree/master/features/bevragen/persoon/adressering/aanschrijfwijze) van de geadresseerde
-- de [adresregels](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/features/bevragen/persoon/adressering/adres-regels/overzicht.feature)
-- de [aanhef](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/features/bevragen/persoon/adressering/aanhef/summary.feature) van de geadresseerde
-- het [gebruik in lopende tekst](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/tree/master/features/bevragen/persoon/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.
+- de [aanschrijfwijze](/personen/informatieproducten/adressering/aanschrijfwijze) van de geadresseerde
+- de [adresregels](/personen/informatieproducten/adressering/adresregels)
+- de [aanhef](/personen/informatieproducten/adressering/aanhef) van de geadresseerde
+- het [gebruik in lopende tekst](/personen/informatieproducten/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.
 
-# Stroomschema's adressering
+## Stroomschema's adressering
 
 ![hoffelijkheidstitel](stroomschema-hoffelijkheidstitel.png)
 
