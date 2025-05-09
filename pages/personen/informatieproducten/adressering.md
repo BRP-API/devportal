@@ -39,3 +39,14 @@ Lees hier hoe de velden van adressering worden afgeleid:
 - de [aanhef](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/features/bevragen/persoon/adressering/aanhef/summary.feature) van de geadresseerde
 - het [gebruik in lopende tekst](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/tree/master/features/bevragen/persoon/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.
 
+### Stroomschema's adressering
+
+![hoffelijkheidstitel](stroomschema-hoffelijkheidstitel.png)
+
+![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
+
+![alleenstaand](stroomschema-alleenstaand.png)
+
+![aanhef geslacht V](stroomschema-aanhef-V.png)
+
+![aanhef geslacht M](stroomschema-aanhef-M.png)
