@@ -4,6 +4,7 @@
   --header-height: 140px;
   --navbar-height: 70px;
   --footer-height: 70px;
+  --footer-margin: 1em;
 }
 
 @font-face {
@@ -206,7 +207,8 @@ i {
   box-sizing: border-box;
   overflow-x: auto;
   max-width: 1200px;
-  min-height: calc(100vh - var(--navbar-height) - var(--header-height) - var(--footer-height));
+  min-height: calc(100vh - var(--navbar-height) - var(--header-height) - var(--footer-height) - var(--footer-margin));
+  margin-bottom: var(--footer-margin);
   line-height: auto;
 
   .redoc-container {
