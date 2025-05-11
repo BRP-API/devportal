@@ -9,8 +9,7 @@ Bewoning kun je ophalen met de identificatie van een adresseerbaar object. Een a
 
 ## Raadplegen van de bewoning van een adresseerbaar object
 
-Met de 'raadpleeg bewoning met periode' operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen.
-
+Met de 'raadpleeg bewoning met periode' operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen, door een adresseerbaar objcet identiticatie en een periode op te geven.
 
 ## Wat is een bewoner?  
 Een persoon is en was bewoner van een adresseerbaar object als hij volgens de BRP registratie is/was ingeschreven op het adresseerbaar object in de gevraagde periode. De bewoning/adreshouding periode begint op de **datum aanvang adreshouding** van de inschrijving op het adresseerbaar object en eindigt (indien aanwezig) op de **datum aanvang adreshouding** van de volgende inschrijving of op de **datum aanvang adres buitenland** als de persoon is geëmigreerd.
@@ -21,7 +20,10 @@ Onderstaand stroomdiagram illustreert de beslisboom voor het bepalen of:
 - een persoon is ingeschreven op het adresseerbaar object in de gevraagde periode OF
 - voor een deel van de gevraagde periode wordt meegenomen als bewoner.  
 
-Uitgangspunt in onderstaande beslisboom is dat de datum aanvang (volgende) adreshouding niet geheel of gedeeltelijk onbekend is.
 
 ![bewoner flowchart](../img/features-overzicht-1.svg)
 
+## Wat is een mogelijke bewoner? 
+
+Als de datum aanvang van de (volgende) adreshouding geheel of gedeeltelijk onbekend is, weten we niet zeker of de persoon in deze periode op het adres heeft gewoond. Het is ook mogelijk dat de persoon op een volgend of vorig adres woonde. In dat geval is de persoon een **mogelijke bewoner**.
+Bekijk hieronder de beslisboom waarin wordt bepaald of een persoon wordt meegenomen als mogelijke bewoner.
