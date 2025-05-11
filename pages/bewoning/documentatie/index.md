@@ -19,7 +19,8 @@ Een persoon is in een gevraagde periode bewoner als de gevraagde periode in de a
 
 Onderstaand stroomdiagram illustreert de beslisboom voor het bepalen of:
 - een persoon is ingeschreven op het adresseerbaar object in de gevraagde periode OF
-- voor een deel van de gevraagde periode wordt meegenomen als bewoner.
+- voor een deel van de gevraagde periode wordt meegenomen als bewoner.  
+
 Uitgangspunt in onderstaande beslisboom is dat de datum aanvang (volgende) adreshouding niet geheel of gedeeltelijk onbekend is.
 
 ![bewoner flowchart](../img/features-overzicht-1.svg)
