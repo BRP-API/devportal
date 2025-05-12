@@ -8,12 +8,12 @@ API voor het zoeken en raadplegen van informatie uit de basisregistratie persone
 3. **Verblijfplaatshistorie**: voor het opvragen van de verblijfplaats(en) van een persoon in een periode of op een peildatum.   
 
 De {{apiname}} Personen levert naast persoonsgegevens uit de BRP ook [informatieproducten](./concepten/informatieproducten):
-- **Adressering**: **aanschrijfwijze**, **aanhef**, een verwijzing naar een **persoon in de lopende tekst** van een brief, en **adresregels** die passen in een envelopvenster.
-- **Bewoning**: wie er samen in een woning woonde gedurende een periode, of op een peildatum
-- **Gezag**: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister 
-- **Leeftijd** (in jaren)
-- **Volledige naam**: met adellijke titels en predicaten, zonder gebruik van de naam van de partner
-- **Voorletters**.
+- **[Adressering](.personen/documentatie/informatieproducten/adressering)**: **aanschrijfwijze**, **aanhef**, een verwijzing naar een **persoon in de lopende tekst** van een brief, en **adresregels** die passen in een envelopvenster.
+- **[Bewoning](./bewoning/documentatie/index)**: wie er samen in een woning woonde gedurende een periode, of op een peildatum
+- **[Gezag](./personen/documentatie/informatieproducten/gezag)**: gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister 
+- **[Leeftijd](./personen/documentatie/informatieproducten/leeftijd)** (in jaren)
+- **[Volledige naam](./personen/documentatie/informatieproducten/volledigenaam)**: met adellijke titels en predicaten, zonder gebruik van de naam van de partner
+- **[Voorletters](./personen/documentatie/informatieproducten/voorletters)**.
   
 ## Getting Started
 1. Bekijk de OAS3 specificatie in Redoc van van de {{apiname}} [Personen](./personen/specificatie), [Bewoning](./bewoning/specificatie) en [Verblijfplaatshistorie](./historie/specificatie).
@@ -50,7 +50,7 @@ De vierde functie van de {{apiname}} is in ontwikkeling. De {{apiname}} Notifica
   Je kunt ook een e-mail sturen naar info@rvig.nl. 
 * Bug Melden?
   [Maak een bug issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
-* Verbeteringen doorgeven?
+* Verbetersuggestie doen voor de {{apiname}} of de documentatie op deze portal?
   [Maak een verbeter issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
 * Heb je een vraag? Neem contact op met: 
     * Product Owner: Cathy Dingemanse, [{{PO-email}}](mailto:{{PO-email}})
