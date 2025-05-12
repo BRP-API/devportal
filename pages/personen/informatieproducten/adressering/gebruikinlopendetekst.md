@@ -6,9 +6,17 @@ Gebruik in lopende tekst kan worden gebruikt in bijvoorbeeld een zin in een brie
 
 ## Stroomschema's
 
-![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
+### Geslacht Onbekend
+![geslacht onbekend](stroomschema-geslacht-O.png)
 
-![aanhef geslacht M](stroomschema-aanhef-M.png)
+### Geslacht Man
+![geslacht M](stroomschema-aanhef-M.png)
+
+### Geslacht Vrouw
+![geslacht V](stroomschema-aanschrijfwijze-V.png)
+
+### Hoffelijkheidstitel
+![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
 
 ## Features
 

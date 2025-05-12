@@ -8,9 +8,17 @@ Bij het samenstellen van aanschrijfwijze wordt de adellijke titel of het predica
 
 ## Stroomschema's
 
+### Alleenstaand
 ![alleenstaand](stroomschema-alleenstaand.png)
 
-![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
+### Geslacht Man
+![aanschrijfwijze geslacht M](stroomschema-aanhef-M.png)
+
+### Geslacht Vrouw
+![aanschrijfwijze geslacht V](stroomschema-aanschrijfwijze-V.png)
+
+### Hoffelijkheidstitel
+![hoffelijkheidstitel](stroomschema-gebruikinlopendetekst.png)
 
 ## Features
 
