@@ -20,7 +20,47 @@ Belangrijke informatie voor de configuratie van jouw Gateway:
 - URL BRP API Bewoning: https://apigw.npr.idm.diginetwerk.net/lap/api/bewoning/bewoningen
 - URL BRP API Verblijfplaatshistorie: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
 
-## Stap 3: Test jouw client applicatie
+## Stap 3: Haal het Oauth token op  
+Voor je de API kunt gebruiken moet je een token vragen. Voor het aanvragen heb je nodig:
+-	Client-id: deze ontvang je van RvIG
+-	Client-secret: deze ontvang je van RvIG
+-	afnemersindicatie: dit is het nummer dat hoort bij je autorisatiebesluit. Dit kun je [hier opzoeken](https://publicaties.rvig.nl/Landelijke_tabellen/Zoekpagina_tabel_35_autorisatietabel).
+-	OIN: zit in het PKI overheidscertificaat dat je gebruikt bij het aansluiten.
+
+Stuur dit request om op de proefomgeving een token aan te vragen, en vervang alles wat tussen dubbele accolades staat met de inloggegevens die je hebt:
+curl --location -–request POST 'https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'client_id={{client-id}}' \
+--data-urlencode 'client_secret={{client-secret}}' \
+--data-urlencode 'scope={{ afnemersindicatie }}-{{OIN}}' \
+--data-urlencode 'resourceServer=ResourceServer01'
+ 
+Je krijgt dan als antwoord een application/json bericht dat er zo uitziet:
+{
+  "access_token": "{{access token}}",
+  "token_type": "bearer",
+  "expires_in": {{geldigheidsduur}},
+  "scope": "{{scope}}"
+}
+ 
+Het token die in “access_token” stuur je mee met elk request aan de API door deze in te vullen in de request header “Authorization”, voorafgegaan door “Bearer “. Let op dat er 1 spatie staat tussen “Bearer” en het token en er geen spatie of ander teken staat na het token!
+
+De token is beperkt geldig en kan gedurende de geldigheidsperiode voor meerdere API requests gebruikt worden. In “expires_in” staat hoe lang (in seconden) het token geldig is.
+
+## Stap 4: Stuur een request 
+Stuur dit request met correct voorbeeld-request-body naar de API op de proefomgeving:
+curl --location -–request POST 'https://apigw.npr.idm.diginetwerk.net/lap/api/brp/personen' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer {{access_token}} \
+--data '{
+  "fields": ["naam.volledigeNaam", "leeftijd", "geslacht", "adressering"],
+  "type": "RaadpleegMetBurgerservicenummer",
+  "burgerservicenummer": ["999993483"]
+}'
+ 
+## Stap 5: Test jouw client applicatie
 Test jouw applicatie met [deze testset](https://www.rvig.nl/testsetpersoonslijstenproefomgevingBRPV). Samen beoordelen we de aansluiting. Geslaagd? Dan kun je een aansluiting op de productieomgeving aanvragen.
 
 # Aansluiten productie-omgeving
