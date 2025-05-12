@@ -1,7 +1,7 @@
 import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
-import rehypeHighlight from 'rehype-highlight'
 import remarkConfigInjector from './utils/index.mjs';
+import rehypePrism from 'rehype-prism-plus';
 
 const withMDX = createMDX({
     extension: /\.mdx?$/,
@@ -11,7 +11,7 @@ const withMDX = createMDX({
             remarkGfm // Add support for GFM (GitHub Flavored Markdown)
         ],
         rehypePlugins: [
-            rehypeHighlight // Add syntax highlighting to code blocks
+            rehypePrism // Add syntax highlighting for code blocks
         ],
     },
 });
