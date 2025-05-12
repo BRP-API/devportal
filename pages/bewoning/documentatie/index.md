@@ -23,14 +23,13 @@ Een persoon is en was bewoner van een adresseerbaar object als hij volgens de BR
 
 Een persoon is in een gevraagde periode bewoner als de gevraagde periode in de adreshouding periode van de persoon ligt. Overlapt de gevraagde periode geheel of deels de adreshouding van de persoon, dan wordt de persoon alleen voor het overlappende gedeelte van de gevraagde periode als bewoner meegenomen.
 
-Onderstaand stroomdiagram illustreert de beslisboom voor het bepalen of:
+Onderstaande [beslisboom](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docs/bewoning-op-peildatum.md) illustreert hoe wordt bepaald of:
 - een persoon is ingeschreven op het adresseerbaar object in de gevraagde periode OF
 - voor een deel van de gevraagde periode wordt meegenomen als bewoner.  
 
 
-![bewoner flowchart](../img/features-overzicht-1.svg)
-
 ## Wat is een mogelijke bewoner? 
 
 Als de datum aanvang van de (volgende) adreshouding geheel of gedeeltelijk onbekend is, weten we niet zeker of de persoon in deze periode op het adres heeft gewoond. Het is ook mogelijk dat de persoon op een volgend of vorig adres woonde. In dat geval is de persoon een **mogelijke bewoner**.
-Bekijk hieronder de beslisboom waarin wordt bepaald of een persoon wordt meegenomen als mogelijke bewoner.
+Bekijk hieronder de [beslisboom](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docs/onbekend-aanvang-adreshouding.md) waarin wordt bepaald of een persoon wordt meegenomen als mogelijke bewoner.
+
