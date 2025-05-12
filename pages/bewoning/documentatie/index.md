@@ -15,7 +15,7 @@ Je krijgt dan één of meer samenstellingen van bewoners en/of mogelijke bewoner
 
 Met de **raadpleeg bewoning met peildatum** operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen, door een adresseerbaar object identiticatie en een peildatum op te geven. Je krijgt dan de samenstelling van bewoners en/of mogelijke bewoners op die datum.  
 
-Je krijgt geen bewoning als er in de opgegeven periode geen personen op het adres woonden. Ook sluiten bewoningen niet altijd op elkaar aan als er binnen de opgegeven periode een tijdje niemand op het adres was ingeschreven. Tenslotte kun je een response krijgen met een IndicatieVeelBewoners. Dat betekent dat de bewoning niet wordt bepaald omdat de bewoning in totaal meer dan 100 bewoners en/of mogelijke bewoners heeft.
+Je krijgt geen bewoning als er in de opgegeven periode geen personen op het adres woonden. Ook sluiten bewoningen niet altijd op elkaar aan als er binnen de opgegeven periode een tijdje niemand op het adres was ingeschreven. Tenslotte kun je een response krijgen met een IndicatieVeelBewoners. Dat betekent dat de bewoning niet wordt bepaald omdat de bewoning meer dan 100 bewoners en/of mogelijke bewoners heeft.
 
 
 ## Wat is een bewoner?  
