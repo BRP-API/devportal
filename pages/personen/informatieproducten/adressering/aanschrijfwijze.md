@@ -9,16 +9,20 @@ Bij het samenstellen van aanschrijfwijze wordt de adellijke titel of het predica
 ## Stroomschema's
 
 ### Alleenstaand
-![alleenstaand](stroomschema-alleenstaand.png)
+![alleenstaand](stroomschema-aanschrijfwijze-alleenstaand.png)
+
+### Geslacht onbekend
+![aanschrijfwijze geslacht O](stroomschema-1.png)
 
 ### Geslacht Man
-![aanschrijfwijze geslacht M](stroomschema-aanhef-M.png)
+![aanschrijfwijze geslacht M](stroomschema-2.png)
 
 ### Geslacht Vrouw
 ![aanschrijfwijze geslacht V](stroomschema-aanschrijfwijze-V.png)
 
 ### Hoffelijkheidstitel
-![hoffelijkheidstitel](stroomschema-gebruikinlopendetekst.png)
+![hoffelijkheidstitel](stroomschema-5.png)
+
 
 ## Features
 

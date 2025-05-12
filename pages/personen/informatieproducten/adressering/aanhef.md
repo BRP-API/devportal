@@ -6,17 +6,17 @@ De aanhef van een persoon zonder partner wordt samengesteld door geslacht, de vo
 
 ## Stroomschema's
 
-### Geslacht Onbekend
-![aanhef geslacht O](stroomschema-geslacht-O.png)
+### Geslacht onbekend
+![aanhef geslacht O](stroomschema-1.png)
 
 ### Geslacht Man
-![aanhef geslacht M](stroomschema-aanhef-M.png)
+![aanhef geslacht M](stroomschema-2.png)
 
 ### Geslacht Vrouw
-![aanhef geslacht V](stroomschema-aanhef-V.png)
+![aanhef geslacht V](stroomschema-3.png)
 
 ### Hoffelijkheidstitel
-![hoffelijkheidstitel](stroomschema-hoffelijkheidstitel.png)
+![hoffelijkheidstitel](stroomschema-4.png)
 
 ## Features
 Aanhef wordt beschreven in [aanhef bepalen](/features/persoon/adressering/aanhef/summary.feature).
