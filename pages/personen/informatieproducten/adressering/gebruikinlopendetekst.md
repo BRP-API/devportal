@@ -4,6 +4,14 @@
 
 Gebruik in lopende tekst kan worden gebruikt in bijvoorbeeld een zin in een brief als "In uw brief van 12 mei jongstleden, geeft u het overlijden van uw vader, de heer In het Veld, aan.", waarbij "de heer In het Veld" gehaald is uit attribuut gebruikInLopendeTekst.
 
+## Stroomschema's
+
+![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
+
+![aanhef geslacht M](stroomschema-aanhef-M.png)
+
+## Features
+
 Naamgebruik in een lopende tekst voor een persoon:
 - met een hoffelijkheidstitel wordt beschreven in [gebruik-in-lopende-tekst/hoffelijkheidstitel.feature](/features/persoon/adressering/gebruikinlopendetekst/hoffelijkheidstitel.feature)
 - met een adellijke titel of predicaat wordt beschreven in [gebruik-in-lopende-tekst/adellijk.feature](/features/persoon/adressering/gebruikinlopendetekst/adellijk.feature)
