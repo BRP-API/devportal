@@ -7,6 +7,12 @@ Dan kun je de netwerkverbinding, de toegangsbeveiliging en de communicatie met d
 - aansluiten mag alleen met met een API Gateway
 - aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)
 - TLS met PKIO certificaat met OIN: het PKIO certificaat met OIN voor de proefomgeving kun je ook gebruiken in de productieomgeving. Gebruikt jouw API Gateway al een PKIO certificaat voor een ander product van RvIG? Dan kun je dat certificaat opnieuw gebruiken. Heb je een aparte API Gateway voor test en productie? Dan zijn aparte certificaten vereist.
+
+Voor je de API kunt gebruiken moet je een token vragen. Voor het aanvragen heb je nodig:
+-	Client-id: deze ontvang je van RvIG
+-	Client-secret: deze ontvang je van RvIG
+-	afnemersindicatie: dit is het nummer dat hoort bij je autorisatiebesluit. Dit kun je [hier opzoeken](https://publicaties.rvig.nl/Landelijke_tabellen/Zoekpagina_tabel_35_autorisatietabel).
+-	OIN: zit in het PKI overheidscertificaat dat je gebruikt bij het aansluiten.
   
 ## Stap 1: Stuur certificaat
 - stuur het publieke deel van het PKIO certificaat met OIN naar: tbrp.api@rvig.nl en geef jouw contactpersoon op.
@@ -21,12 +27,6 @@ Belangrijke informatie voor de configuratie van jouw Gateway:
 - URL BRP API Verblijfplaatshistorie: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
 
 ## Stap 3: Haal het Oauth token op  
-Voor je de API kunt gebruiken moet je een token vragen. Voor het aanvragen heb je nodig:
--	Client-id: deze ontvang je van RvIG
--	Client-secret: deze ontvang je van RvIG
--	afnemersindicatie: dit is het nummer dat hoort bij je autorisatiebesluit. Dit kun je [hier opzoeken](https://publicaties.rvig.nl/Landelijke_tabellen/Zoekpagina_tabel_35_autorisatietabel).
--	OIN: zit in het PKI overheidscertificaat dat je gebruikt bij het aansluiten.
-
 Stuur dit request om op de proefomgeving een token aan te vragen, en vervang alles wat tussen dubbele accolades staat met de inloggegevens die je hebt:
 curl --location -–request POST 'https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
