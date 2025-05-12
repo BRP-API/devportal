@@ -50,7 +50,7 @@ De vierde functie van de {{apiname}} is in ontwikkeling. De {{apiname}} Notifica
   Je kunt ook een e-mail sturen naar info@rvig.nl. 
 * Bug Melden?
   [Maak een bug issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
-* Verbeteringen doorgeven?
+* Verbetersuggestie doen voor de {{apiname}} of de documentatie op deze portal?
   [Maak een verbeter issue aan](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
 * Heb je een vraag? Neem contact op met: 
     * Product Owner: Cathy Dingemanse, [{{PO-email}}](mailto:{{PO-email}})
