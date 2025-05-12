@@ -27,7 +27,8 @@ Belangrijke informatie voor de configuratie van jouw Gateway:
 - URL BRP API Verblijfplaatshistorie: https://apigw.npr.idm.diginetwerk.net/lap/api/brp/verblijfplaatshistorie
 
 ## Stap 3: Haal het Oauth token op  
-Stuur dit request om op de proefomgeving een token aan te vragen, en vervang alles wat tussen dubbele accolades staat met de inloggegevens die je hebt:
+Stuur dit request om op de proefomgeving een token aan te vragen, en vervang alles wat tussen dubbele accolades staat met de inloggegevens die je hebt:  
+
 curl --location -–request POST 'https://auth.npr.idm.diginetwerk.net/nidp/oauth/nam/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=client_credentials' \
@@ -36,7 +37,8 @@ curl --location -–request POST 'https://auth.npr.idm.diginetwerk.net/nidp/oaut
 --data-urlencode 'scope={{ afnemersindicatie }}-{{OIN}}' \
 --data-urlencode 'resourceServer=ResourceServer01'
  
-Je krijgt dan als antwoord een application/json bericht dat er zo uitziet:
+Je krijgt dan als antwoord een application/json bericht dat er zo uitziet:  
+
 {
   "access_token": "{{access token}}",
   "token_type": "bearer",
@@ -44,9 +46,8 @@ Je krijgt dan als antwoord een application/json bericht dat er zo uitziet:
   "scope": "{{scope}}"
 }
  
-Het token die in “access_token” stuur je mee met elk request aan de API door deze in te vullen in de request header “Authorization”, voorafgegaan door “Bearer “. Let op dat er 1 spatie staat tussen “Bearer” en het token en er geen spatie of ander teken staat na het token!
-
-De token is beperkt geldig en kan gedurende de geldigheidsperiode voor meerdere API requests gebruikt worden. In “expires_in” staat hoe lang (in seconden) het token geldig is.
+Het token die in “access_token” stuur je mee met elk request aan de API door deze in te vullen in de request header “Authorization”, voorafgegaan door “Bearer “. Let op dat er 1 spatie staat tussen “Bearer” en het token en er geen spatie of ander teken staat na het token!  
+De token is beperkt geldig en kun je gedurende de geldigheidsperiode voor meerdere API requests gebruiken. In “expires_in” staat hoe lang (in seconden) het token geldig is.
 
 ## Stap 4: Stuur een request 
 Stuur dit request met correct voorbeeld-request-body naar de API op de proefomgeving:
