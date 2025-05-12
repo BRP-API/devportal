@@ -1,5 +1,7 @@
 # Verstrekken aan binnengemeentelijke afnemers
-Houd jij je bezig met de verstrekking van persoonsgegevens aan binnengemeentelijke afnemers? Bedenk dan dat een gemeente *verstrekker* is van persoonsgegevens en informatieproducten aan binnengemeentelijke afnemers. Jouw gemeente gebruikt de {{apiname}} om de BRP-V te *raadplegen* met het doel informatie over personen aan jouw afnemers te *verstrekken*. Daarom is het belangrijk dat jouw gemeente regie voert op de autorisaties van aangesloten taaksystemen en hun gebuikers, en beschikt over de logging en de protocollering van alle binnengemeentelijke bevragingen.
+De gemeente gebruikt de {{apiname}} om persoonsgegevens en informatieproducen te verstrekken aan binnengemeentelijke afnemers. Zij gebruiken de {{apiname}} om de BRP-V te **raadplegen** het doel informatie over personen aan binnengemeentelijke afnemers te **verstrekken**. Daarom is het belangrijk dat gemeenten:  
+- regie voeren op de autorisaties van aangesloten taaksystemen en hun gebuikers
+- beschikken over de logging en de protocollering van alle binnengemeentelijke bevragingen.
 
 ## Veilig gebruik van de {{apiname}}
 Veilig gebruik van de {{apiname}} betekent dat gemeenten zorgen dat:
