@@ -8,9 +8,9 @@ Bij het samenstellen van aanschrijfwijze wordt de adellijke titel of het predica
 
 ## Stroomschema's
 
-![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
-
 ![alleenstaand](stroomschema-alleenstaand.png)
+
+![gebruik in lopende tekst](stroomschema-gebruikinlopendetekst.png)
 
 ## Features
 
