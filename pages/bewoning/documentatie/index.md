@@ -1,7 +1,7 @@
 # Documentatie BRP API Bewoning
 
 ## Wat is een bewoning?
-Met de {{apiname}} Bewoning kun je de bewoning van een adresseerbaar object op een peildatum of in een periode raadplegen. Een bewoning is een weergave van de samenstelling van de bewoners in een periode op een adresseerbaar object. De response van een bevraging bevat meer bewoningen als de samenstelling van de bewoners in de gevraagde periode is wijzigd. Iedere samenstelling van bewoners is dus een bewoning.
+Met de {{apiname}} Bewoning kun je de bewoning van een adresseerbaar object op een peildatum of in een periode raadplegen. Een bewoning is de samenstelling van de bewoners in een periode op een adresseerbaar object. De response van een bevraging bevat meer bewoningen als de samenstelling van de bewoners in de gevraagde periode is wijzigd. Iedere samenstelling van bewoners is dus een bewoning.
 Bewoning heb je bijvoorbeeld nodig bij de uitvoering van Wet Bibob, of de Participatiewet. Zo is het voor de kostendelersnorm belangrijk dat je kunt achterhalen met welke personen een client in bepaalde periode heeft samengewoond.
 
 ## Wat heb je nodig?
