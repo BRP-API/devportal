@@ -2,9 +2,11 @@
 
 # Aanschrijfwijze
 
-De aanschrijfwijze wordt gebruikt als eerste regel(s) in de adressering op een envelop, of links bovenaan een brief, direct boven het adres.
+De aanschrijfwijze gebruik je als:
+- de eerste regel(s) van de adressering op een envelop
+- links bovenaan een brief, direct boven het adres.
 
-Bij het samenstellen van aanschrijfwijze wordt de adellijke titel of het predicaat van de persoon gebruikt.
+Wil je je weten hoe de aanschrijfwijze precies wordt samengesteld? Lees hier de [afleidingsregels voor het bepalen van de aanschrijfwijze](/features/persoon/adressering/aanschrijfwijze/niet-adellijk.feature). Bekijk ook de afleidingsregels [voor personen van adel](/features/persoon/adressering/aanschrijfwijze/adellijk.feature) of [personen die gehuwd zijn (geweest) met een persoon van adel](/features/persoon/adressering/aanschrijfwijze/hoffelijkheidstitel.feature).
 
 ## Stroomschema's
 
@@ -26,7 +28,3 @@ Bij het samenstellen van aanschrijfwijze wordt de adellijke titel of het predica
 
 ## Features
 
-Bij het samenstellen van aanschrijfwijze wordt in volgorde bepaald:
-1. Of een hoffelijkheidstitel mag worden gebruikt. Dit wordt beschreven in [aanschrijfwijze/hoffelijkheidstitel.feature](/features/persoon/adressering/aanschrijfwijze/hoffelijkheidstitel.feature).
-2. Zo niet, of een adellijke titel of predicaat mag worden gebruikt. Dit wordt beschreven in [aanschrijfwijze/adellijk.feature](/features/persoon/adressering/aanschrijfwijze/adellijk.feature).
-3. Zo niet, dan wordt aanschrijfwijze samengesteld zonder adellijke titel of predicaat. Dit wordt beschreven in [aanschrijfwijze/niet-adellijk.feature](/features/persoon/adressering/aanschrijfwijze/niet-adellijk.feature).
