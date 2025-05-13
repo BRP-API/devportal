@@ -2,9 +2,11 @@
 
 # Aanhef
 
-De aanhef van een persoon zonder partner wordt samengesteld door geslacht, de voorletters, voorvoegsels, geslachtsnaam en eventuele adellijke titel(s) of predicaat te combineren. Heeft de persoon een partner? Dan kan de persoon kiezen om deze naam samen met de eigen naam of in plaats van de eigen naam te gebruiken. Lees de [afleidingsregels voor het bepalen van de aanhef](/features/persoon/adressering/aanhef/summary.feature) als je wil weten hoe de aanhef precies wordt samengesteld. Onderstaande stroomschema's helpen je op weg.
+De aanhef is een introducerende zin van een brief of e-mail waarmee je de lezer begroet.
 
-## Stroomschema's
+Wil je je weten hoe de aanhef precies wordt samengesteld? Lees hier de [afleidingsregels voor het bepalen van de aanhef](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/adressering/aanhef/summary.feature). Bekijk ook de afleidingsregels [voor personen van adel](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/adressering/aanhef/adellijke_titel_predicaat.feature) of [personen die gehuwd zijn (geweest) met een persoon van adel](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/adressering/aanhef/partner_met_adellijketitel_predicaat.feature).  
+
+Wil je weten welke regels zijn toegepast voor een specifiek persoon? Onderstaande stroomschema's helpen je op weg.
 
 ### Geslacht = onbekend
 ![aanhef geslacht O](stroomschema-1.png)
