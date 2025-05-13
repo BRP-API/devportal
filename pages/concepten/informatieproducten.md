@@ -25,4 +25,4 @@ Gebruik altijd de informatieproducten die de BRP API aanbiedt, en ga liever niet
 <br>
 ## Wat als het niet past?
 
-Voorziet een informatieproduct niet in jouw behoefte, of denk je dat de afleiding beter kan? Laat het ons weten en [stel een verbetering voor](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=). Met gecombineerde domeinkennis en een product dat voor velen bruikbaar is komen we samen verder!
+Voorziet een informatieproduct niet in jouw behoefte, of denk je dat de afleiding beter kan? Laat het ons weten en [stel een verbetering voor](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=). Met gecombineerde domeinkennis en een voor velen bruikbaar product komen we samen verder!
