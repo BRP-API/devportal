@@ -1,4 +1,4 @@
-[Adressering](/personen/informatieproducten/adressering) / Aanhef
+[Adressering](/personen/documentatie/informatieproducten/adressering) / Aanhef
 
 # Aanhef
 

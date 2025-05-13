@@ -1,4 +1,4 @@
-[Adressering](/personen/informatieproducten/adressering) / Adresregels
+[Adressering](/personen/documentatie/informatieproducten/adressering) / Adresregels
 
 # Adresregels
 

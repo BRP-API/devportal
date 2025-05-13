@@ -1,4 +1,4 @@
-[Adressering](/personen/informatieproducten/adressering) / Aanschrijfwijze
+[Adressering](/personen/documentatie/informatieproducten/adressering) / Aanschrijfwijze
 
 # Aanschrijfwijze
 

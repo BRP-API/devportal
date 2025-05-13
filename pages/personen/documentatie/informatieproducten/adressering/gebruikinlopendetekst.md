@@ -1,4 +1,4 @@
-[Adressering](/personen/informatieproducten/adressering) / Gebruik in lopende tekst
+[Adressering](/personen/documentatie/informatieproducten/adressering) / Gebruik in lopende tekst
 
 # Naamgebruik in lopende tekst
 

@@ -35,7 +35,7 @@ Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je
 ## Leeswijzer afleidingsregels
 De afleidingsregels voor adressering zijn afgestemd met De Hoge Raad van Adel.  
 Meer weten? Lees hier hoe de velden van adressering worden afgeleid:  
-- de [aanschrijfwijze](/personen/informatieproducten/adressering/aanschrijfwijze) van de geadresseerde
-- de [adresregels](/personen/informatieproducten/adressering/adresregels)
-- de [aanhef](/personen/informatieproducten/adressering/aanhef) van de geadresseerde
-- het [gebruik in lopende tekst](/personen/informatieproducten/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.
+- de [aanschrijfwijze](/personen/documentatie/informatieproducten/adressering/aanschrijfwijze) van de geadresseerde
+- de [adresregels](/personen/documentatie/informatieproducten/adressering/adresregels)
+- de [aanhef](/personen/documentatie/informatieproducten/adressering/aanhef) van de geadresseerde
+- het [gebruik in lopende tekst](/personen/documentatie/informatieproducten/adressering/gebruikinlopendetekst) als je in de tekst van de brief aan een persoon refereert.

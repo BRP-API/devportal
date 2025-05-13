@@ -50,11 +50,11 @@ const Sidebar = ({ sidebar }) => {
                   {
                     title: "Informatieproducten",
                     subnav: [
-                      { label: "Adressering", href: "/personen/informatieproducten/adressering" },
-                      { label: "Gezag", href: "/personen/informatieproducten/gezag" },
-                      { label: "Leeftijd", href: "/personen/informatieproducten/leeftijd" },
-                      { label: "Volledige naam", href: "/personen/informatieproducten/volledige-naam" },
-                      { label: "Voorletters", href: "/personen/informatieproducten/voorletters" },
+                      { label: "Adressering", href: "/personen/documentatie/informatieproducten/adressering" },
+                      { label: "Gezag", href: "/personen/documentatie/informatieproducten/gezag" },
+                      { label: "Leeftijd", href: "/personen/documentatie/informatieproducten/leeftijd" },
+                      { label: "Volledige naam", href: "/personen/documentatie/informatieproducten/volledige-naam" },
+                      { label: "Voorletters", href: "/personen/documentatie/informatieproducten/voorletters" },
                     ],
                   },
                 ],
