@@ -14,7 +14,7 @@ Informatieproducten zijn bewerkingen van de door gemeenten en RNI loketten verza
 
 Informatieproducten worden voortdurend verbeterd door de RvIG en andere overheidsorganisaties die betrokken zijn bij het opstellen van de afleidingsregels. Zo is het ministerie van Justitie en Veiligheid verantwoordelijk voor het afleiden van Gezag, en is de Rechtspraak betrokken bij het opstellen van de afleidingsregels. Zodat jij er vanuit kunt gaan dat alle actuele regelgeving en beschikbare kennis in het informatieproduct is verwerkt. En wij als één overheid onze taken uitvoeren.   
 
-De regels die we gebruiken zijn voor iedereen inzichtelijk. Je vind ze door hierboven op het informatieproduct van jpuw keuze te klikken.  
+De regels die we gebruiken zijn voor iedereen inzichtelijk. Je vind ze door hierboven op het informatieproduct van jouw keuze te klikken.  
 <br>
 ## Experimentbesluit Dataminimalisatie
 De juridische grondslag voor het bewerken van persoonsgegevens is geregeld in het [Experimentbesluit Dataminimalisatie](https://zoek.officielebekendmakingen.nl/stb-2024-96.html). In dit experiment worden de voorbereidingen getroffen voor een stucturele wetswijziging.  
