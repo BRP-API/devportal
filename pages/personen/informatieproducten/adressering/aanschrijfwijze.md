@@ -10,8 +10,10 @@ Wil je je weten hoe de aanschrijfwijze precies wordt samengesteld? Lees hier de 
 
 Wil je weten welke regels zijn toegepast voor een specifiek persoon? Onderstaande stroomschema's helpen je op weg.
 
-### Alleenstaand
+## Alleenstaand
 ![alleenstaand](stroomschema-aanschrijfwijze-alleenstaand.png)
+
+## Met partner
 
 ### Geslacht = onbekend
 ![aanschrijfwijze geslacht O](stroomschema-1.png)
