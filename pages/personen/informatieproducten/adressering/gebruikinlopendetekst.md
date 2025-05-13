@@ -2,7 +2,7 @@
 
 # Gebruik in lopende tekst
 
-Gebruik in lopende tekst kan worden gebruikt in bijvoorbeeld een zin in een brief als "In uw brief van 12 mei jongstleden, geeft u het overlijden van uw vader, de heer In het Veld, aan.", waarbij "de heer In het Veld" gehaald is uit attribuut gebruikInLopendeTekst.
+"Gebruik in lopende tekst" kun je gebruiken in een brief. Bijvoorbeeld: in de zin "In uw brief van 12 mei jongstleden hebt u het overlijden van uw vader, de heer In het Veld, aangegeven." is "de heer In het Veld" opgevraagd met het attribuut gebruikInLopendeTekst.
 
 ## Stroomschema's
 
