@@ -26,5 +26,5 @@ Wil je je weten hoe de aanschrijfwijze precies wordt samengesteld? Lees hier de 
 ![hoffelijkheidstitel](stroomschema-5.png)
 
 
-## Features
+
 
