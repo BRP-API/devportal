@@ -11,7 +11,7 @@ const Sidebar = ({ sidebar }) => {
   const defaultSidebar = {
     items: [
       {
-        title: "Web API",
+        title: "BRP API",
         subnav: [
           { label: "Overview", href: "/" },
           { label: "Getting started", href: "/getting-started" },

@@ -17,11 +17,14 @@ const Header = () => {
         </a>
       </header>
       <div id="navbar">
-        <div className="wrapper">
-          <nav>
-            <a className="title">BRP API</a>
-          </nav>
-        </div>
+        <nav>
+          <div className="title-container">
+            <span>
+              <p className="title">BRP</p>
+              <p>voor Developers</p>
+            </span>
+          </div>
+        </nav>
       </div>
     </>
   );
