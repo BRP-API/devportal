@@ -3,7 +3,7 @@
 ## Rol als verstrekker
 De gemeente gebruikt de {{apiname}} om persoonsgegevens en informatieproducten te verstrekken aan binnengemeentelijke afnemers. De gemeente gebruikt de {{apiname}} om de BRP-V te **raadplegen**, met het doel informatie over personen aan binnengemeentelijke afnemers te **verstrekken**.   
 De rol van gemeenten als verstrekker brengt verplichtingen met zich mee. De gemeente moet verplicht:
-- binnengemeentelijke afnemers autoriseren en de autorisaties van aangesloten taaksystemen en hun gebuikers afdwingen
+- binnengemeentelijke afnemers autoriseren en de autorisaties van aangesloten taaksystemen en hun gebuikers afdwingen;
 - alle binnengemeentelijke bevragingen protocolleren.
 
 ## Veilig gebruik van de {{apiname}}
