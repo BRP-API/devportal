@@ -13,13 +13,13 @@ Wil je je weten hoe de aanschrijfwijze precies wordt samengesteld? Lees hier de 
 ### Alleenstaand
 ![alleenstaand](stroomschema-aanschrijfwijze-alleenstaand.png)
 
-### Geslacht onbekend
+### Geslacht = onbekend
 ![aanschrijfwijze geslacht O](stroomschema-1.png)
 
-### Geslacht Man
+### Geslacht = man
 ![aanschrijfwijze geslacht M](stroomschema-2.png)
 
-### Geslacht Vrouw
+### Geslacht = vrouw
 ![aanschrijfwijze geslacht V](stroomschema-aanschrijfwijze-V.png)
 
 ### Hoffelijkheidstitel
