@@ -33,7 +33,7 @@ Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelveld
 Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter dan moet gebruiken.
 
 ## Leeswijzer afleidingsregels
-Lees hier hoe de velden van adressering worden afgeleid:  
+Meer weten? Lees hier hoe de velden van adressering worden afgeleid:  
 - de [aanschrijfwijze](/personen/informatieproducten/adressering/aanschrijfwijze) van de geadresseerde
 - de [adresregels](/personen/informatieproducten/adressering/adresregels)
 - de [aanhef](/personen/informatieproducten/adressering/aanhef) van de geadresseerde
