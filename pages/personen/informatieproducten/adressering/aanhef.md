@@ -10,12 +10,15 @@ Wil je weten welke regels zijn toegepast voor een specifiek persoon? Onderstaand
 
 ### Geslacht = onbekend
 ![aanhef geslacht O](stroomschema-1.png)
+<br>
 
 ### Geslacht = man
 ![aanhef geslacht M](stroomschema-2.png)
+<br>
 
 ### Geslacht = vrouw
 ![aanhef geslacht V](stroomschema-3.png)
+<br>
 
 ### Hoffelijkheidstitel
 ![hoffelijkheidstitel](stroomschema-4.png)
