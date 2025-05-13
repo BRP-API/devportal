@@ -147,7 +147,7 @@ i {
   display: block;
   line-height: 2rem;
   box-sizing: border-box;
-  min-width: 14rem;
+  max-width: 320px;
   overflow-y: auto;
 
   a {
@@ -310,7 +310,7 @@ i {
   position: fixed;
   top: 0;
   left: -101vw;
-  width: 300px;
+  width: 340px;
   height: 100%;
   background-color: white;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
@@ -318,7 +318,7 @@ i {
   display: flex;
   flex-direction: column;
   transition: left 0.3s ease;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   overflow-y: auto;
 }
 
@@ -327,17 +327,6 @@ i {
 
   .menu-toggle {
     justify-content: flex-end;
-    padding: 20px;
-  }
-
-  .sidebar {
-    div {
-      padding-bottom: 0.5rem;
-
-      a {
-        padding-bottom: 0.5rem;
-      }
-    }
   }
 }
 
