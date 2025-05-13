@@ -22,3 +22,8 @@ De juridische grondslag voor het bewerken van persoonsgegevens is geregeld in he
 ## Is er een informatieproduct? Gebruik het dan!
 
 Gebruik altijd de informatieproducten die de BRP API aanbiedt, en ga liever niet zelf met de onderliggende data aan de slag. Bij gebruik van een informatieproduct innoveert jouw applicatie automatisch mee met verbeteringen en nieuwe wet- en regelgeving die door RvIG in het informatieproduct wordt ingebouwd. Bovendien hoeft jouw organisatie minder persoonsgegevens te verwerken, omdat de BRP API direct biedt wat jij nodig hebt. Daarmee zet je een grote stap vooruit op het gebied van dataminimalisatie en voldoet jouw organisatie beter aan de AVG. Met dataminimalisatie bescherm je niet alleen de privacy van onze burgers, maar draagt je ook bij aan verduurzaming. Hoe minder gegevens jouw applicatie vraagt, hoe minder de server en het netwerk worden belast.
+<br>
+
+## Wat als het niet past?
+
+Voorziet een informatieproduct niet in jouw behoefte, of denk je dat de afleiding beter kan? Laat het ons weten en [stel een verbetering voor]((https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=). Met gecombineerde domeinkennis en een product dat voor velen bruikbaar is komen we samen verder!
