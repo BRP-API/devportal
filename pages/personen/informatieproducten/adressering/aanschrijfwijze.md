@@ -12,17 +12,21 @@ Wil je weten welke regels zijn toegepast voor een specifiek persoon? Onderstaand
 
 ## Alleenstaand
 ![alleenstaand](stroomschema-aanschrijfwijze-alleenstaand.png)
+<br>
 
 ## Met partner
 
 ### Geslacht = onbekend
 ![aanschrijfwijze geslacht O](stroomschema-1.png)
+<br>
 
 ### Geslacht = man
 ![aanschrijfwijze geslacht M](stroomschema-2.png)
+<br>
 
 ### Geslacht = vrouw
 ![aanschrijfwijze geslacht V](stroomschema-aanschrijfwijze-V.png)
+<br>
 
 ### Hoffelijkheidstitel
 ![hoffelijkheidstitel](stroomschema-5.png)
