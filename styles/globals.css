@@ -170,7 +170,6 @@ i {
   .details-flex {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
   }
 
   .details-flex a {
@@ -196,6 +195,17 @@ i {
 
   .subitem {
     padding-left: 1rem;
+  }
+
+  .subitem::before {
+    content: "•";
+    color: var(--primary-color);
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+    font-size: 2rem;
+    line-height: 1rem;
+    vertical-align: middle;
   }
 
   .subsubitem {

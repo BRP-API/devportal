@@ -47,16 +47,16 @@ const Sidebar = ({ sidebar }) => {
                 subnav: [
                   { label: "Standaardwaarden null en false", href: "/personen/documentatie/geen-null-false-standaardwaarde" },
                   { label: "Standaard geleverde gegevens", href: "/personen/documentatie/meegeleverde-gegevens" },
-                ],
-              },
-              {
-                title: "Informatieproducten",
-                subnav: [
-                  { label: "Adressering", href: "/personen/informatieproducten/adressering" },
-                  { label: "Gezag", href: "/personen/informatieproducten/gezag" },
-                  { label: "Leeftijd", href: "/personen/informatieproducten/leeftijd" },
-                  { label: "Volledige naam", href: "/personen/informatieproducten/volledige-naam" },
-                  { label: "Voorletters", href: "/personen/informatieproducten/voorletters" },
+                  {
+                    title: "Informatieproducten",
+                    subnav: [
+                      { label: "Adressering", href: "/personen/informatieproducten/adressering" },
+                      { label: "Gezag", href: "/personen/informatieproducten/gezag" },
+                      { label: "Leeftijd", href: "/personen/informatieproducten/leeftijd" },
+                      { label: "Volledige naam", href: "/personen/informatieproducten/volledige-naam" },
+                      { label: "Voorletters", href: "/personen/informatieproducten/voorletters" },
+                    ],
+                  },
                 ],
               },
             ],
@@ -75,7 +75,7 @@ const Sidebar = ({ sidebar }) => {
               { label: "Releasenotes", href: "/historie/releases" },
               { label: "Specificatie", href: "/historie/specificatie" },
               { label: "Documentatie", href: "/historie/documentatie" },
-           ]
+            ]
           }
         ],
       },
@@ -83,6 +83,18 @@ const Sidebar = ({ sidebar }) => {
   };
 
   const isActive = (href) => pathname === href;
+
+  const isSectionActive = (subnav) => {
+    return subnav.some((item) => {
+      if (item.href && isActive(item.href)) {
+        return true;
+      }
+      if (item.subnav) {
+        return isSectionActive(item.subnav);
+      }
+      return false;
+    });
+  };
 
   const sidebarData = sidebar || defaultSidebar;
 
@@ -107,7 +119,7 @@ const Sidebar = ({ sidebar }) => {
                   )}
                   {/* display subnav with multiple items */}
                   {subitem.title && (
-                    <details className="details-flex" key={`details-${subindex}`}>
+                    <details className="details-flex" key={`details-${subindex}`} open={isSectionActive(subitem.subnav)}>
                       <summary>{subitem.title}</summary>
                       {subitem.subnav.map((subsubitem, subsubindex) => (
                         <div key={`${index}-${subindex}-${subsubindex}`}>
@@ -117,7 +129,7 @@ const Sidebar = ({ sidebar }) => {
                             </Link>
                           )
                             || !subsubitem.href && (
-                              <details className="details-flex">
+                              <details className="details-flex subsubitem" open={isSectionActive(subsubitem.subnav)}>
                                 <summary>{subsubitem.title}</summary>
                                 {subsubitem.subnav.map((subsubsubitem, subsubsubindex) => (
                                   <div key={`${index}-${subindex}-${subsubindex}-${subsubsubindex}`}>
@@ -125,7 +137,21 @@ const Sidebar = ({ sidebar }) => {
                                       <Link className={`subsubitem ${isActive(subsubsubitem.href) ? 'active' : ''}`} href={subsubsubitem.href}>
                                         {subsubsubitem.label}
                                       </Link>
-                                    )}
+                                    )
+                                      || !subsubsubitem.href && (
+                                        <details className="details-flex subsubitem" open={isSectionActive(subsubitem.subnav)}>
+                                          <summary>{subsubsubitem.title}</summary>
+                                          {subsubsubitem.subnav.map((item, subsubsubindex) => (
+                                            <div key={`${index}-${subindex}-${subsubindex}-${subsubsubindex}`}>
+                                              {item.href && (
+                                                <Link className={`subsubitem ${isActive(item.href) ? 'active' : ''}`} href={item.href}>
+                                                  {item.label}
+                                                </Link>
+                                              )}
+                                            </div>
+                                          ))}
+                                        </details>
+                                      )}
                                   </div>
                                 ))}
                               </details>
