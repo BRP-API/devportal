@@ -74,7 +74,6 @@ const Sidebar = ({ sidebar }) => {
             subnav: [
               { label: "Releasenotes", href: "/historie/releases" },
               { label: "Specificatie", href: "/historie/specificatie" },
-              { label: "Documentatie", href: "/historie/documentatie" },
             ]
           }
         ],
