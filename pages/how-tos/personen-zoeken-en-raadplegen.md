@@ -5,6 +5,11 @@ Lees hier hoe je actuele personen uit de BRP voor jouw applicatie kunt zoeken en
 * Is het burgerservicenummer van de persoon/personen bekend? Dan moet jouw applicatie de **Raadpleeg persoon met burgerservicenummer** operatie gebruiken om één of meer personen te raadplegen.
 * Is het burgerservicenummer van de persoon/personen niet bekend? Laat deze dan opzoeken met de **Zoek persoon** operaties.
 
+## Gebruik ook de BAG API 
+
+Biedt jouw applicatie het zoeken van personen met hun adresgegevens aan? Gebruik dan ook de [BAG API Individuele bevragingen](https://www.kadaster.nl/zakelijk/producten/adressen-en-gebouwen/bag-api-individuele-bevragingen) om de unieke identificatie van een adres te vinden, en bevraag daarmee de {{apiname}} Personen. Dan bevraag je uitsluitend gegevens van personen die je nodig hebt. In tegenstelling tot de BAG API zoek je met de operaties **zoek met postcode en huisnummer** en **zoek met straat, huisnummer en gemeente van inschrijving** van de BRP API naar personen op een adres, en niet naar adressen. Zoeken met postcode en huisnummer in de BRP levert bovendien vaak persoonsgegevens van bewoners van meer dan één adres. Gebruik deze zoekfunctie daarom alleen als het **zoeken met adresseerbaar object identificatie** of **zoeken met nummeraanduiding identificatie** met behulp van de BAG niet kan. Bijvoorbeeld omdat je het adres van de persoon die je zoekt niet precies weet, of omdat het adres niet in de BAG voorkomt. Zo lever je een bijdrage aan dataminimalisatie, zonder consessies te doen aan de gebruikersvriendelijkeheid. De zoekmogelijkheden van de BAG API zijn uitgebreider en ondersteunen "search as you type".
+
+
 ## Zoek personen
 
 Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) identificerende persoonsgegevens op te geven. In de overzichten en foutcases vind je voorbeelden die laten zien aan welke eisen de parameters moeten voldoen, en hoe je wildcards en diacrieten kunt gebruiken.
