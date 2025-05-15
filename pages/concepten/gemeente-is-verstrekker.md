@@ -31,7 +31,17 @@ Voor de (toegangs)beveiliging van de API’s. Een API Gateway is vaak onderdeel 
 Voor autorisatie op detailniveau. Dit kun je bijvoorbeeld regelen in jouw API Gateway, zoals [in dit voorbeeld van de gemeente Amsterdam](https://github.com/Amsterdam/haal-centraal-proxy).
 
 ## Logging- en protocollering
-Een gemeente moet conform de wet BRP alle BRP bevragingen protocolleren. Dat gebeurt nu meestal in diverse procesapplicaties. Het is beter om een centrale logging- of protocolleringsvoorziening in te richten, waarin tenminste ieder API requests onweerlegbaar wordt vastgelegd, samen met het token dat de identiteit en claims van de eindgebruiker bevat.
+Een gemeente moet bevragingen met de {{apiname}} protocolleren en 20 jaar bewaren. Dat gebeurt nu meestal in diverse procesapplicaties. Het is beter om een centrale logging- of protocolleringsvoorziening in te richten, waarin wordt vastgelegd:
+-	over wie gegevens zijn verstrekt;
+-	datum en tijd van de verstrekking;
+-	de ambtenaar met een bepaalde taakautorisatie en het taaksysteem dat de verstrekking uitvoerde;
+-	welke gegevens zijn verstrekt;
+-	aan welk binnengemeentelijk orgaan de verstrekking plaatsvond.
+
+Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerlegbaar vast te leggen met:
+- een timestamp
+- het token dat de identiteit, het orgaan en claims van de eindgebruiker bevat
+- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat een binnengemeentelijk afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* 
 
 Door de API Gateway te laten loggen en de toegangsbeveiliging voor nieuwe applicaties te baseren op eindgebruikercredentials, hoef je straks niet meer te protocolleren in de afnemende applicatie. Ook kun je burgerverzoeken in het kader van de AVG beter en sneller afhandelen door de logginggegevens te verrijken met de informatie uit je verwerkingsregister.
 
