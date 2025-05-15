@@ -12,26 +12,26 @@ De gemeente mag de {{apiname}} gebruiken om de BRP-V te **raadplegen**, met het 
 4.  Toezicht houden op de rechtmatige verwerking van persoonsgegevens en onrechtmatig gebruik opsporen
 
 ## Centrale regie op beveiliging
-Om veilig te kunnen werken met API’s moet je drie zaken regelen:
+Om veilig te kunnen werken met de {{apiname}} moet je drie zaken regelen:
 - (Toegangs)beveiliging, autorisatie en filtering
 - Logging- en protocollering voor controle achteraf en het voorkomen van misbruik
 - Beheer van identiteiten, rollen en rechten 
-Deze zaken werden van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met API's en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo behoud je als gemeente de regie! 
+Deze zaken werden van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met de {{apiname}} en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo behoud je als gemeente de regie! 
 
 ## Toegangsbeveiliging, autorisatie en filtering
 Gemeenten bieden een breed palet aan producten en diensten die allemaal andere gegevens en informatieproducten nodig hebben. Daarvoor zetten zij verschillende taakapplicaties in, die worden gebruikt door medewerkers met verschillende rollen en rechten. Gemeenten moeten hiervoor zelf de toegangsbeveiliging en autorisatie organiseren. Wat is daarvoor nodig?   
 <Br>
 **1. Identity Provider (IP):**   
-Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de API van alle gebruikers van jouw gemeente centraal zijn vastgelegd. Nadat de Identity provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de API namens de gebruiker gaat bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client (SaaS) applicaties worden verstrekt. Hiermee kan de client (SaaS)applicatie namens de gebruiker de API bevragen.  
+Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal zijn vastgelegd. Nadat de Identity provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de {{apiname}} namens de gebruiker gaat bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client (SaaS) applicaties worden verstrekt. Hiermee kan de client (SaaS)applicatie namens de gebruiker de {{apiname}} bevragen.  
 <Br>
 **2. API Gateway**  
-Voor de (toegangs)beveiliging van de API’s. Een API Gateway is vaak onderdeel van een product voor ‘full life cycle API Management’. Een API Gateway bevat ondersteuning voor het design, publiceren, documenteren, beveiligen en analyseren van API’s. Een API Gateway is een must have voor iedere gemeente die gevoelige API’s aan afnemers aanbiedt.   
+Voor de (toegangs)beveiliging van de {{apiname}} en alle andere API’s. Een API Gateway is vaak onderdeel van een product voor ‘full life cycle API Management’. Een API Gateway bevat ondersteuning voor het design, publiceren, documenteren, beveiligen en analyseren van API’s. Een API Gateway is een must have voor iedere gemeente die gevoelige API’s aan afnemers aanbiedt.   
 <Br>
 **3. Proxy**  
 Voor autorisatie op detailniveau. Dit kun je bijvoorbeeld regelen in jouw API Gateway, zoals [in dit voorbeeld van de gemeente Amsterdam](https://github.com/Amsterdam/haal-centraal-proxy).
 
 ## Logging- en protocollering
-Een gemeente moet bevragingen met de {{apiname}} protocolleren en 20 jaar bewaren. Dat gebeurt nu meestal in diverse procesapplicaties. Het is beter om een centrale logging- of protocolleringsvoorziening in te richten, waarin wordt vastgelegd:
+Protocollering is een verplichte vorm van logging om een burger inzicht te geven welke persoonsgegevens door wie en met welke doel zijn opgevraagd. Een gemeente moet bevragingen met de {{apiname}} protocolleren en 20 jaar bewaren. Dat gebeurt nu meestal in diverse procesapplicaties. Het is beter om een centrale logging- of protocolleringsvoorziening in te richten, waarin wordt vastgelegd:
 -	over wie gegevens zijn verstrekt;
 -	datum en tijd van de verstrekking;
 -	de ambtenaar met een bepaalde taakautorisatie en het taaksysteem dat de verstrekking uitvoerde;
@@ -45,11 +45,11 @@ Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerl
 
 Door de API Gateway te laten loggen en de toegangsbeveiliging voor nieuwe applicaties te baseren op eindgebruikercredentials, hoef je straks niet meer te protocolleren in de afnemende applicatie. Ook kun je burgerverzoeken in het kader van de AVG beter en sneller afhandelen door de logginggegevens te verrijken met de informatie uit je verwerkingsregister.
 
-Voor het verzamelen, opslaan en analyse van de logging kun je bijvoorbeeld gebruik maken van de ELK (Elastic search, Logstash en Kibana), Stack, Splunk, LogRhythm, Graylog, etc.
+Voor het verzamelen, opslaan en analyse van de logging kun je bijvoorbeeld gebruik maken een product als de ELK Stack (Elastic search, Logstash en Kibana) Splunk, LogRhythm, etc.
 
 ## Identity Provider (IP)
-Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de API van alle gebruikers van jouw gemeente centraal zijn vastgelegd.
+Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal zijn vastgelegd.
 
-Nadat de Identity provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de API namens de gebruiker wil bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client applicaties worden verstrekt.
+Nadat de Identity provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de {{apiname}} namens de gebruiker wil bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client applicaties worden verstrekt.
 
 Hiermee kan de client (SaaS)applicatie namens de gebruiker de {{apiname}} bevragen.
