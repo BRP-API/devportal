@@ -29,6 +29,7 @@ const Sidebar = ({ sidebar }) => {
             title: "Concepts",
             subnav: [
               { label: "Informatieproducten", href: "/concepten/informatieproducten" },
+              { label: "Gemeente als verstrekker", href: "/concepten/gemeente-is-verstrekker" },
               { label: "REST-principes", href: "/concepten/rest-principes" },
             ],
           },
