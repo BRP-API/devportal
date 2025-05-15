@@ -11,7 +11,7 @@ De gemeente mag de {{apiname}} gebruiken om de BRP-V te **raadplegen**, met het 
 > - door overzichten te leveren van welke gegevens van een burger verwerkt zijn voor welke doeleinden, als een burger daar om vraagt
 4.  Toezicht houden op de rechtmatige verwerking van persoonsgegevens en onrechtmatig gebruik opsporen
 
-## transitie naar centrale beveiliging en controle
+## Centrale regie op beveiliging
 Om veilig te kunnen werken met API’s moet je drie zaken regelen:
 - (Toegangs)beveiliging, autorisatie en filtering
 - Logging- en protocollering voor controle achteraf en het voorkomen van misbruik
