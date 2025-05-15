@@ -1,14 +1,14 @@
 # De gemeente als verstrekker van persoonsinformatie  
 
 De gemeente mag de {{apiname}} gebruiken om de BRP-V te **raadplegen**, met het doel informatie over personen aan binnengemeentelijke afnemers te **verstrekken**. De rol van gemeenten als verstrekker brengt verplichtingen met zich mee. De gemeente moet:
-1. Rechtmatig verstrekken door uitsluitend binnengemeentelijke afnemers te autoriseren op basis van een wettelijke grondslag
-2. Zorgen voor veilig gebruik van de persoonsgegevens door:
+1. rechtmatig verstrekken door uitsluitend binnengemeentelijke afnemers te autoriseren op basis van een wettelijke grondslag
+2. zorgen voor veilig gebruik van de persoonsgegevens door:
 > - uitsluitend geautoriseerde gebruikers van taakapplicaties toegang te geven.
 > - gebruikers uitsluitend toegang te geven tot gegevens waarvoor zij zijn geautoriseerd.
-3. Transparant zijn over de verwerking van persoonsgegevens
+3.  transparant zijn over de verwerking van persoonsgegevens
 > - door alle bevragingen te protocolleren/loggen
 > - door een burger inzicht te geven welke persoonsgegevens verwerkt zijn voor welke doeleinden, als die burger daar om vraagt.
-4.  Toezicht houden op de rechtmatige verwerking van persoonsgegevens en onrechtmatig gebruik opsporen.
+4.  toezicht houden op de rechtmatige verwerking van persoonsgegevens en onrechtmatig gebruik opsporen.
 
 ## Centrale regie op beveiliging
 Om veilig te kunnen werken met de {{apiname}} moet je drie zaken regelen:
