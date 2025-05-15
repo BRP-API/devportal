@@ -15,7 +15,7 @@ Om veilig te kunnen werken met de {{apiname}} moet je drie zaken regelen:
 - (Toegangs)beveiliging, autorisatie en filtering
 - Logging- en protocollering voor controle achteraf en het voorkomen van misbruik
 - Beheer van identiteiten, rollen en rechten 
-Deze zaken werden van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met de {{apiname}} en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo behoud je als gemeente de regie! 
+Deze zaken worden van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met de {{apiname}} en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo behoud je als gemeente de regie! 
 
 ## Toegangsbeveiliging, autorisatie en filtering
 Gemeenten bieden een breed palet aan producten en diensten die allemaal andere gegevens en informatieproducten nodig hebben. Daarvoor zetten zij verschillende taakapplicaties in, die worden gebruikt door medewerkers met verschillende rollen en rechten. Gemeenten moeten hiervoor zelf de toegangsbeveiliging en autorisatie organiseren. Wat is daarvoor nodig?   
