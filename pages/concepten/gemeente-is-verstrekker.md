@@ -47,7 +47,7 @@ Door de API Gateway centraal te laten loggen is opsporing van misbruik gemakkeli
 Voor het centraal verzamelen, opslaan en analiseren van de logging, en het maken van protocollerinsgoverzichten, kun je bijvoorbeeld gebruik maken van een product als de ELK Stack (Elastic search, Logstash en Kibana) Splunk, LogRhythm, etc.
 
 ## Identity Provider (IP)
-Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal zijn vastgelegd.
+Een Identity provider heb je nodig voor het authenticeren van de eindgebruiker. In de identity provider kun je de claims/autorisaties voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal vastleggen.
 
 Nadat de Identity provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de {{apiname}} namens de gebruiker wil bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client applicaties worden verstrekt.
 
