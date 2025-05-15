@@ -1,6 +1,5 @@
 # De gemeente als verstrekker van persoonsinformatie  
 
-## Rol als verstrekker: rechten en plichten
 De gemeente mag de {{apiname}} gebruiken om de BRP-V te **raadplegen**, met het doel informatie over personen aan binnengemeentelijke afnemers te **verstrekken**. De rol van gemeenten als verstrekker brengt verplichtingen met zich mee. De gemeente moet:
 1. Rechtmatig verstrekken door uitsluitend binnengemeentelijke afnemers te autoriseren op basis van een wettelijke grondslag
 2. Zorgen voor veilig gebruik van de persoonsgegevens door:
