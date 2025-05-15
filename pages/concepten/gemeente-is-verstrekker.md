@@ -41,7 +41,7 @@ Een gemeente moet bevragingen met de {{apiname}} protocolleren en 20 jaar beware
 Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerlegbaar vast te leggen met:
 - een timestamp
 - het token dat de identiteit, het orgaan en claims van de eindgebruiker bevat
-- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat een binnengemeentelijk afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* 
+- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat een binnengemeentelijk afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* Dit kun je regelen in de API Gateway proxy.
 
 Door de API Gateway te laten loggen en de toegangsbeveiliging voor nieuwe applicaties te baseren op eindgebruikercredentials, hoef je straks niet meer te protocolleren in de afnemende applicatie. Ook kun je burgerverzoeken in het kader van de AVG beter en sneller afhandelen door de logginggegevens te verrijken met de informatie uit je verwerkingsregister.
 
