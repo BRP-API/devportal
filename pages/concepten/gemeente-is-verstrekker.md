@@ -12,10 +12,10 @@ De gemeente mag de {{apiname}} gebruiken om de BRP-V te **raadplegen**, met het 
 
 ## Centrale regie op beveiliging
 Om veilig te kunnen werken met de {{apiname}} moet je drie zaken regelen:
-- (Toegangs)beveiliging, autorisatie en filtering
-- Logging- en protocollering voor controle achteraf en het voorkomen van misbruik
-- Beheer van identiteiten, rollen en rechten 
-Dit wordt van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met de {{apiname}} en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo behoud je als gemeente de regie! 
+1. Toegangsbeveiliging, autorisatie en filtering
+2. Logging- en protocollering voor controle achteraf en het voorkomen van misbruik
+3. Beheer van identiteiten, rollen en rechten 
+Dit wordt van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of het gegevensmagazijn. In de transitie naar het werken met de {{apiname}} en SaaSapplicaties is het belangrijk dat deze functies centraal in de gemeente worden belegd, en worden uitgevoerd door onafhankelijke, door de gemeente gecontroleerde voorzieningen. Zo houd je als gemeente de regie! 
 
 ## Toegangsbeveiliging, autorisatie en filtering
 Gemeenten bieden een breed palet aan producten en diensten die allemaal andere gegevens en informatieproducten nodig hebben. Daarvoor zetten zij verschillende taakapplicaties in, die worden gebruikt door medewerkers met verschillende rollen en rechten. Gemeenten moeten hiervoor zelf de toegangsbeveiliging en autorisatie organiseren. Wat is daarvoor nodig?   
