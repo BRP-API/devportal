@@ -40,7 +40,7 @@ Protocollering is een verplichte vorm van logging om een burger inzicht te geven
 Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerlegbaar vast te leggen met:
 - een timestamp
 - het token dat de identiteit, het orgaan en claims van de eindgebruiker bevat
-- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat jouw binnengemeentelijke afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* Dit kun je regelen in de API Gateway proxy.
+- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat jouw binnengemeentelijke afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* Dit kun je regelen in de API Gateway als intermediate endpoint.
 Eventueel kun je de logging verrijken met informatie uit je verwerkingsregister om burgerverzoeken in het kader van de AVG zo informatief mogelijk te maken.
 
 Door de API Gateway centraal te laten loggen is opsporing van misbruik gemakkelijker en hoef je straks niet meer te protocolleren in de afnemende taakapplicatie.  
