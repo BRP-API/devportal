@@ -2,7 +2,7 @@
 
 ## Versie 2.6.0 (18 maart 2025)
 - Zoeken op postcode en huisnummer is uitgebreid met de optionele parameter geslachtsnaam.
-- Bij het bepalen van gezag voor een minderjarige met ongehuwde ouders wordt de geboortemoeder nu bepaald op basis van het geslacht van de ouders. De verwachting is dat het aantal uitspraken "gezag niet te bepalen" met tenminste 30% zal afnemen.
+- Bij het bepalen van gezag voor een minderjarige met ongehuwde ouders wordt de geboortemoeder nu bepaald op basis van het geslacht van de ouders. Het aantal uitspraken "gezag niet te bepalen" is hiermee van 25% naar 14% gedaald.
 - Wanneer gegevens voor het bepalen van gezag in onderzoek staan wordt nu niet meer "gezag niet te bepalen" geleverd, maar wordt gezag geleverd met indicatie inOnderzoek.
 - Bij gezamenlijk gezag wordt nu expliciet aangegeven wanneer het onbekend is wie de derde is die gezag heeft. Dit wordt aangegeven in veld "type".
 - Enkele verbeteringen zijn aangebracht in de validatie van parameters.
