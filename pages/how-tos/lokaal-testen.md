@@ -27,14 +27,14 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 - Download het [Personen docker compose bestand]({{mainBranchUrl}}/docker-compose.yml)
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
-- Start de {{ apiname }} Personen mock met behulp van de volgende statement:
+- Start de {{ apiname }} Personen mock met behulp van het volgende statement:
   ```sh
 
   docker-compose -f docker-compose-mock.yml up -d
 
   ```
   De {{ apiname }} Personen mock is nu te benaderen via de url: *http://localhost:5001/haalcentraal/api/brp/personen*
-- Valideer dat de {{ apiname }} mock draait met behulp van de volgende curl statement:
+- Valideer dat de {{ apiname }} mock draait met behulp van het volgende curl statement:
   ```sh
 
   curl --location --request POST 'http://localhost:5001/haalcentraal/api/brp/personen' \
@@ -46,7 +46,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
   }'
 
   ```
-- Om de {{ apiname }} Personen mock container te stoppen voer je de volgende statement uit:
+- Om de {{ apiname }} Personen mock container te stoppen voer je het volgende statement uit:
   ```sh
 
   docker-compose -f docker-compose-mock.yml down
@@ -57,7 +57,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 - Download de [Personen kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s)
 - Start een command prompt window voor de map met de kubernetes manifest bestanden
-- Start de {{ apiname }} en de mock met behulp van de volgende statement:
+- Start de {{ apiname }} en de mock met behulp van het volgende statement:
   ```sh
 
   kubectl apply -f .k8s/brppersonenmock-deployment.yaml \
@@ -65,7 +65,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
   ```
   De {{ apiname }} Personen mock is nu te benaderen via de url: *http://localhost:5001/haalcentraal/api/brp/personen*
-- Valideer dat de {{ apiname }} Personen mock draait met behulp van de volgende curl statement:
+- Valideer dat de {{ apiname }} Personen mock draait met behulp van het volgende curl statement:
   ```sh
 
   curl --location --request POST 'http://localhost:5001/haalcentraal/api/brp/personen' \
@@ -77,7 +77,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
   }'
 
   ```
-- Om de {{ apiname }} Personen mock container te stoppen voer je de volgende statement uit:
+- Om de {{ apiname }} Personen mock container te stoppen voer je het volgende statement uit:
   ```sh
 
 
@@ -91,5 +91,32 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 ### Gebruik Docker als container engine
 
 - Download het [Bewoning docker compose bestand](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docker-compose-mock.yml)
+- Start een command prompt window voor de map met het docker-compose.yaml bestand
+- Start de {{ apiname }} Personen mock met behulp van het volgende statement:
+  ```sh
+
+  docker-compose -f docker-compose-mock.yml up -d
+
+  ```
+  De {{ apiname }} Personen mock is nu te benaderen via de url: *http://localhost:5001/haalcentraal/api/brp/personen*
+- Valideer dat de {{ apiname }} mock draait met behulp van het volgende curl statement:
+  ```sh
+
+  curl --location --request POST 'http://localhost:5001/haalcentraal/api/bewoning/personen' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+      "type" : "BewoningMetPeriode",
+      "datumVan": "2010-01-01",
+      "datumTot": "2020-01-01",
+      "adresseerbaarObjectIdentificatie": "0599010000048331"
+  }'
+
+  ```
+- Om de {{ apiname }} Bewoning mock container te stoppen voer je het volgende statement uit:
+  ```sh
+
+  docker-compose -f docker-compose-mock.yml down
+
+  ```
 
 ## {{apiname}} Verblijfplaatshistorie
