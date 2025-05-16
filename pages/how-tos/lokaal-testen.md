@@ -21,7 +21,6 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - [Postman](https://www.postman.com/downloads/) voor het aanroepen van {{ apiname }}
 
 
-## {{apiname}} Personen
 
 ### Gebruik Docker als container engine
 
