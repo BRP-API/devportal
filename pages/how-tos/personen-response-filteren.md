@@ -15,7 +15,7 @@ Wil je snel en foutloos fields samenstellen voor de requests van jouw applicatie
 
 Heb je een overzicht nodig van alle toegestane fieldswaarden? Bekijk het [fields-filtered-PersoonBeperkt.csv]({{persoonBeperktFieldsCsvUrl}}) overzicht van de toegestane fieldswaarden voor de Zoek Personen operaties en het [fields-filtered-Persoon.csv]({{persoonFieldsCsvUrl}}) overzicht voor de fieldswaarden van de Raadpleeg Persoon operatie.
 
-Wil je meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](../features/fields.feature) en de [fields fout cases](../features/fields-fout-cases.feature) voor uitleg over de werking van de fields parameter met regels en voorbeelden. 
+Wil je meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](/personen/features/fields) en de [fields fout cases](/personen/features/fields-fout-cases) voor uitleg over de werking van de fields parameter met regels en voorbeelden. 
 
 ### Filteren van datum en waardetabel velden
 
@@ -31,10 +31,10 @@ en de volgende waardetabel types:
 - Waardetabel
 - AdellijkeTitelPredicaatType
 
-Als je één of meer velden van deze types vraagt, dan worden altijd alle velden geleverd. Lees [hier](../features/fields.feature) hoe de volgende regels precies worden toegepast:
+Als je één of meer velden van deze types vraagt, dan worden altijd alle velden geleverd. Lees [hier](/personen/features/fields) hoe de volgende regels precies worden toegepast:
 
-- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van het 'waardetabel' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-waardetabel-veld-levert-alle-velden-van-de-waardetabel-veld)
-- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van het 'datum' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-datum-veld-levert-alle-velden-van-de-datum-veld)
+- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van het 'waardetabel' veld](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/b5d9ed12a92c8a1dd7d4f5589e0c70d661004649/features/bevragen/fields.feature#L149-L166)
+- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van het 'datum' veld](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/b5d9ed12a92c8a1dd7d4f5589e0c70d661004649/features/bevragen/fields.feature#L168-L261)
 
 ### Standaard geleverde velden
 
@@ -47,7 +47,7 @@ Als onderstaande velden van toepassing zijn worden ze automatisch geleverd:
 - verificatie
 - indicatieVastgesteldVerblijftNietOpAdres
 
-[Automatisch geleverde velden](personen/documentatie/meegeleverd-gegevens) mag je NIET vragen met de fields parameter. Doe je dat toch, dan krijg je een foutmelding.
+[Automatisch geleverde velden](/personen/documentatie/meegeleverde-gegevens) mag je NIET vragen met de fields parameter. Doe je dat toch, dan krijg je een foutmelding.
 
 ### Filteren van verblijfplaatsvelden
 
@@ -60,8 +60,8 @@ Als jouw organisatie of applicatie uitsluitend geautoriseerd is voor verblijfpla
 
 Meer informatie over het gebruik van de __verblijfplaatsBinnenland__ fields alias vind je in de featurebeschrijving van:
 
-- [verblijfplaats fields alias](../features/persoon/verblijfplaats/fields-alias.feature)
-- [verblijfplaats fields alias fout cases](../features/persoon/verblijfplaats/fields-alias-fout-cases.feature)
+- [verblijfplaats fields alias](/personen/features/verblijfplaats/fields-alias)
+- [verblijfplaats fields alias fout cases](/personen/features/verblijfplaats/fields-alias/fout-cases)
 
 ### Filteren van adresregels velden
 
@@ -74,12 +74,12 @@ Als jouw organisatie of applicatie niet geautoriseerd is voor het vragen van adr
 
 Meer informatie over het gebruik van de __adresseringBinnenland__ fields alias vind je in de featurebeschrijving van:
 
-- [adresregels fields alias](../features/persoon/adressering/adres-regels/fields-alias.feature)
-- [adresregels fields alias fout cases](../features/persoon/adressering/adres-regels/fields-alias-fout-cases.feature)
+- [adresregels fields alias](/personen/features/adressering/adresregels/fields-alias)
+- [adresregels fields alias fout cases](/personen/features/adressering/adresregels/fields-alias/fout-cases)
 
 ### Filteren van partner velden
 
-Als je partners van een persoon vraagt, worden alleen de gevraagde gegevens van de actuele partner(s) geleverd. Dat zijn partner(s)met een niet ontbonden huwelijk of geregistreerd partnerschap met de persoon. Heeft de persoon alleen ontbonden huwelijk/geregistreerd partnerschappen, dan worden de gevraagde gegevens geleverd van de partner met het meest recent ontbonden huwelijk of partnerschap. Lees meer over het vragen van partnergegevens in [partnervelden vragen met fields](../features/persoon/partner/overzicht.feature) 
+Als je partners van een persoon vraagt, worden alleen de gevraagde gegevens van de actuele partner(s) geleverd. Dat zijn partner(s)met een niet ontbonden huwelijk of geregistreerd partnerschap met de persoon. Heeft de persoon alleen ontbonden huwelijk/geregistreerd partnerschappen, dan worden de gevraagde gegevens geleverd van de partner met het meest recent ontbonden huwelijk of partnerschap. Lees meer over het vragen van partnergegevens in [partnervelden vragen met fields](/personen/features/partner/overzicht) 
 
 ### Filteren van nationaliteitvelden
 
@@ -91,10 +91,10 @@ De {{apiname}} Personen kent de volgende nationaliteit types:
 - VastgesteldNietNederlander
 - Onbekend
 
-De {{apiname}} Personen levert uitsluitend gegevens van actuele nationaliteiten. Dat zijn nationaliteiten die niet beëindigd zijn. Lees meer in [nationaliteitvelden vragen met fields](../features/persoon/nationaliteit/overzicht.feature). 
+De {{apiname}} Personen levert uitsluitend gegevens van actuele nationaliteiten. Dat zijn nationaliteiten die niet beëindigd zijn. Lees meer in [nationaliteitvelden vragen met fields](/personen/features/nationaliteit/overzicht). 
 
 
 ### Filteren van verblijfstitelvelden
 
-Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een verblijfstitel is die niet is beëindigd. Gegevens van een verblijfstitel worden ook niet geleverd als de aanduiding gelijk is aan 'geen verblijfstitel (meer)'. Lees meer in [verblijfstitelvelden vragen met fields](../features/persoon/verblijfstitel/overzicht.feature)
+Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een verblijfstitel is die niet is beëindigd. Gegevens van een verblijfstitel worden ook niet geleverd als de aanduiding gelijk is aan 'geen verblijfstitel (meer)'. Lees meer in [verblijfstitelvelden vragen met fields](/personen/features/verblijfstitel/overzicht.feature)
 
