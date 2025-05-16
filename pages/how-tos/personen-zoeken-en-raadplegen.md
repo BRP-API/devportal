@@ -15,21 +15,23 @@ Biedt jouw applicatie het zoeken van personen met hun adresgegevens aan? Gebruik
 Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) identificerende persoonsgegevens op te geven. In de overzichten en foutcases vind je voorbeelden die laten zien aan welke eisen de parameters moeten voldoen, en hoe je wildcards en diacrieten kunt gebruiken.
 
 - zoek met geslachtsnaam en geboortedatum
-  - [overzicht](./../features/zoek-met-geslachtsnaam-en-geboortedatum/overzicht.feature)
-  - [fout cases](./../features/zoek-met-geslachtsnaam-en-geboortedatum/fout-cases.feature)
+  - [overzicht](/personen/features/zoek-met-geslachtsnaam-en-geboortedatum/overzicht)
+  - [fout cases](/personen/features/zoek-met-geslachtsnaam-en-geboortedatum/fout-cases)
 - zoek met geslachtsnaam, voornamen en gemeente van inschrijving
-  - [overzicht](./../features/zoek-met-geslachtsnaam-voornamen-en-gemeente-van-inschrijving/overzicht.feature)
-  - [fout cases](./../features/zoek-met-geslachtsnaam-voornamen-en-gemeente-van-inschrijving/fout-cases.feature)
+  - [overzicht](/personen/features/zoek-met-geslachtsnaam-voornamen-en-gemeente-van-inschrijving/overzicht)
+  - [fout cases](/personen/features/zoek-met-geslachtsnaam-voornamen-en-gemeente-van-inschrijving/fout-cases)
 - zoek met postcode en huisnummer
-  - [overzicht](./../features/zoek-met-postcode-en-huisnummer/overzicht.feature)
-  - [fout cases](./../features/zoek-met-postcode-en-huisnummer/fout-cases.feature)
+  - [overzicht](/personen/features/zoek-met-postcode-en-huisnummer/overzicht)
+  - [fout cases](/personen/features/zoek-met-postcode-en-huisnummer/fout-cases)
 - zoek met straat, huisnummer en gemeente van inschrijving
-  - [overzicht](./../features/zoek-met-straatnaam-huisnummer-en-gemeente-van-inschrijving/overzicht.feature)
-  - [fout cases](./../features/zoek-met-straatnaam-huisnummer-en-gemeente-van-inschrijving/fout-cases.feature)
+  - [overzicht](/personen/features/zoek-met-straatnaam-huisnummer-en-gemeente-van-inschrijving/overzicht)
+  - [fout cases](/personen/features/zoek-met-straatnaam-huisnummer-en-gemeente-van-inschrijving/fout-cases)
 - zoek met nummeraanduiding identificatie
-  - [overzicht](./../features/zoek-met-nummeraanduiding-identificatie/overzicht.feature)
-  - [fout cases](./../features/zoek-met-nummeraanduiding-identificatie/fout-cases.feature)
+  - [overzicht](/personen/features/zoek-met-nummeraanduiding-identificatie/overzicht)
+  - [fout cases](/personen/features/zoek-met-nummeraanduiding-identificatie/fout-cases)
 - zoek met adresseerbaar object identificatie
+  - [overzicht](/personen/features/zoek-met-adresseerbaar-object-identificatie/overzicht)
+  - [fout cases](/personen/features/zoek-met-adresseerbaar-object-identificatie/fout-cases)
 
 ### Twee responsetypen bij zoeken
 Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende gegevens, zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoek-met-adresseerbaar-object-identificatie.  
@@ -56,7 +58,7 @@ Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een geme
 
 ### Overleden personen zoeken
 Standaard worden alleen personen gevonden die in leven zijn. Om overleden personen te vinden, moet je de inclusiefOverleden parameter met waarde "true" opgeven.
-Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Lees voor meer informatie het [overlijden overzicht](./../features/persoon-beperkt/overlijden/overzicht.feature).
+Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Lees voor meer informatie het [overlijden overzicht](/personen/features/beperkt/overlijden/overzicht).
 
 ## Personen raadplegen
 
@@ -75,7 +77,7 @@ Ben je uitsluitend geautoriseerd voor het raadplegen van eigen inwoners van een 
 ### Overleden personen raadplegen
 
 De "raadpleeg met burgerservicenummer" operatie levert de personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Dit kunnen ook personen zijn die zijn overleden.
-Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'.  Zie de [overlijden overzicht](./../features/persoon/overlijden/overzicht.feature) feature voor meer informatie over dit veld.
+Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'.  Zie de [overlijden overzicht](/personen/features/overlijden/overzicht) feature voor meer informatie over dit veld.
 
 
 
