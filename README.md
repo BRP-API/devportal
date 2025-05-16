@@ -77,3 +77,13 @@ Dit project bevat de volgende onderdelen
 De afbeelding in `pages/img/afbeelding.png` tonen? Dit kan door de bestandslocatie zonder pages/img/ over te nemen in het markdownbestand. 
     - `![Afbeelding](afbeelding.png)`  toont image /pages/img/afbeelding.png
     - `![Afbeelding](./afbeelding.png)`  toont image /pages/img/afbeelding.png
+
+8. Features toevoegen kan met behulp van het GherkinFeature component. Om dit gebruiken:
+    - Maak een bestand aan in de pages map of een subfolder hiervan met een .mdx bestandsextensie: Bijvoorbeeld: /pages/personen/features/adressering/aanhef.mdx
+    - Kopieer en plak de volgende code in het aangemaakte bestand:
+    ```mdx
+    import GherkinFeature from '@/components/GherkinFeature.jsx'
+
+    <GherkinFeature url="{plak hier de url}"/>
+    ```
+    - Wijzig de url naar raw url op github. Bijvoorbeeld: https://raw.githubusercontent.com/BRP-API/Haal-Centraal-BRP-bevragen/refs/heads/master/features/bevragen/persoon/adressering/aanhef/summary.feature
