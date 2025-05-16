@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Prism from "prismjs";
 import "prismjs/components/prism-gherkin";
-import "prismjs/themes/prism.css";
 
 export default function GherkinFeature({ url }) {
   const [content, setContent] = useState("");

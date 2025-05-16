@@ -232,6 +232,12 @@ i {
   min-height: none;
 }
 
+.content:has(.language-gherkin) {
+  max-width: none;
+  min-height: none;
+  --footer-margin: 0;
+}
+
 .content {
   flex: 1;
   box-sizing: border-box;
