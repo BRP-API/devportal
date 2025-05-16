@@ -2,7 +2,7 @@
 
 Geef in ieder request met de verplichte fields parameter aan welke velden van de gevonden persoon of personen in het antwoord geleverd moeten worden. Om de privacy van de gevraagde personen te beschermen mag je uitsluitend gegevens vragen waarvoor jouw organisatie geautoriseerd is, *en wat op dat moment in het proces nodig is* voor de uit te voeren taak. 
 
-Een autorisatie die is beperkt tot het zoeken binnen inwoners van de eigen gemeente kan niet worden afgedwongen met de fields parameter. Hiervoor kun je de [queryparameter "gemeente van inschrijving"](./Personen-zoeken-en-raadplegen) gebruiken. 
+Een autorisatie die is beperkt tot het zoeken binnen inwoners van de eigen gemeente kan niet worden afgedwongen met de fields parameter. Hiervoor kun je de [queryparameter "gemeente van inschrijving"](./personen-zoeken-en-raadplegen) gebruiken. 
 
 ## Filteren van de velden van de gevonden personen
 
@@ -33,8 +33,8 @@ en de volgende waardetabel types:
 
 Als je één of meer velden van deze types vraagt, dan worden altijd alle velden geleverd. Lees [hier](../features/fields.feature) hoe de volgende regels precies worden toegepast:
 
-- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van de 'waardetabel' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-waardetabel-veld-levert-alle-velden-van-de-waardetabel-veld)
-- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van de 'datum' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-datum-veld-levert-alle-velden-van-de-datum-veld)
+- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van het 'waardetabel' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-waardetabel-veld-levert-alle-velden-van-de-waardetabel-veld)
+- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van het 'datum' veld](../features/fields.feature#rule-het-vragen-van-één-of-meerdere-velden-van-een-datum-veld-levert-alle-velden-van-de-datum-veld)
 
 ### Standaard geleverde velden
 
