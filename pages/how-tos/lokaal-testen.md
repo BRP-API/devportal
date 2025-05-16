@@ -55,7 +55,7 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
 ### Gebruik Kubernetes als container engine
 
-- Download de [kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s)
+- Download de [Personen kubernetes configuratie bestanden]({{devBranchUrl}}/.k8s)
 - Start een command prompt window voor de map met de kubernetes manifest bestanden
 - Start de {{ apiname }} en de mock met behulp van de volgende statement:
   ```sh
