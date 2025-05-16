@@ -1,4 +1,4 @@
-## Probeer en test de API lokaal
+# Probeer en test de API lokaal
 
 Voor alle functies (Personen, Verblijfplaatshistorie en Bewoning) van de de {{ apiname }} is een mock beschikbaar als een containerized applicatie. Deze kun je gemakkelijk hosten op een lokale machine of in de testomgeving van jouw organisatie. Het voordeel van deze oplossing is dat je je eigen testgevallen kunt toevoegen aan het JSON bestand. Standaard maken de {{ apiname }} mocks gebruik van de [testdataset persoonslijsten proefomgevingen GBA-V](https://www.rvig.nl/media/288) om de productie situatie zo goed mogelijk te simuleren.
 
@@ -8,7 +8,7 @@ Je kunt er ook voor kiezen om de [Kubernetes configuratie bestanden]({{devBranch
 
 De volgende paragrafen beschrijven wat je moet doen om de {{ apiname }} mocks op een lokale machine te installeren en aan te roepen.
 
-### Prerequisites
+## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) voor het hosten van containers
 - Zet Kubernetes ondersteuning aan in Docker Desktop in het Settings/Kubernetes configuratie scherm om Docker Desktop te gebruiken om de containers te hosten met behulp van de Kubernetes engine. 
@@ -21,9 +21,11 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - [Postman](https://www.postman.com/downloads/) voor het aanroepen van {{ apiname }}
 
 
+## {{apiname}} Personen
+
 ### Gebruik Docker als container engine
 
-- Download het [docker compose bestand]({{mainBranchUrl}}/docker-compose.yml)
+- Download het [Personen docker compose bestand]({{mainBranchUrl}}/docker-compose.yml), het [Bewoning docker compose bestand](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docker-compose-mock.yml) of het [Verblijfplaatshistorie docker compose bestand](xxxx)
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
 - Start de {{ apiname }} Personen mock met behulp van de volgende statement:
   ```sh
@@ -78,7 +80,10 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - Om de {{ apiname }} Personen mock container te stoppen voer je de volgende statement uit:
   ```sh
 
+
   kubectl delete -f .k8s/brppersonenmock-deployment.yaml \
                  -f .k8s/brppersonenmock-service.yaml 
 
   ```
+
+
