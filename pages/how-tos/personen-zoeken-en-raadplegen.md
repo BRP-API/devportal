@@ -34,7 +34,7 @@ Gebruik onderstaande zoekoperaties om een persoon te zoeken door (niet-uniek) id
 ### Twee responsetypen bij zoeken
 Het resultaat van de zoekoperaties is een lijst met alle personen die voldoen aan de opgegeven parameters. Van deze personen krijg je een beperkt aantal identificerende gegevens, zodat jouw applicatie of jouw gebruiker kan kiezen welke persoon te raadplegen. Alle zoekoperaties leveren een **persoonBeperkt response**, behalve de operatie zoek-met-adresseerbaar-object-identificatie.  
 Om alle gezagsrelaties op een adres te kunnen vragen is de response van de zoekoperatie zoek-met-adresseerbaar-object-identificatie uitgebreid met het informatieproduct gezag. Als je zoekt met de zoek-met-adresseerbaar-object-identificatie zoekoperatie, dan krijg je de **gezagPersoonBeperkt response**.   
-Van de personen in beide responsetypen krijg je uitsluitend [gegevens waar je om vraagt](./how-tos/personen-response-filteren) en waar je recht op hebt.
+Van de personen in beide responsetypen krijg je uitsluitend [gegevens waar je om vraagt](./personen-response-filteren) en waar je recht op hebt.
 
 ### Maximaal aantal zoekresultaten
 Voor alle zoekoperaties is een maximum gesteld aan het aantal personen in het antwoord die voldoen aan de opgegeven criteria. Zodra het maximum aantal personen wordt overschreden volgt een foutmelding.  
@@ -66,7 +66,7 @@ Als het burgerservicenummer bekend is, moet je deze operatie gebruiken om gegeve
   - [overzicht](./../features/raadpleeg-met-burgerservicenummer/overzicht.feature)
   - [fout cases](./../features/raadpleeg-met-burgerservicenummer/fout-cases.feature)
 
-Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./how-tos/personen-response-filteren) en waar je recht op hebt.
+Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./personen-response-filteren) en waar je recht op hebt.
 
 ### Uitsluitend binnengemeentelijk raadplegen 
 
