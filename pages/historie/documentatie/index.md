@@ -29,17 +29,14 @@ Als je bijvoorbeeld wilt weten waar de persoon verbleef tussen 3 juli 2021 en 8 
   "datumTot": "2022-10-08"
 }
 
-## Afleidingsregels
-De regels voor het opnemen van verblijfplaatsen op basis van opgegeven “datumVan” en “datumTot” zijn beschreven in de volgende featurebestanden:
-
-periode-filtering.feature
-periode-filtering-onbekende-aanvang.feature
-periode-filtering-onbekende-aanvang-volgende.feature
-
+Het resultaat bevat alle verblijfplaatsen waar de persoon tijdens de periode minimaal 1 dag stond ingeschreven. 
 Verblijfplaatsen worden gesorteerd geleverd, zodat de meest actuele verblijfplaats de eerste is in de lijst. 
 
-Het resultaat van deze vraag bevat alle verblijfplaatsen waar de persoon tijdens de periode minimaal 1 dag stond ingeschreven. Lees hier hoe de {{apiname}} Verblijfplaatshistorie [omgaat met verschillende typen verblijfplaatsen](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/verblijfplaatsgegevens.feature) 
+## Afleidingsregels
+De regels voor het opnemen van verblijfplaatsen op basis van opgegeven “datumVan” en “datumTot” volgen binnenkort.
+
+Lees hier hoe de {{apiname}} Verblijfplaatshistorie [omgaat met verschillende typen verblijfplaatsen](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/verblijfplaatsgegevens.feature) 
 Bij elke verblijfplaats is “datumVan” (de begindatum van het verblijf) in het antwoord opgenomen. Wanneer de persoon er nu niet meer verblijft is “datumTot” opgenomen als de datum dat de persoon er niet meer verblijft. Lees hier de [regels voor het leveren van datumVan en datumTot](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/datum-van-en-tot.feature).
 
 ### Vastgesteld verblijft niet op adres
-Als je verblijfplaatsgegevens en/of adresregels vraagt van persoon die niet meer verblijft op het geregistreerde adres, dan wordt het indicatieVastgesteldVerblijftNietOpAdres veld met waarde true meegeleverd. Dit betekent dat tijdens een onderzoek naar de verblijfplaats van de persoon is gebleken dat de persoon niet op dit adres woont. Lees hier hoe het [indicatieVastgesteldVerblijftNietOpAdres veld wordt bepaald](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/vastgesteld-verblijft-niet-op-adres.feature).
+Als je verblijfplaatsgegevens en/of adresregels vraagt van persoon die niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd. Dit betekent dat tijdens een onderzoek naar de verblijfplaats van de persoon is gebleken dat de persoon niet op dit adres woont. Lees hier hoe het [indicatieVastgesteldVerblijftNietOpAdres veld wordt bepaald](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/vastgesteld-verblijft-niet-op-adres.feature).
