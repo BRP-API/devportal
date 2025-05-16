@@ -21,10 +21,11 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 - [Postman](https://www.postman.com/downloads/) voor het aanroepen van {{ apiname }}
 
 
+## {{apiname}} Personen
 
 ### Gebruik Docker als container engine
 
-- Download het [Personen docker compose bestand]({{mainBranchUrl}}/docker-compose.yml), het [Bewoning docker compose bestand](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docker-compose-mock.yml) of het [Verblijfplaatshistorie docker compose bestand](xxxx)
+- Download het [Personen docker compose bestand]({{mainBranchUrl}}/docker-compose.yml)
 - Start een command prompt window voor de map met het docker-compose.yaml bestand
 - Start de {{ apiname }} Personen mock met behulp van de volgende statement:
   ```sh
@@ -85,4 +86,10 @@ Optioneel kun je de volgende tools ook op de lokale machine installeren:
 
   ```
 
+## {{apiname}} Bewoning
 
+### Gebruik Docker als container engine
+
+- Download het [Bewoning docker compose bestand](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docker-compose-mock.yml)
+
+## {{apiname}} Verblijfplaatshistorie
