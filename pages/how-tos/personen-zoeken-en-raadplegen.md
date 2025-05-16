@@ -65,8 +65,8 @@ Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met
 Als het burgerservicenummer bekend is, moet je deze operatie gebruiken om gegevens van de persoon of personen te raadplegen:
 
 - raadpleeg met burgerservicenummer
-  - [overzicht](./../features/raadpleeg-met-burgerservicenummer/overzicht.feature)
-  - [fout cases](./../features/raadpleeg-met-burgerservicenummer/fout-cases.feature)
+  - [overzicht](/personen/features/raadpleeg-met-burgerservicenummer/overzicht)
+  - [fout cases](/personen/features/raadpleeg-met-burgerservicenummer/fout-cases)
 
 Het resultaat van deze operatie is een lijst van personen van wie het burgerservicenummer overeenkomt met de opgegeven burgerservicenummers. Van deze personen krijg je uitsluitend [gegevens waar je om vraagt](./personen-response-filteren) en waar je recht op hebt.
 
