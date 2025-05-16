@@ -44,7 +44,7 @@ Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerl
 Eventueel kun je de logging verrijken met informatie uit je verwerkingsregister om burgerverzoeken in het kader van de AVG zo informatief mogelijk te maken.
 
 Door de API Gateway centraal te laten loggen is opsporing van misbruik gemakkelijker en hoef je straks niet meer te protocolleren in de afnemende taakapplicatie.  
-Voor het centraal verzamelen, opslaan en analiseren van de logging, en het maken van protocollerinsgoverzichten, kun je bijvoorbeeld gebruik maken van een product als de ELK Stack (Elastic search, Logstash en Kibana) Splunk, LogRhythm, etc.
+Voor het centraal verzamelen, opslaan en analiseren van de logging, en het maken van protocollerinsgoverzichten, kun je bijvoorbeeld gebruik maken van een product als de ELK Stack (Elastic search, Logstash en Kibana), Splunk, LogRhythm, etc.
 
 ## Identity Provider (IP)
 Een Identity provider heb je nodig voor het authenticeren van de eindgebruiker. In de identity provider kun je de claims/autorisaties voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal vastleggen.
