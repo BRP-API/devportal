@@ -2,6 +2,7 @@ import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 import remarkConfigInjector from './utils/index.mjs';
 import rehypePrism from 'rehype-prism-plus';
+import rehypeExternalLinks from 'rehype-external-links';
 
 const withMDX = createMDX({
     extension: /\.mdx?$/,
@@ -11,7 +12,11 @@ const withMDX = createMDX({
             remarkGfm // Add support for GFM (GitHub Flavored Markdown)
         ],
         rehypePlugins: [
-            rehypePrism // Add syntax highlighting for code blocks
+            rehypePrism, // Add syntax highlighting for code blocks,
+            [rehypeExternalLinks, {
+                target: '_blank',
+                rel: 'noopener noreferrer',
+            }], // Open external links in a new tab
         ],
     },
 });
