@@ -7,13 +7,10 @@ const Footer = () => {
       <div className="wrapper">
         <div className="column"></div>
         <div className="column">
-          <h2>Service</h2>
+          <h3>Service</h3>
           <ul>
             <li>
               <Link href="/contact">Contact</Link>
-            </li>
-            <li>
-              <a href="https://github.com/brp-api" target="_blank" rel="noopener noreferrer">GitHub</a>
             </li>
           </ul>
         </div>
