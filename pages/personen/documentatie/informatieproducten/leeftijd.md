@@ -11,5 +11,5 @@ Zo heb je bijvoorbeeld alleen de leeftijd nodig als als er een bepaalde leeftijd
 Je krijgt de leeftijd in jaren op de dag van bevragen. Bijvoorbeeld: 34.
 
 ## Afleidingsregels leeftijd  
-Lees in de [afleidingsregels voor leeftijd](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/leeftijd/overzicht.feature) hoe de leeftijd precies wordt afgeleid. Heel soms kan de leeftijd niet worden bepaald omdat de geboortedatum van de gevraagde persoon onbekend of gedeeltelijk onbekend is. Bijvoorbeeld omdat alleen een geboortejaar is geregistreerd. Bij een geboortedatum waarvan alleen de jaar en de maand bekend zijn wordt de leeftijd wel bepaald, tenzij de dag van bevragen in de geboortemaand ligt. 
+Lees in de [afleidingsregels voor leeftijd](/personen/features/leeftijd) hoe de leeftijd precies wordt afgeleid. Heel soms kan de leeftijd niet worden bepaald omdat de geboortedatum van de gevraagde persoon onbekend of gedeeltelijk onbekend is. Bijvoorbeeld omdat alleen een geboortejaar is geregistreerd. Bij een geboortedatum waarvan alleen de jaar en de maand bekend zijn wordt de leeftijd wel bepaald, tenzij de dag van bevragen in de geboortemaand ligt. 
 Bij minderjarigen en jonge volwassenen komt het eigenlijk niet voor dat de leeftijd niet kan worden bepaald. 

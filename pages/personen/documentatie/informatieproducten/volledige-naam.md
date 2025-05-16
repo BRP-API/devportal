@@ -5,6 +5,6 @@ De volledige naam is een combinatie van predicaat, voornamen, adellijke titel, v
 Deze naam wordt bijvoorbeeld gebruikt op officiele documenten, zoals een geboorteakte, een reisdocument (paspoort of identiteitskaart), het doop- of kerkregister of het filiatieregister van de Nederlandse adel. 
 
 # Afleidingsregels volledige naam
-Lees de [afleidingsregels voor de volledige naam](https://github.com/BRP-API/personen-informatie-service/blob/main/features/persoon/naam/volledigeNaam.feature).
+Lees de [afleidingsregels voor de volledige naam](/personen/features/volledige-naam).
 
 
