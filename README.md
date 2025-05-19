@@ -87,3 +87,5 @@ De afbeelding in `pages/img/afbeelding.png` tonen? Dit kan door de bestandslocat
     <GherkinFeature url="{plak hier de url}"/>
     ```
     - Wijzig de url naar raw url op github. Bijvoorbeeld: https://raw.githubusercontent.com/BRP-API/Haal-Centraal-BRP-bevragen/refs/heads/master/features/bevragen/persoon/adressering/aanhef/summary.feature
+    - Linken naar de feature kan als volgt: `[link](/personen/features/adressering/aanhef)`
+    - Een mdx bestand kan ook `index.mdx` heten: Bijvoorbeeld: /pages/personen/features/adressering/index.mdx, linkjes naar dit bestand hoeven dan alleen de naam van de folder te bevatten: `[link](/personen/features/adressering)`
