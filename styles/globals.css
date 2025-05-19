@@ -230,12 +230,13 @@ i {
 .content:has(.redoc-container) {
   max-width: none;
   min-height: none;
+  margin-bottom: 0;
 }
 
 .content:has(.language-gherkin) {
   max-width: none;
-  min-height: none;
-  --footer-margin: 0;
+  min-height: calc(100vh - var(--navbar-height) - var(--header-height) - var(--footer-height));
+  margin-bottom: 0;
 }
 
 .content {
