@@ -6,15 +6,8 @@
 ## Versie 2.1.0  (5 december 2024) 
 - In deze release is toegevoegd dat bij bewoners en mogelijke bewoners behalve de BSN ook de volledige naam en geboortedatum geleverd wordt.
 
-## Versie 2.0.3  (19 juni 2024) 
-- Fix: aanduiding functie adres in onderzoek wordt nu gemapped naar inOnderzoek veld
-
 ## Versie 2.0.2 (28 sept 2023)  
 - Raadpleeg bewoning in periode
-
-## Versie 2.0.1  (30 augustus 2023) 
-- mTLS support 
-- Fix: gebruik van Serilog request logging
 
 ## Versie 2.0.0 (21 augustus 2023) 
 - Bewoning vragen op peildatum
