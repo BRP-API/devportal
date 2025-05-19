@@ -19,7 +19,7 @@ Een in de BAG als “Burgemeester Le Fèvre de Montignylaan” opgenomen openbar
 ![brief binnenland](brief-binnenland.png)
 
 ## Controleer altijd op overleden personen! 
-Voor personen die in een Nederlandse gemeente zijn ingeschreven kun je op overlijden controleren met de opschortingsgegevens die je [automatisch meegeleverd krijgt](.personen/documentatie/meegeleverde-gegevens). Let op! Voor personen uit de RNI kun je deze niet gebruiken en moet je op datum overlijden controleren.
+Voor personen die in een Nederlandse gemeente zijn ingeschreven kun je op overlijden controleren met de opschortingsgegevens die je [automatisch meegeleverd krijgt](/personen/documentatie/meegeleverde-gegevens). Let op! Voor personen uit de RNI kun je deze niet gebruiken en moet je op datum overlijden controleren.
 
 ## Autoriseren  
 
