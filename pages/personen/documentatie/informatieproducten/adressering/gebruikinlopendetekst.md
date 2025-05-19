@@ -18,4 +18,4 @@ Wil je weten welke regels zijn toegepast voor een specifiek persoon? Onderstaand
 ![geslacht V](stroomschema-aanschrijfwijze-V.png)
 
 ### Hoffelijkheidstitel
-![gebruik in lopende tekst](stroomschema-5.png)
+![gebruik in lopende tekst](stroomschema-5.png)         

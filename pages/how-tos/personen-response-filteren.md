@@ -96,5 +96,5 @@ De {{apiname}} Personen levert uitsluitend gegevens van actuele nationaliteiten.
 
 ### Filteren van verblijfstitelvelden
 
-Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een verblijfstitel is die niet is beëindigd. Gegevens van een verblijfstitel worden ook niet geleverd als de aanduiding gelijk is aan 'geen verblijfstitel (meer)'. Lees meer in [verblijfstitelvelden vragen met fields](/personen/features/verblijfstitel/overzicht.feature)
+Als je velden van de verblijfstitel vraagt, krijg je alleen antwoord als er een verblijfstitel is die niet is beëindigd. Gegevens van een verblijfstitel worden ook niet geleverd als de aanduiding gelijk is aan 'geen verblijfstitel (meer)'. Lees meer in [verblijfstitelvelden vragen met fields](/personen/features/verblijfstitel/overzicht)
 

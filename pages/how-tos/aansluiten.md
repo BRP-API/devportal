@@ -72,7 +72,7 @@ Test jouw applicatie met [deze testset](https://www.rvig.nl/testsetpersoonslijst
 # Aansluiten productie-omgeving
 
 ## Voorwaarden
-- een door jouw gemandateerde ondertekend [convenant](xxxx)
+- een door jouw gemandateerde ondertekend [convenant](/how-tos/convenant)
 - een [BRP autorisatiebesluit](https://publicaties.rvig.nl/Besluiten_en_modelautorisaties/Besluiten/BRP_besluiten) en een aanvullend autorisatiebesluit voor informatieproducten (niet voor gemeenten) 
 - aansluiten mag uitsluitend met een API Gateway 
 - aansluiting op [DigiNetwerk](https://www.logius.nl/domeinen/infrastructuur/diginetwerk/aansluiten)

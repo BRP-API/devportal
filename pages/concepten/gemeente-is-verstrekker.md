@@ -27,7 +27,7 @@ Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik va
 Voor de (toegangs)beveiliging van de {{apiname}} en alle andere API’s. Een API Gateway is vaak onderdeel van een product voor API Management. Een API Gateway bevat ondersteuning voor het design, publiceren, documenteren, beveiligen en analyseren van API’s. Een API Gateway is een must have voor iedere gemeente die gevoelige API’s aan afnemers aanbiedt.   
 <Br>
 **3. Proxy**  
-Voor autorisatie op detailniveau. Met welke rol of taak mag een medewerker of applicatie welke set gegevens opvragen? Hiervoor maak je gebruik van de [filtermogelijkheden](./how-tos/personen-response-filteren) die de {{apiname}} biedt. Dit kun je regelen in jouw API Gateway, zoals in [dit voorbeeld van de gemeente Amsterdam](https://github.com/Amsterdam/haal-centraal-proxy).
+Voor autorisatie op detailniveau. Met welke rol of taak mag een medewerker of applicatie welke set gegevens opvragen? Hiervoor maak je gebruik van de [filtermogelijkheden](/how-tos/personen-response-filteren) die de {{apiname}} biedt. Dit kun je regelen in jouw API Gateway, zoals in [dit voorbeeld van de gemeente Amsterdam](https://github.com/Amsterdam/haal-centraal-proxy).
 
 ## Logging- en protocollering
 Protocollering is een verplichte vorm van logging om een burger inzicht te geven welke persoonsgegevens door wie en met welke doel zijn opgevraagd. Een gemeente moet alle bevragingen met de {{apiname}} protocolleren en 20 jaar bewaren. Dat gebeurt nu meestal in diverse procesapplicaties. Het is beter om een centrale logging- of protocolleringsvoorziening in te richten, waarin wordt vastgelegd:
@@ -40,7 +40,7 @@ Protocollering is een verplichte vorm van logging om een burger inzicht te geven
 Dit kan bijvoorbeeld door ieder request voor zowel zoeken als raadplegen onweerlegbaar vast te leggen met:
 - een timestamp
 - het token dat de identiteit, het orgaan en claims van de eindgebruiker bevat
-- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat jouw binnengemeentelijke afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](./how-tos/personen-response-filteren) wordt!* Dit kun je regelen in jouw API Gateway als intermediate endpoint.
+- de BSN's van de personen die in het antwoord voorkomen. *Let op! het kan voorkomen dat jouw binnengemeentelijke afnemer het BSN niet vraagt. Zorg dus dat het BSN in het request van jouw API Gateway aan RvIG [altijd gevraagd](/how-tos/personen-response-filteren) wordt!* Dit kun je regelen in jouw API Gateway als intermediate endpoint.
 Eventueel kun je de logging verrijken met informatie uit je verwerkingsregister om burgerverzoeken in het kader van de AVG zo informatief mogelijk te maken.
 
 Door de API Gateway centraal te laten loggen is opsporing van misbruik gemakkelijker en hoef je straks niet meer te protocolleren in de afnemende taakapplicatie.  
