@@ -1,12 +1,12 @@
 # Informatieproducten
 
 Informatieproducten zijn bewerkingen van de door gemeenten en RNI loketten verzamelde gegevens tot een product dat direct voorziet in een klantbehoefte. De {{apiname}} kent de volgende informatieproducten:
-- [Adressering](./personen/documentatie/informatieproducten/adressering): aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in een envelopvenster.
-- [Bewoning](./bewoning/documentatie/index): wie er samen in een woning woonde gedurende een periode, of op een peildatum.
-- [Gezag](./personen/documentatie/informatieproducten/gezag): gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
-- [Leeftijd](./personen/documentatie/informatieproducten/leeftijd) (in jaren)
-- [Volledige naam](./personen/documentatie/informatieproducten/volledigenaam): met adellijke titels en predicaten, zonder gebruik van de naam van de partner
-- [Voorletters](./personen/documentatie/informatieproducten/voorletters)
+- [Adressering](/personen/documentatie/informatieproducten/adressering): aanschrijfwijze, aanhef, een verwijzing naar een persoon in de lopende tekst van een brief, en adresregels die altijd passen in een envelopvenster.
+- [Bewoning](/bewoning/documentatie): wie er samen in een woning woonde gedurende een periode, of op een peildatum.
+- [Gezag](/personen/documentatie/informatieproducten/gezag): gezagsrelaties van alle minderjarigen en gezagshouders, ook als er geen aantekening is in het gezagsregister.  
+- [Leeftijd](/personen/documentatie/informatieproducten/leeftijd) (in jaren)
+- [Volledige naam](/personen/documentatie/informatieproducten/volledige-naam): met adellijke titels en predicaten, zonder gebruik van de naam van de partner
+- [Voorletters](/personen/documentatie/informatieproducten/voorletters)
   
 <br>
 
