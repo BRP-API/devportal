@@ -11,11 +11,11 @@ Je kunt dit nummer heel gemakkelijk opzoeken door gebruik te maken van de [BAG I
 ## Raadplegen van de bewoning van een adresseerbaar object
 
 Met de **raadpleeg bewoning met periode** operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen, door een adresseerbaar object identiticatie en een periode op te geven.
-Je krijgt dan één of meer samenstellingen van bewoners en/of mogelijke bewoners gedurende de opgegeven periode. Wil je weten hoe het precies werkt? [Bekijk hier de afleidingsregels](https://github.com/BRP-API/bewoning-informatie-service/blob/main/features/raadpleeg-bewoning-met-periode/overzicht.feature).
+Je krijgt dan één of meer samenstellingen van bewoners en/of mogelijke bewoners gedurende de opgegeven periode. Wil je weten hoe het precies werkt? [Bekijk hier de afleidingsregels](/bewoning/features/raadpleeg-bewoning-met-periode/overzicht).
 
-Met de **raadpleeg bewoning met peildatum** operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen, door een adresseerbaar object identiticatie en een peildatum op te geven. Je krijgt dan de samenstelling van bewoners en/of mogelijke bewoners op die datum. [Bekijk hier de afleidingsregels](https://github.com/BRP-API/bewoning-informatie-service/blob/main/features/raadpleeg-bewoning-op-peildatum/overzicht.feature).
+Met de **raadpleeg bewoning met peildatum** operatie kun je voor een adresseerbaar object de bewoning in een periode ophalen, door een adresseerbaar object identiticatie en een peildatum op te geven. Je krijgt dan de samenstelling van bewoners en/of mogelijke bewoners op die datum. [Bekijk hier de afleidingsregels](/bewoning/features/raadpleeg-bewoning-op-peildatum/overzicht).
 
-Je krijgt geen bewoning als er in de opgegeven periode geen personen op het adres woonden. Ook sluiten bewoningen niet altijd op elkaar aan als er binnen de opgegeven periode een tijdje niemand op het adres was ingeschreven. Tenslotte kun je een response krijgen met een [IndicatieVeelBewoners](https://github.com/BRP-API/bewoning-informatie-service/blob/main/features/raadpleeg-bewoning-met-periode/veel-bewoners.feature). Dat betekent dat de bewoning niet wordt bepaald omdat de bewoning meer dan 100 bewoners en/of mogelijke bewoners heeft.
+Je krijgt geen bewoning als er in de opgegeven periode geen personen op het adres woonden. Ook sluiten bewoningen niet altijd op elkaar aan als er binnen de opgegeven periode een tijdje niemand op het adres was ingeschreven. Tenslotte kun je een response krijgen met een [IndicatieVeelBewoners](/bewoning/features/raadpleeg-bewoning-met-periode/veel-bewoners). Dat betekent dat de bewoning niet wordt bepaald omdat de bewoning meer dan 100 bewoners en/of mogelijke bewoners heeft.
 
 
 ## Wat is een bewoner?  
@@ -27,5 +27,5 @@ Een persoon is in een gevraagde periode bewoner als de gevraagde periode in de a
 ## Wat is een mogelijke bewoner? 
 
 Als de datum aanvang van de (volgende) adreshouding geheel of gedeeltelijk onbekend is, weten we niet zeker of de persoon in deze periode op het adres heeft gewoond. Het is ook mogelijk dat de persoon op een volgend of vorig adres woonde. In dat geval is de persoon een **mogelijke bewoner**.
-Bekijk de [beslisboom](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docs/onbekend-aanvang-adreshouding.md) en [de afleidingsregels](https://github.com/BRP-API/bewoning-informatie-service/blob/main/features/raadpleeg-bewoning-op-peildatum/mogelijke-bewoner.feature) waarmee wordt bepaald of een persoon wordt meegenomen als mogelijke bewoner.
+Bekijk de [beslisboom](https://github.com/BRP-API/Haal-Centraal-BRP-bewoning/blob/master/docs/onbekend-aanvang-adreshouding.md) en [de afleidingsregels](/bewoning/features/raadpleeg-bewoning-op-peildatum/mogelijke-bewoner) waarmee wordt bepaald of een persoon wordt meegenomen als mogelijke bewoner.
 
