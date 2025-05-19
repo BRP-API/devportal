@@ -17,7 +17,7 @@ Heb je een overzicht nodig van alle toegestane fieldswaarden? Bekijk het [fields
 
 Wil je meer achtergrondinformatie over de fields parameter? Bekijk dan de [fields](/personen/features/fields) en de [fields fout cases](/personen/features/fields/fout-cases) voor uitleg over de werking van de fields parameter met regels en voorbeelden. 
 
-### Filteren van datum en waardetabel velden
+### Filteren van datum- en waardetabelvelden
 
 De {{apiname}} Personen kent de volgende datum types:
 
@@ -63,7 +63,7 @@ Meer informatie over het gebruik van de __verblijfplaatsBinnenland__ fields alia
 - [verblijfplaats fields alias](/personen/features/verblijfplaats/fields-alias)
 - [verblijfplaats fields alias fout cases](/personen/features/verblijfplaats/fields-alias/fout-cases)
 
-### Filteren van adresregels velden
+### Filteren van adresregelvelden
 
 Net als bij verblijfplaats ondersteunt de {{apiname}} Personen de realisatie van twee autorisatieprofielen voor adresregelvelden:
 
@@ -77,7 +77,7 @@ Meer informatie over het gebruik van de __adresseringBinnenland__ fields alias v
 - [adresregels fields alias](/personen/features/adressering/adresregels/fields-alias)
 - [adresregels fields alias fout cases](/personen/features/adressering/adresregels/fields-alias/fout-cases)
 
-### Filteren van partner velden
+### Filteren van partnervelden
 
 Als je partners van een persoon vraagt, worden alleen de gevraagde gegevens van de actuele partner(s) geleverd. Dat zijn partner(s)met een niet ontbonden huwelijk of geregistreerd partnerschap met de persoon. Heeft de persoon alleen ontbonden huwelijk/geregistreerd partnerschappen, dan worden de gevraagde gegevens geleverd van de partner met het meest recent ontbonden huwelijk of partnerschap. Lees meer over het vragen van partnergegevens in [partnervelden vragen met fields](/personen/features/partner/overzicht) 
 
