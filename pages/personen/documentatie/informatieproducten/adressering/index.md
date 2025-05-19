@@ -11,13 +11,12 @@ Adressering bevat alle gegevens die je je nodig hebt voor het versturen van brie
 7. **gebruik in lopende tekst** als je in de tekst van de brief aan een persoon refereert
 8. Indicatie-vastgesteld-verblijft-niet-op-adres krijg je alleen als tijdens een onderzoek van de bronhouder is vastgesteld dat de persoon niet op het adres woont waar men is ingeschreven. 
    
-
-![brief buitenland](brief-buitenland.png)
+![envelop buitenland](envelop-buitenland.png)
 
 De eerste vijf gegevens kun je in de brief gebruiken voor een vensterenvelop. De adresregels zijn conform NEN 5825 afgekort, zodat ze binnen het venster van een vensterenvelop passen. 
 Een in de BAG als “Burgemeester Le Fèvre de Montignylaan” opgenomen openbare ruimte wordt dan afgekort als “Burg L F de Montignyln".  
 
-![envelop binnenland](envelop-binnenland.png)
+![brief binnenland](brief-binnenland.png)
 
 ##  Autoriseren  
 
