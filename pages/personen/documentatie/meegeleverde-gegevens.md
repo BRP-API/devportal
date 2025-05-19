@@ -19,11 +19,7 @@ Lees meer over de [regels van in onderzoek](/personen/features/in-onderzoek) die
 
 Wanneer je de verblijfplaatsgegevens of adresregels van een persoon opvraagt waarvan tijdens onderzoek is vastgesteld dat deze niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd.
 
-De functionaliteit van het **indicatieVastgesteldVerblijftNietOpAdres** veld is beschreven in de volgende feature bestanden:
-- [vastgesteld verblijft niet op adres (verblijfplaats binnenland)](/personen/features/verblijfplaats/adres/vastgesteld-verblijft-niet-op-adres)
-- [vastgesteld verblijft niet op adres (locatie)](/personen/features/verblijfplaats/locatie/vastgesteld-verblijft-niet-op-adres)
-- [vastgesteld verblijft niet op adres (adresregels vragen bij personen raadplegen)](/personen/features/adressering/adresregels/vastgesteld-verblijft-niet-op-adres)
-- [vastgesteld verblijft niet op adres (adresregels vragen bij personen zoeken)](/personen/features/beperkt/adressering/adresregels/vastgesteld-verblijft-niet-op-adres)
+Het veld **indicatieVastgesteldVerblijftNietOpAdres** kan voorkomen in [verblijfplaats](./personen/features/verblijfplaats/adres/vastgesteld-verblijft-niet-op-adres) en in [adressering](./personen/features/adressering/adresregels/vastgesteld-verblijft-niet-op-adres).
 
 ## Persoon heeft "geheimhoudingPersoonsgegevens" 
 
