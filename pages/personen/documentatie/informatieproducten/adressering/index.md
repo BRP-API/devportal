@@ -29,7 +29,7 @@ Afnemers kunnen op twee manieren voor adressering worden geautoriseerd:
 2. Elektronische adressering: de afnemer die alleen elektronisch met haar klanten communiceert, wordt geautoriseerd voor een groep met alle velden van adressering zonder adresregels en land. 
 
 ### Uitsluitend adressering binnenland
-Net als bij verblijfplaats kunnen gemeenten twee autorisatieprofielen voor adresregelvelden realiseren:
+Conform de autorisaties van verblijfplaats kunnen gemeenten twee autorisatieprofielen voor adresregelvelden realiseren:
 1. geautoriseerd voor ZOWEL adresregels van binnenlandse verblijfplaatsen ALS adresregels van buitenlandse verblijfplaatsen (adresregel1, adresregel2, adresregel3 en land)
 2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)  
 Lees in [personen-response-filteren](/how-tos/personen-response-filteren) hoe je fields parameter dan moet gebruiken.
