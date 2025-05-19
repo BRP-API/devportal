@@ -33,8 +33,8 @@ en de volgende waardetabel types:
 
 Als je één of meer velden van deze types vraagt, dan worden altijd alle velden geleverd. Lees [hier](/personen/features/fields) hoe de volgende regels precies worden toegepast:
 
-- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van het 'waardetabel' veld](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/b5d9ed12a92c8a1dd7d4f5589e0c70d661004649/features/bevragen/fields.feature#L149-L166)
-- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van het 'datum' veld](https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/b5d9ed12a92c8a1dd7d4f5589e0c70d661004649/features/bevragen/fields.feature#L168-L261)
+- [Regel: Het vragen van één of meerdere velden van een 'waardetabel' veld levert alle velden van het 'waardetabel' veld](/personen/features/fields/tabelwaarde)
+- [Regel: Het vragen van één of meerdere velden van een 'datum' veld levert alle velden van het 'datum' veld](/personen/features/fields/datum)
 
 ### Standaard geleverde velden
 
