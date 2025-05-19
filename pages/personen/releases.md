@@ -1,4 +1,4 @@
-# Releasenotes Personen
+# Releasenotes
 
 ## Versie 2.6.0 (18 maart 2025)
 - Zoeken op postcode en huisnummer is uitgebreid met de optionele parameter geslachtsnaam.
