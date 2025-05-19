@@ -51,7 +51,7 @@ Als onderstaande velden van toepassing zijn worden ze automatisch geleverd:
 
 ### Filteren van verblijfplaatsvelden
 
-Er zijn twee autorisatieprofielen voor verblijfplaats:
+Voor gemeenten ondersteunt de {{apiname}} Personen de realisatie van twee autorisatieprofielen voor verblijfplaats:
 
 1. geautoriseerd voor ZOWEL verblijfplaats binnenland gegevens (Adres en Locatie) ALS verblijfplaats buitenland gegevens
 2. UITSLUITEND geautoriseerd voor verblijfplaats binnenland gegevens (Adres en Locatie)
@@ -65,7 +65,7 @@ Meer informatie over het gebruik van de __verblijfplaatsBinnenland__ fields alia
 
 ### Filteren van adresregels velden
 
-Net als bij verblijfplaats zijn er twee autorisatieprofielen voor adresregelvelden:
+Net als bij verblijfplaats ondersteunt de {{apiname}} Personen de realisatie van twee autorisatieprofielen voor adresregelvelden:
 
 1. geautoriseerd voor ZOWEL adresregels van binnenlandse verblijfplaatsen ALS adresregels van buitenlandse verblijfplaatsen (adresregel1, adresregel2, adresregel3 en land)
 2. UITSLUITEND geautoriseerd voor adresregels van binnenlandse verblijfplaatsen (adresregel1 en adresregel2)
