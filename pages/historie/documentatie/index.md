@@ -11,23 +11,27 @@ Raadpleeg op welke verblijfplaats een persoon verbleef op een specifieke datum d
 
 Als je bijvoorbeeld wilt weten waar de persoon verbleef op 3 juli 2021 stuur je als request body:
 
+```json
 {
   "burgerservicenummer": "999994669",
   "type": "RaadpleegMetPeildatum",
   "peildatum": "2021-07-03"
 }
+```
 
 ## Raadplegen van de verblijfplaatsen gedurende een periode
 Raadpleeg op welke verblijfplaats(en) een persoon verbleef tijdens een periode door de operatie “RaadpleegMetPeriode” en parameters “datumVan” en “datumTot” te gebruiken.
 
 Als je bijvoorbeeld wilt weten waar de persoon verbleef tussen 3 juli 2021 en 8 oktober 2022 stuur je als request body:
 
+```json
 {
   "burgerservicenummer": "999994669",
   "type": "RaadpleegMetPeriode",
   "datumVan": "2021-07-03",
   "datumTot": "2022-10-08"
 }
+```
 
 Het resultaat bevat alle verblijfplaatsen waar de persoon tijdens de periode minimaal 1 dag stond ingeschreven. 
 Verblijfplaatsen worden gesorteerd geleverd, zodat de meest actuele verblijfplaats de eerste is in de lijst. 
@@ -35,8 +39,8 @@ Verblijfplaatsen worden gesorteerd geleverd, zodat de meest actuele verblijfplaa
 ## Afleidingsregels
 De regels voor het opnemen van verblijfplaatsen op basis van opgegeven “datumVan” en “datumTot” volgen binnenkort.
 
-Lees hier hoe de {{apiname}} Verblijfplaatshistorie [omgaat met verschillende typen verblijfplaatsen](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/verblijfplaatsgegevens.feature) 
-Bij elke verblijfplaats is “datumVan” (de begindatum van het verblijf) in het antwoord opgenomen. Wanneer de persoon er nu niet meer verblijft is “datumTot” opgenomen als de datum dat de persoon er niet meer verblijft. Lees hier de [regels voor het leveren van datumVan en datumTot](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/datum-van-en-tot.feature).
+Lees hier hoe de {{apiname}} Verblijfplaatshistorie [omgaat met verschillende typen verblijfplaatsen](/historie/features/raadpleeg-verblijfplaats-met-periode/verblijfplaatsgegevens) 
+Bij elke verblijfplaats is “datumVan” (de begindatum van het verblijf) in het antwoord opgenomen. Wanneer de persoon er nu niet meer verblijft is “datumTot” opgenomen als de datum dat de persoon er niet meer verblijft. Lees hier de [regels voor het leveren van datumVan en datumTot](/historie/features/raadpleeg-verblijfplaats-met-periode/datum-van-en-tot).
 
 ### Vastgesteld verblijft niet op adres
-Als je verblijfplaatsgegevens en/of adresregels vraagt van persoon die niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd. Dit betekent dat tijdens een onderzoek naar de verblijfplaats van de persoon is gebleken dat de persoon niet op dit adres woont. Lees hier hoe het [indicatieVastgesteldVerblijftNietOpAdres veld wordt bepaald](https://github.com/BRP-API/historie-informatie-service/blob/main/features/raadpleeg-verblijfplaats-met-periode/vastgesteld-verblijft-niet-op-adres.feature).
+Als je verblijfplaatsgegevens en/of adresregels vraagt van persoon die niet meer verblijft op het geregistreerde adres, dan wordt het **indicatieVastgesteldVerblijftNietOpAdres** veld met waarde true meegeleverd. Dit betekent dat tijdens een onderzoek naar de verblijfplaats van de persoon is gebleken dat de persoon niet op dit adres woont. Lees hier hoe het [indicatieVastgesteldVerblijftNietOpAdres veld wordt bepaald](/historie/features/raadpleeg-verblijfplaats-met-periode/vastgesteld-verblijft-niet-op-adres).
