@@ -23,4 +23,4 @@ Test jouw applicatie door de een mock van de {{apiname}} Personen te gebruiken e
 
 ## Stap 4: Vraag een access token aan voor de RvIG proefomgeving
 
-Lees hier hoe je kunt [aansluiten op de RvIG proef- en productieomgeving](./how-tos/aansluiten). 
+Lees hoe je kunt [aansluiten op de RvIG proef- en productieomgeving](./how-tos/aansluiten). 
