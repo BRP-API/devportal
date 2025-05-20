@@ -54,10 +54,11 @@ Het aantal gevonden personen in het antwoord is maximaal 30 bij de zoekoperaties
  
 ### Uitsluitend binnengemeentelijk zoeken
 
-Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter **gemeenteVanInschrijving** met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven. Lees voor meer informatie het [zoeken en raadplegen van alleen binnengemeentelijke personen](/personen/features/zoeken/binnengemeentelijk).
+Ben je uitsluitend geautoriseerd voor het zoeken van eigen inwoners van een gemeente? Gebruik dan de queryparameter **gemeenteVanInschrijving** met de eigen gemeentecode. Dan worden inwoners van andere gemeenten automatisch uit het antwoord gefilterd. Ieder van de bovenstaande zoekoperaties biedt de mogelijkheid om deze parameter op te geven. Lees meer informatie over het [zoeken en raadplegen van alleen binnengemeentelijke personen](/personen/features/zoeken/binnengemeentelijk).
 
 ### Overleden personen zoeken
 Standaard worden alleen personen gevonden die in leven zijn. Om overleden personen te vinden, moet je de inclusiefOverleden parameter met waarde "true" opgeven. Lees voor meer informatie het [zoeken van overleden personen](/personen/features/zoeken/overleden-personen).
+
 Voor overleden personen wordt altijd het opschortingBijhouding veld geleverd met reden code 'O' en omschrijving 'overlijden'. Lees voor meer informatie het [overlijden overzicht](/personen/features/beperkt/overlijden/overzicht).
 
 ## Personen raadplegen
