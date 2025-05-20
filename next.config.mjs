@@ -27,5 +27,5 @@ export default withMDX({
     images: {
         unoptimized: true,
     },
-    basePath: process.env.NODE_ENV === 'production' ? '/devportal' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '' : '',
 })

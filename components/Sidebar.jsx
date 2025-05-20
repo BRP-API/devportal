@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 const Sidebar = ({ sidebar }) => {
   const pathname = usePathname();
-  const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '' : '';
 
   const defaultSidebar = {
     items: [

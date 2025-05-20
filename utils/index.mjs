@@ -4,7 +4,7 @@ import yaml from 'js-yaml';
 import { visit } from 'unist-util-visit';
 
 export default function remarkConfigInjector() {
-  const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '' : '';
   const imgDirectoryInPublic = 'img';
 
   return (tree, file) => {

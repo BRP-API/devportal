@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const Header = () => {
-  const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '' : '';
 
   return (
     <>

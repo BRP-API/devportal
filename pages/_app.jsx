@@ -3,7 +3,7 @@ import '@/styles/globals.css'
 import Head from 'next/head';
 
 export default function MyApp({ Component, pageProps }) {
-  const basePath = process.env.NODE_ENV === 'production' ? '/devportal' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '' : '';
 
   return <>
     <Head>
