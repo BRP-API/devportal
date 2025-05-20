@@ -1,3 +1,6 @@
-## Releasenotes
+# Releasenotes
 
-Klik [hier](https://github.com/BRP-API/haal-centraal-brp-historie-bevragen/releases) om de releasenotes van BRP API Historie Bevragen te bekijken.
+## Versie 2.0.0 (28 augustus 2024)
+
+- Verblijfplaatshistorie met peildatum
+- Verblijfplaatshistorie met periode
