@@ -20,14 +20,14 @@ Dit wordt van oudsher geheel of gedeeltelijk geregeld in de taakapplicaties of h
 
 ## Toegangsbeveiliging, autorisatie en filtering
 Gemeenten bieden een divers palet aan producten en diensten die vaak andere gegevens en informatieproducten nodig hebben. Daarvoor zetten zij taakapplicaties in, die worden gebruikt door medewerkers met verschillende rollen en rechten. Gemeenten moeten hiervoor zelf de toegangsbeveiliging en autorisatie organiseren. Wat is daarvoor nodig?   
-<Br>
-**1. Identity Provider (IP):**   
+
+### 1. Identity Provider (IP) 
 Voor het authenticeren van de eindgebruiker waarin de claims voor het gebruik van de {{apiname}} van alle gebruikers van jouw gemeente centraal zijn vastgelegd. Nadat de Identity Provider heeft vastgesteld wie de ingelogde gebruiker is en welke applicatie de {{apiname}} namens de gebruiker gaat bevragen, kunnen tokens (al dan niet met gebruikersclaims) aan client (SaaS) applicaties worden verstrekt. Hiermee kan de client (SaaS)applicatie namens de gebruiker de {{apiname}} bevragen.  
-<Br>
-**2. API Gateway**  
+
+### 2. API Gateway 
 Voor de (toegangs)beveiliging van de {{apiname}} en alle andere API’s. Een API Gateway is vaak onderdeel van een product voor API Management. Een API Gateway bevat ondersteuning voor het design, publiceren, documenteren, beveiligen en analyseren van API’s. Een API Gateway is een must have voor iedere gemeente die gevoelige API’s aan afnemers aanbiedt.   
-<Br>
-**3. Proxy**  
+
+### 3. Proxy  
 Voor autorisatie op detailniveau. Met welke rol of taak mag een medewerker of applicatie welke set gegevens opvragen? Hiervoor maak je gebruik van de [filtermogelijkheden](/how-tos/personen-response-filteren) die de {{apiname}} biedt. Dit kun je regelen in jouw API Gateway, zoals in [dit voorbeeld van de gemeente Amsterdam](https://github.com/Amsterdam/haal-centraal-proxy).
 
 ## Logging- en protocollering
