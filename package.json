@@ -1,9 +1,10 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "serve": "npx serve@latest out",
-    "copyimages": "node ./scripts/copy-images.mjs",
+    "copyimages": "node ./scripts/copy-images.js",
     "prebuild": "npm run copyimages"
   },
   "dependencies": {

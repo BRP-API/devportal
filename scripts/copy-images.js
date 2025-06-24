@@ -6,7 +6,7 @@ const fsPromises = fs.promises;
 const sourceDir = './pages/img';
 const targetDir = './public/img';
 
-const createPostImageFoldersForCopy = async () => {
+export async function createPostImageFoldersForCopy() {
     const files = await fsPromises.readdir(sourceDir);
 
     for (const file of files) {
@@ -20,5 +20,7 @@ const createPostImageFoldersForCopy = async () => {
     }
 }
 
-await fsExtra.emptyDir(targetDir);
-await createPostImageFoldersForCopy();
+export async function copyImages() {
+    await fsExtra.emptyDir(targetDir);
+    await createPostImageFoldersForCopy();
+}

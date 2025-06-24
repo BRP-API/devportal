@@ -1,6 +1,6 @@
 import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
-import remarkConfigInjector from './utils/index.mjs';
+import { remarkConfigInjector } from './utils/index.js';
 import rehypePrism from 'rehype-prism-plus';
 import rehypeExternalLinks from 'rehype-external-links';
 

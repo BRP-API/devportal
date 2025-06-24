@@ -3,7 +3,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import { visit } from 'unist-util-visit';
 
-export default function remarkConfigInjector() {
+export function remarkConfigInjector() {
   const basePath = process.env.NODE_ENV === 'production' ? '' : '';
   const imgDirectoryInPublic = 'img';
 
