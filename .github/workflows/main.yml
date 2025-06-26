@@ -1,7 +1,7 @@
 name: Publish to GitHub Pages
 on:
-  push:
-    branches: [antora]
+  # push:
+  #   branches: [antora]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 concurrency:
@@ -35,6 +35,6 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: build/site
-    # - name: Deploy to GitHub Pages
-    #   id: deployment
-    #   uses: actions/deploy-pages@v4
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
