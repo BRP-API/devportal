@@ -36,7 +36,7 @@ De documentatie is alsvolgt opgebouwd:
 - Referenties: de specificaties van de {{apiname}} functies Personen, Verblijfplaatshistorie en Bewoning.
 
 ## Planning en Roadmap 
-In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage kinderen met de uitspraak "gezag niet te bepalen" wordt verder verlaagd. Dat doen we door gezag te bepalen voor een deel van de minderjarigen die in het buitenland zijn geboren, of in het buitenland hebben gewoond. Hiervoor wordt een breaking change doorvoeren op het informatieproduct gezag. Dit is afgestemd met alle afnemers die in productie gebruik maken van gezag. Met deze gebruiikers is afgesproken dat zij binnen een bepaalde periode overstappen op v2.7. Zij ontvangen hierover bericht zodra v2.7 in productie is.
+In Q2 wordt het informatieproduct gezag verder verbeterd. Het percentage kinderen met de uitspraak "gezag niet te bepalen" wordt verder verlaagd. Dat doen we door gezag te bepalen voor een deel van de minderjarigen die in het buitenland zijn geboren, of in het buitenland hebben gewoond. Hiervoor wordt een breaking change doorgevoerd op het informatieproduct gezag. Dit is afgestemd met alle afnemers die in productie gebruik maken van gezag. Met hen is afgesproken dat zij v2.6 blijven gebruiken totdat zij zijn overgestapt op v2.7. Zij ontvangen hierover bericht zodra v2.7 in productie is. 
 
 De vierde functie van de {{apiname}} is in ontwikkeling. De {{apiname}} Notificaties is volgend jaar gepland voor gebruik door gemeenten.  
 
