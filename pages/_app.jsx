@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="BRP API Developer Portal" />
-      <meta http-equiv="refresh" content="0; url=https://brp-api.github.io/devportal-poc" />
+      <meta http-equiv="refresh" content="0; url=https://brp-api.github.io/devportal-poc/brp-api/overview" />
       <link rel="icon" href={`${basePath}/favicon.ico`} sizes="any" />
       <title>BRP API Developer Portal</title>
     </Head>
